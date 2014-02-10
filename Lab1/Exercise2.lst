@@ -1,0 +1,48 @@
+                   ; Akash Badshah, Lab 1, Exercise 2
+                   ; This is basic serial echo code, which takes in characters
+                   ; echoes them back over serial
+                   
+                   ; The main loop or body of our typewriter program:
+                   
+0000:              .org 000h               ; power up and reset vector
+0000: 02 01 00       ljmp start            ; when the micro wakes up, jump to t
+                                           ; the main body or loop in the progr
+                                           ; and located at address location 10
+0100:              .org 100h
+                   start:
+0100: 12 01 0B       lcall init            ; Start the serial port by calling s
+                     loop:                 ; Now, endlessley repeat a loop that
+0103: 12 01 18         lcall getchr        ; <- gets a character from the PC ke
+0106: 12 01 22         lcall sndchr        ; -> and then echoes the character t
+0109: 80 F8          sjmp loop
+                   
+                   init:
+                   ; set up the serial port with a 11.0592 MHz crystal
+                   ; use Timer 1 for 9600 baud serial communication
+010B: 75 89 20       mov tmod, #20h        ; set timer 1 for auto reload - mode
+010E: 75 88 40       mov tcon, #40h        ; run timer 1
+0111: 75 8D FD       mov th1, #253         ; set 9600 baud with xtal=11.059mhz
+0114: 75 98 50       mov scon, #50h        ; set serial control reg for 8 bit d
+                                           ; and mode 1
+0117: 22             ret
+                   
+                   getchr:
+                   ; This routine "gets" or received a character from the PC, t
+                   ; the serial port. RI is the same as SCON.0 - the assembler 
+                   ; either shorthand. The 7-bit ASCII code is returned in the 
+0118: 30 98 FD       jnb ri, getchr        ; wait till character received
+011B: E5 99          mov a, sbuf           ; get character and put it in the ac
+011D: 54 7F          anl a, #7fh           ; mask off the 8th bit
+011F: C2 98          clr ri                ; clear serial "receive status" flag
+0121: 22             ret
+                   
+                   sndchr:
+                   ; This routine "sends" or transmits a character to the PC, u
+                   ; port. The character to be sent is stored in the accumulato
+                   ; TI are the same as far as the assembler is concerned.
+0122: C2 99          clr ti                ; clear the ti complete flag
+0124: F5 99          mov sbuf, a           ; move a character from acc to the s
+                     txloop:
+0126: 30 99 FD         jnb ti, txloop      ; wait till chr is sent
+0129: 22             ret
+                   

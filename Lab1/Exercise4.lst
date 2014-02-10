@@ -1,0 +1,126 @@
+                   ; Akash Badshah, Lab 1, Exercise 4
+                   ; This is a basic calculator application that takes in 2
+                   ; numbers of exactly 3 digits and performs either addition
+                   ; or subtraction on those numbers
+                   
+                   ; r0-r3 are used for scratchpad space within subroutines
+                   
+                   ; r4 and r5 are used as counters when receiving digits, r4 d
+                   ; (to get a 3 digit number) and r5 decrements from 2 (to get
+                   ; r6 and r7 are used for program counter space when the stac
+                   ; for parameters or return variables
+                   
+                   ; The main loop or body of our calculator program:
+                   
+0000:              .org 000h               ; power up and reset vector
+0000: 02 01 00       ljmp start            ; when the micro wakes up, jump to t
+                                           ; the main body or loop in the progr
+                                           ; and located at address location 10
+0100:              .org 100h
+                   start:
+0100: 12 01 26       lcall init            ; Start the serial port by calling s
+                   
+                     start_calculation:
+0103: 7D 02            mov r5, #2           ; put 2 in r5 to get 2 numbers
+                     start_number:
+0105: 7C 03            mov r4, #3           ; put 3 in r4 to get 4 digits
+0107: 74 00            mov a, #0            ; clear the acc to get it ready for
+                                    
+                     loop:                 ; Now, endlessley repeat a loop that
+0109: 75 F0 0A         mov b, #10           ; Put 10 into register b so we can 
+010C: A4               mul ab               ; multiply the acc by 10 to decimal
+010D: C8               xch a, r0            ; swap r0 and a so we can keep our 
+                                            ; get a new character in acc
+010E: 12 01 33         lcall getchr        ; <- gets a character from the PC ke
+0111: 12 01 3D         lcall sndchr        ; -> and then echoes that character 
+0114: 54 0F            anl a, #0fh          ; take the new character and mask i
+0116: C8               xch a, r0            ; swap a and r0 again so we can kee
+0117: 28               add a, r0            ; add the new digit to the acc
+0118: DC EF            djnz r4, loop       ; keep putting digits on the number 
+                   
+011A: C0 E0          push acc               ; push the number we've been workin
+011C: 12 01 45       lcall crlf             ; add a new line here because we ha
+011F: DD E4          djnz r5, start_number  ; keep getting numbers until we hav
+0121: 12 01 50       lcall calculate        ; our calculation function now goes
+0124: 80 DD          sjmp start_calculation
+                   
+                   init:
+                   ; set up the serial port with a 11.0592 MHz crystal
+                   ; use Timer 1 for 9600 baud serial communication
+0126: 75 89 20       mov tmod, #20h        ; set timer 1 for auto reload - mode
+0129: 75 88 40       mov tcon, #40h        ; run timer 1
+012C: 75 8D FD       mov th1, #253         ; set 9600 baud with xtal=11.059mhz
+012F: 75 98 50       mov scon, #50h        ; set serial control reg for 8 bit d
+                                           ; and mode 1
+0132: 22             ret
+                   
+                   getchr:
+                   ; This routine "gets" or received a character from the PC, t
+                   ; the serial port. RI is the same as SCON.0 - the assembler 
+                   ; either shorthand. The 7-bit ASCII code is returned in the 
+0133: 30 98 FD       jnb ri, getchr        ; wait till character received
+0136: E5 99          mov a, sbuf           ; get character and put it in the ac
+0138: 54 7F          anl a, #7fh           ; mask off the 8th bit
+013A: C2 98          clr ri                ; clear serial "receive status" flag
+013C: 22             ret
+                   
+                   sndchr:
+                   ; This routine "sends" or transmits a character to the PC, u
+                   ; port. The character to be sent is stored in the accumulato
+                   ; TI are the same as far as the assembler is concerned.
+013D: C2 99          clr ti                ; clear the ti complete flag
+013F: F5 99          mov sbuf, a           ; move a character from the acc to t
+                     txloop:
+0141: 30 99 FD         jnb ti, txloop      ; wait till chr is sent
+0144: 22             ret
+                   
+                   crlf:
+                   ; This routine adds an autowrap by printing a carriage retur
+                   ; printing a new line character
+0145: 74 0A          mov a, #10            ; add the CR character to the accumu
+0147: 12 01 3D       lcall sndchr          ; send off the CR character
+014A: 74 0D          mov a, #13            ; add the newline character to the a
+014C: 12 01 3D       lcall sndchr          ; send off the NL character
+014F: 22             ret
+                   
+                   calculate:
+                   ; This routine assumes that the previous 2 registers in the 
+                   ; the return program counter are the 2 params which need to 
+                   ; on. The calculator gets those numbers, pulls in another ch
+                   ; serial to see which kind of operation it needs, and then d
+                   ; correct calculation, displaying the result on the led bank
+0150: D0 E0          pop acc                ; pop the high part of the pc to ac
+0152: FF             mov r7, a              ; move that to r7
+0153: D0 E0          pop acc                ; pop the low part of the pc to acc
+0155: FE             mov r6, a              ; move that to r6
+                   
+0156: D0 E0          pop acc                ; pop the second number into acc
+0158: A9 E0          mov r1, acc            ; move that number into r1
+015A: D0 E0          pop acc                ; pop the first number into acc
+015C: A8 E0          mov r0, acc            ; move that number into r0
+                   
+015E: 12 01 33       lcall getchr           ; get the character we need and put
+0161: 12 01 3D       lcall sndchr           ; send back the character so the us
+                     
+                     plus:
+0164: B4 2B 04        cjne a, #2bh, minus   ; check if the character is +, if n
+0167: E8              mov a, r0             ; put the first value in the acc
+0168: 29              add a, r1             ; add the value from r0 to the acc
+0169: 80 05           sjmp return           ; return
+                     minus:
+016B: B4 2D 02        cjne a, #2dh, return
+016E: E8              mov a, r0             ; put the first value in the acc
+016F: 99              subb a, r1            ; subtract the value from r1 from t
+                     return:
+0170: F5 90           mov p1, a             ; put our calculation result in the
+0172: EE              mov a, r6             ; put the low part of the pc into a
+0173: C0 E0           push acc              ; put back the low part of the pc
+0175: EF              mov a, r7             ; put the high part of the pc into 
+0176: C0 E0           push acc              ; put back the high part of the pc
+0178: 12 01 45        lcall crlf
+017B: 12 01 45        lcall crlf
+017E: 22              ret   
+                   
+                   
+                   
+                     

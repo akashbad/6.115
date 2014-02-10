@@ -1,7 +1,7 @@
 ; Akash Badshah, Lab1, Exercise 1
 ; This little program turns an LED on.
 
-lcall lsb
+lcall pat
 loop:
   sjmp loop
 

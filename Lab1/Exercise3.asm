@@ -55,9 +55,9 @@ sndchr:
 crlf:
 ; This routine adds an autowrap by printing a carriage return character and then
 ; printing a new line character
-  mov sbuf, #10         ; add the CR character to the accumulator
+  mov a, #10         ; add the CR character to the accumulator
   lcall sndchr          ; send off the CR character
-  mov sbuf, #13         ; add the newline character to the accumulator
+  mov a, #13         ; add the newline character to the accumulator
   lcall sndchr          ; send off the NL character
   ret
 
