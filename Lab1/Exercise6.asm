@@ -14,26 +14,26 @@
 
 ; The main loop or body of our calculator program:
 
-.org 000h               ; power up and reset vector
-  ljmp start            ; when the micro wakes up, jump to the beggining of
-                        ; the main body or loop in the program, called "start"
-                        ; and located at address location 100h in external mem
+.org 000h                 ; power up and reset vector
+  ljmp start              ; when the micro wakes up, jump to the beggining of
+                          ; the main body or loop in the program, called "start"
+                          ; and located at address location 100h in external mem
 .org 100h
 start:
   lcall init              ; Start the serial port by calling subroutine "init".
 
   start_calculation:
-    lcall crlf		        ; a new line to delimit a calculation
-    mov r5, #2		        ; put 2 in r5 to get 2 numbers
+    lcall crlf            ; a new line to delimit a calculation
+    mov r5, #2            ; put 2 in r5 to get 2 numbers
   start_number:
-    mov r4, #3		        ; put 3 in r4 to get 4 digits
-    mov a, #0		          ; clear the acc to get it ready for a new number
+    mov r4, #3            ; put 3 in r4 to get 4 digits
+    mov a, #0             ; clear the acc to get it ready for a new number
 		
   loop:                   ; Now, endlessley repeat a loop that
-    mov b, #10		        ; Put 10 into register b so we can multiply accumulator
-    mul ab		            ; multiply the acc by 10 to decimal shift by 1
-    xch a, r0		          ; swap r0 and a so we can keep our growing number as we
-			                    ; get a new character in acc
+    mov b, #10            ; Put 10 into register b so we can multiply accumulator
+    mul ab                ; multiply the acc by 10 to decimal shift by 1
+    xch a, r0             ; swap r0 and a so we can keep our growing number as we
+                          ; get a new character in acc
     lcall readpad         ; <- gets a character from the keypad, puts it in acc
                           ; this returns the correct ascii character by using keytab
     lcall sndchr          ; -> and then echoes that character back from acc
