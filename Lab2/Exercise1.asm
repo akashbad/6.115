@@ -191,8 +191,9 @@ writeaddr:
   cjne  a, #'=', gb_err   ; if not an '=' print bad param response
   lcall sndchr            ; send back the '='
   lcall getbyt            ; finally get the data byte we want
-  lcall crlf              ; print a newline
+  lcall prthex            ; echo it back
   movx @dptr, a           ; save the acc value in the address
+  lcall crlf              ; print a newline
   mov a, #'.'
   lcall sndchr            ; handshake with a '.'
   ljmp endloop            ; return
