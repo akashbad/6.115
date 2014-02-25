@@ -1,0 +1,4 @@
+C:/CLASS/6.115/psoc/lizi/blinky/115_is_cool.cydsn/ARM_GCC_441/Debug/CyBootAsmGnu.o : C:/CLASS/6.115/psoc/lizi/blinky/115_is_cool.cydsn/Generated_Source/PSoC5/CyBootAsmGnu.s 
+
+C:/CLASS/6.115/psoc/lizi/blinky/115_is_cool.cydsn/Generated_Source/PSoC5/CyBootAsmGnu.s : 
+

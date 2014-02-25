@@ -1,0 +1,11 @@
+--------------- Build Started: 02/24/2014 20:54:55 Project: 115_is_cool, Configuration: ARM GCC 4.7.3 Debug ---------------
+The code generation step is up to date.
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\ARM_GCC_473\Debug\main.lst -ffunction-sections -c .\main.c -o .\ARM_GCC_473\Debug\main.o
+arm-none-eabi-ar.exe -rs .\ARM_GCC_473\Debug\115_is_cool.a .\ARM_GCC_473\Debug\cyfitter_cfg.o .\ARM_GCC_473\Debug\CyBootAsmGnu.o .\ARM_GCC_473\Debug\CyDmac.o .\ARM_GCC_473\Debug\CyFlash.o .\ARM_GCC_473\Debug\CyLib.o .\ARM_GCC_473\Debug\cyPm.o .\ARM_GCC_473\Debug\CySpc.o .\ARM_GCC_473\Debug\cyutils.o .\ARM_GCC_473\Debug\A.o .\ARM_GCC_473\Debug\B.o .\ARM_GCC_473\Debug\C.o .\ARM_GCC_473\Debug\D.o .\ARM_GCC_473\Debug\E.o .\ARM_GCC_473\Debug\F.o .\ARM_GCC_473\Debug\G.o .\ARM_GCC_473\Debug\P.o
+arm-none-eabi-ar.exe: creating .\ARM_GCC_473\Debug\115_is_cool.a
+arm-none-eabi-gcc.exe -mthumb -march=armv7-m -mfix-cortex-m3-ldrd -T .\Generated_Source\PSoC5\cm3gcc.ld -g -Wl,-Map,.\ARM_GCC_473\Debug\115_is_cool.map -specs=nano.specs -Wl,--gc-sections -Wl,--start-group -o .\ARM_GCC_473\Debug\115_is_cool.elf .\ARM_GCC_473\Debug\main.o .\ARM_GCC_473\Debug\Cm3Start.o .\ARM_GCC_473\Debug\cymetadata.o .\ARM_GCC_473\Debug\115_is_cool.a "C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a" -Wl,--end-group
+cyelftool.exe -C C:\Users\akashbad\Documents\6.115\Lab2\blinky\115_is_cool.cydsn\ARM_GCC_473\Debug\115_is_cool.elf --flash_size 262144 --flash_row_size 256
+cyelftool.exe -S C:\Users\akashbad\Documents\6.115\Lab2\blinky\115_is_cool.cydsn\ARM_GCC_473\Debug\115_is_cool.elf
+Flash used: 3102 of 262144 bytes (1.2 %).
+SRAM used: 20797 of 65536 bytes (31.7 %).
+--------------- Build Succeeded: 02/24/2014 20:54:56 ---------------
