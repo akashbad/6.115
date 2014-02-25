@@ -1,0 +1,26 @@
+(DELAYFILE
+ (SDFVERSION "IEEE 1497 4.0")
+ (DATE "2014-02-25T01:41:17Z")
+ (DESIGN "115_is_cool")
+ (VENDOR "Cypress Semiconductor")
+ (PROGRAM "cydsfit")
+ (VERSION "No Version Information Found")
+ (DIVIDER .)
+ (TIMESCALE 1 ns)
+ (CELL
+  (CELLTYPE "115_is_cool")
+  (INSTANCE *)
+  (DELAY
+   (ABSOLUTE
+    (INTERCONNECT A\(0\)_PAD A\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT B\(0\)_PAD B\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT C\(0\)_PAD C\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT D\(0\)_PAD D\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT E\(0\)_PAD E\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT F\(0\)_PAD F\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT G\(0\)_PAD G\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT P\(0\)_PAD P\(0\).pad_in (0.000:0.000:0.000))
+   )
+  )
+ )
+)

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<blockRegMap version="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cypress.com/xsd/cyblockregmap cyblockregmap.xsd" xmlns="http://cypress.com/xsd/cyblockregmap">
+  <block name="F" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="E" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="P" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="G" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="B" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="A" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="D" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="C" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+</blockRegMap>
