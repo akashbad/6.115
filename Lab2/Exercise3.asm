@@ -37,6 +37,6 @@ acall store
 ljmp 0h                 ; reset and start from the beginning of the program again
 
 store:
-  inc dptr             ; increment the data pointer
+  inc dptr              ; increment the data pointer
   movx @dptr, a         ; store the accumulator into the external address
   ret
