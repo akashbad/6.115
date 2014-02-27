@@ -9,10 +9,3 @@ start:
   setb p1.2
   sjmp start
   .db "6.115 Rocks!"
-  ;addc a, @r0
-  ;add a, r6
-  ;acall 131h
-  ;addc a, 20h
-  ;anl 6fh, a
-  ;xrl 6bh, #73h
-  ;.db 21h
