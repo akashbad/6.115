@@ -1,0 +1,104 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<!--last modified on Monday, December 11, 2000 08:01 AM -->
+<HTML>
+
+<HEAD>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html;CHARSET=iso-8859-1">
+<META NAME="Amulet" Content="baud=9600">
+
+	<TITLE>Lab 3 Signal Generator</TITLE>
+</HEAD>
+
+<BODY>
+
+<P>
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="320" HEIGHT="240">
+	<TR>
+		<TD WIDTH="320" HEIGHT="240" valign="top">
+			<table border="0" cellpadding="0" cellspacing="0" width="320" height="120">
+				<tr>
+					<td width="80" height="80" align="center" valign="bottom">
+						<APPLET CODE="FunctionButton.class" WIDTH="75" HEIGHT="70" NAME="TIE Fighter">
+						<PARAM NAME="href" value="Amulet:UART.byteOut(0x0A)">
+						<PARAM NAME="fontSize" VALUE="3"> 
+						<PARAM NAME="fontStyle" VALUE="BOLD"> 
+						<PARAM NAME="label" VALUE="TIE Fighter">
+						<PARAM NAME="buttonType" VALUE="SPRING-LOADED">
+						<PARAM NAME="onButtonPress" VALUE="DEPRESS">
+						</APPLET></td>
+					<td width="80" height="80" align="center" valign="bottom">
+						<APPLET CODE="FunctionButton.class" WIDTH="75" HEIGHT="70" NAME="Circle">
+						<PARAM NAME="href" value="Amulet:UART.byteOut(0x0B)">
+						<PARAM NAME="fontSize" VALUE="3"> 
+						<PARAM NAME="fontStyle" VALUE="BOLD"> 
+						<PARAM NAME="label" VALUE="Circle">
+						<PARAM NAME="buttonType" VALUE="SPRING-LOADED">
+						<PARAM NAME="onButtonPress" VALUE="DEPRESS">
+						</APPLET></td>
+					<td width="80" height="80" align="center" valign="bottom">
+						<APPLET CODE="FunctionButton.class" WIDTH="75" HEIGHT="70" NAME="A = 1, B = 4">
+						<PARAM NAME="href" value="Amulet:UART.byteOut(0x0C)">
+						<PARAM NAME="fontSize" VALUE="3"> 
+						<PARAM NAME="fontStyle" VALUE="BOLD"> 
+						<PARAM NAME="label" VALUE="A=1, B=4">
+						<PARAM NAME="buttonType" VALUE="SPRING-LOADED">
+						<PARAM NAME="onButtonPress" VALUE="depress">
+						</APPLET></td>
+					<td width="80" height="80" align="center" valign="bottom">
+						<APPLET CODE="FunctionButton.class" WIDTH="75" HEIGHT="70" NAME="Toggle Laser">
+						<PARAM NAME="href" value="Amulet:UART.byteOut(0x10)">
+						<PARAM NAME="fontSize" VALUE="3"> 
+						<PARAM NAME="fontStyle" VALUE="BOLD"> 
+						<PARAM NAME="label" VALUE="6.115 Rules!">
+						<PARAM NAME="buttonType" VALUE="SPRING-LOADED">
+						<PARAM NAME="onButtonPress" VALUE="depress">
+						</APPLET></td>
+
+				</tr>
+
+				<tr>	<td height="30"></td>
+				</tr>
+			</table>
+			<table border="0" cellpadding="0" cellspacing="0" width="320" height="80">
+				<tr>
+					<td height="20" width="160" align="center">N/A</td>
+					<td height="20" width="160" align="left">
+						<APPLET CODE="Slider.class" WIDTH="133" HEIGHT="20" NAME="Rotation Frequency" >
+						<PARAM NAME="href" VALUE="Amulet:UART.byteOut(this.value())">
+						<PARAM NAME="min" VALUE="0x00">
+						<PARAM NAME="max" VALUE="0x09">
+						<PARAM NAME="tickCount" VALUE="10">
+						<PARAM NAME="handleThickness" VALUE="10">
+						<PARAM NAME="tickPosition" VALUE="center">
+						<PARAM NAME="tickLength" VALUE="7">
+						<PARAM NAME="initialCondition" VALUE="0x00">
+						</APPLET>
+					</td>
+				</tr>
+				<tr>	<td height="40"></td>
+				</tr>
+				<tr>
+					<td height="20" align="center">N/A</td>
+					<td height="20" align="left">
+						<APPLET CODE="Slider.class" WIDTH="133" HEIGHT="20" NAME="Light Blinker" >
+						<PARAM NAME="href" VALUE="Amulet:UART.byteOut(this.value())">
+						<PARAM NAME="min" VALUE="0x10">
+						<PARAM NAME="max" VALUE="0x11">
+						<PARAM NAME="tickCount" VALUE="10">
+						<PARAM NAME="handleThickness" VALUE="10">
+						<PARAM NAME="tickPosition" VALUE="center">
+						<PARAM NAME="tickLength" VALUE="7">
+						<PARAM NAME="initialCondition" VALUE="0x10">
+						</APPLET>
+					</td>
+				</tr>
+
+			</table> 
+		</TD>
+	</TR>
+</TABLE>
+
+
+</BODY>
+
+</HTML>

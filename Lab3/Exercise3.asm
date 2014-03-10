@@ -52,7 +52,7 @@ update_wave:
   pop dpl             ; so we can find the sin table
   movc a, @a + dptr   ; get the value from the able and put in a
   mov dptr, #0fe10h   ; set up the dptr for the dac
-  mov b, #10          ; divide the value by 10 as part of our extension
-  div ab              ; perform the actual division
+;  mov b, #10          ; divide the value by 10 as part of our extension
+;  div ab              ; perform the actual division
   movx @dptr, a       ; store the value in the dac
   ljmp loop           ; go back to the top of the loop
