@@ -51,7 +51,7 @@ internal:
   mov r1, a           ; Store rh in r1  
   mov a, #80          ; Time to get the low part
   subb a, r0          ; Low time of (80-r0)/80
-  mov r0, a           ; scratchpag into r0
+  mov r0, a           ; scratchpad into r0
   mov a, #255         ; do it again because of
   subb a, r0          ; timer counting up
   mov r2, a           ; Store rl in r2
