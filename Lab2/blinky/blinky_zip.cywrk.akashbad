@@ -101,12 +101,6 @@
 <v>115_is_cool\115_is_cool\Generated_Source\PSoC5\project.h</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
-<v>115_is_cool</v>
-<v>115_is_cool\115_is_cool</v>
-<v>115_is_cool\115_is_cool\TopDesign.cysch</v>
-<v>115_is_cool\115_is_cool\115_is_cool.cydwr</v>
-<v>115_is_cool\115_is_cool\Header Files</v>
-<v>115_is_cool\115_is_cool\Header Files\device.h</v>
 <v>115_is_cool\115_is_cool\Source Files</v>
 <v>115_is_cool\115_is_cool\Source Files\main.c</v>
 <v>115_is_cool\115_is_cool\Generated_Source</v>
@@ -141,6 +135,12 @@
 <v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\CyFlash.h</v>
 <v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\CyLib.c</v>
 <v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\CyLib.h</v>
+<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\cypins.h</v>
+<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\cyPm.c</v>
+<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\cyPm.h</v>
+<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\CySpc.c</v>
+<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\CySpc.h</v>
+<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\cytypes.h</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
