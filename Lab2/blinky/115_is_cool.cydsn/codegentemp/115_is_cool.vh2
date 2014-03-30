@@ -2,7 +2,7 @@
 --	Conversion of 115_is_cool.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Mon Feb 24 20:41:14 2014
+--	Thu Feb 27 14:10:04 2014
 --
 
 USE cypress.cypress.all;
