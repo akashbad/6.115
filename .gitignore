@@ -8,4 +8,4 @@
 
 #ignore psoc files
 Backup/
-*.cydsn/Generated_Source
+Generated_Source/
