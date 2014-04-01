@@ -1,4 +1,4 @@
-; Akash Badshah, Lab 4, Exercise 8
+; Akash Badshah, Lab 4, Exercise 9
 ; This program runs the spin dude system by stepping
 ; through each of the 24 positions on the spin dude
 ; and at each of those positions running through the 
