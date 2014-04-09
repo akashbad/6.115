@@ -39,40 +39,43 @@ lcd_reset:
   lcall lcd_command       ; execute command
   ret
 
-; lcd_command - this subroutine does the necessary latching
-;   of the enable line to send a command byte to the lcd module
-lcd_command:
+; lcd_write - this subroutine does the necessary latching
+;   of the enable lines using the data in a to write to
+;   the lcd. The value of the r/s line is controlled by
+;   adding the value of the r7 register
+lcd_write:
   push acc                ; temporarily store the acc
   mov dptr, #0fe12h       ; e & r/s lines
   mov a, #00h             ; drive both lines low
+  add a, r7               ; add in the state of the r/s line
   movx @dptr, a           ; push out
   mov dptr, #0fe10h       ; data location
   pop acc                 ; get back our command byte
   movx @dptr, a           ; push command out
   mov dptr, #0fe12h       ; e & r/s lines
   mov a, #01h             ; drive the e line high
+  add a, r7               ; add in the state of the r/s line
   movx @dptr, a           ; push out
   mov a, #00h             ; pull e line low
+  add a, r7               ; add in the state of the r/2 line
   movx @dptr, a           ; latch the command
+  mov r2, #1h
+lcd_stall:                ; allow the lcd to settle with this value
+  nop
+  djnz r1, lcd_stall
   ret
 
-; lcd_data - this subroutine does the necessary latching of the 
-;   enable line with the r/s line high in order to send data
-;   to the lcd module
+; lcd_command - this subroutine uses the lcd_write procedure
+;   but makes sure the r/s line is low to send commands
+lcd_command:
+  mov r7, #00h            ; drive r/s low
+  ljmp lcd_write          ; jump, it will do the ret
+
+; lcd_data - this subroutine uses the lcd_write procedure
+;   but makes sure the r/s line is high to send data
 lcd_data:
-  push acc                ; temporarily store the acc
-  mov dptr, #0fe12h       ; e & r/s lines
-  mov a, #02h             ; drive just e low
-  movx @dptr, a           ; push out
-  mov dptr, #0fe10h       ; data location
-  pop acc                 ; get back our command byte
-  movx @dptr, a           ; push command out
-  mov dptr, #0fe12h       ; e & r/s lines
-  mov a, #03h             ; drive both lines high
-  movx @dptr, a           ; push out
-  mov a, #02h             ; pull e line low but keep r/s high
-  movx @dptr, a           ; latch the command
-  ret
+  mov r7, #02h            ; drive r/s high
+  ljmp lcd_write          ; jump, it will do the ret
 
 ; table_string - this subroutine gets a 12 character string
 ;   from memory starting at location 1000h which will be 
