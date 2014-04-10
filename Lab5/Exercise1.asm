@@ -14,7 +14,7 @@ start:
   mov a, #80h             ; all ports output
   movx @dptr, a           ; push to the 8255
   lcall init_lcd          ; initialize the lcd
-  ljmp copier          ; change this value to run the right program
+  ljmp voltmeter         ; change this value to run the right program
 
 ; init_lcd - this subroutine runs the setup commands
 ;   necessary to program the lcd in the right modes

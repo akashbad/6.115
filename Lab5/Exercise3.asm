@@ -29,7 +29,7 @@ init:
   mov th0, #0e3h          ; ms byte of counter
   mov tl0, #33h           ; ls byte of counter
   setb tr0                ; start the timer
-  mov ie, #82h           ; enable interrupts
+  mov ie, #82h            ; enable interrupts
   mov dptr, #2000
   mov dptr, #0fe13h       ; configure the 8255
   mov a, #80h             ; all ports output
