@@ -54,7 +54,7 @@ void main()
         CyDelay(500);
         DigitLED_WriteHex(0xff);    // null
         CyDelay(100);
-        DigitLED_Write(0b01100011); // C
+        DigitLED_WriteHex(0x0C);    // C
         CyDelay(500);
         DigitLED_WriteHex(0xff);    // null
         CyDelay(100);

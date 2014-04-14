@@ -1,0 +1,11 @@
+--------------- Build Started: 04/14/2014 17:39:37 Project: LAB2, Configuration: ARM GCC 4.7.3 Debug ---------------
+The code generation step is up to date.
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM3\ARM_GCC_473\Debug\main.lst -ffunction-sections -c .\main.c -o .\CortexM3\ARM_GCC_473\Debug\main.o
+arm-none-eabi-ar.exe -rs .\CortexM3\ARM_GCC_473\Debug\LAB2.a .\CortexM3\ARM_GCC_473\Debug\cyfitter_cfg.o .\CortexM3\ARM_GCC_473\Debug\LCD_Char_1.o .\CortexM3\ARM_GCC_473\Debug\LCD_Char_1_PM.o .\CortexM3\ARM_GCC_473\Debug\Pin_1.o .\CortexM3\ARM_GCC_473\Debug\ADC_DelSig_1.o .\CortexM3\ARM_GCC_473\Debug\ADC_DelSig_1_PM.o .\CortexM3\ARM_GCC_473\Debug\ADC_DelSig_1_INT.o .\CortexM3\ARM_GCC_473\Debug\LCD_Char_1_LCDPort.o .\CortexM3\ARM_GCC_473\Debug\ADC_DelSig_1_AMux.o .\CortexM3\ARM_GCC_473\Debug\ADC_DelSig_1_Ext_CP_Clk.o .\CortexM3\ARM_GCC_473\Debug\ADC_DelSig_1_IRQ.o .\CortexM3\ARM_GCC_473\Debug\ADC_DelSig_1_theACLK.o .\CortexM3\ARM_GCC_473\Debug\CyBootAsmGnu.o .\CortexM3\ARM_GCC_473\Debug\CyDmac.o .\CortexM3\ARM_GCC_473\Debug\CyFlash.o .\CortexM3\ARM_GCC_473\Debug\CyLib.o .\CortexM3\ARM_GCC_473\Debug\cyPm.o .\CortexM3\ARM_GCC_473\Debug\CySpc.o .\CortexM3\ARM_GCC_473\Debug\cyutils.o
+arm-none-eabi-ar.exe: creating .\CortexM3\ARM_GCC_473\Debug\LAB2.a
+arm-none-eabi-gcc.exe -mthumb -march=armv7-m -mfix-cortex-m3-ldrd -T .\Generated_Source\PSoC5\cm3gcc.ld -g -Wl,-Map,.\CortexM3\ARM_GCC_473\Debug\LAB2.map -specs=nano.specs -Wl,--gc-sections -Wl,--start-group -o .\CortexM3\ARM_GCC_473\Debug\LAB2.elf .\CortexM3\ARM_GCC_473\Debug\main.o .\CortexM3\ARM_GCC_473\Debug\cymetadata.o .\CortexM3\ARM_GCC_473\Debug\Cm3Start.o .\CortexM3\ARM_GCC_473\Debug\LAB2.a "C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a" -Wl,--end-group
+cyelftool.exe -C C:\Users\akashbad\Documents\6.115\Lab5\lab2\LAB2.cydsn\CortexM3\ARM_GCC_473\Debug\LAB2.elf --flash_size 262144 --flash_row_size 256
+cyelftool.exe -S C:\Users\akashbad\Documents\6.115\Lab5\lab2\LAB2.cydsn\CortexM3\ARM_GCC_473\Debug\LAB2.elf
+Flash used: 7870 of 262144 bytes (3.0 %).
+SRAM used: 20813 of 65536 bytes (31.8 %).
+--------------- Build Succeeded: 04/14/2014 17:39:38 ---------------

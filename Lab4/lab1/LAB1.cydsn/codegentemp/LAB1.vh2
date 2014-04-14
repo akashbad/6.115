@@ -2,7 +2,7 @@
 --	Conversion of LAB1.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Thu Mar 20 21:27:50 2014
+--	Tue Apr 01 14:40:21 2014
 --
 
 USE cypress.cypress.all;

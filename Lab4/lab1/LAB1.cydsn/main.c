@@ -20,19 +20,10 @@ void main()
 	
     for(;;)
     {   
-        Pin_1_Write(1);
-        CyDelay(250);
-        Pin_1_Write(0);
-        CyDelay(250);
-        Pin_1_Write(1);
-        CyDelay(250);
-        Pin_1_Write(0);
-        CyDelay(250);
-        Pin_1_Write(1);
-        CyDelay(250);
-        Pin_1_Write(0);
-        CyDelay(250);
-        
+        ShortPulse();
+        ShortPulse();
+        ShortPulse();
+
         Pin_1_Write(1);
         CyDelay(500);
         Pin_1_Write(0);
@@ -59,6 +50,13 @@ void main()
         Pin_1_Write(0);
         CyDelay(1000);
     }
+}
+
+void ShortPulse(){
+    Pin_1_Write(1);
+    CyDelay(250);
+    Pin_1_Write(0);
+    CyDelay(250);
 }
 
 /* [] END OF FILE */
