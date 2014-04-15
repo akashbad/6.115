@@ -349,6 +349,43 @@
 <VisibleNodeIds>
 <v>LAB2</v>
 <v>LAB2\GoSocedo</v>
+<v>LAB2\GoSocedo\CortexM3</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\ADC.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\ADC_AMux.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\ADC_Ext_CP_Clk.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\ADC_INT.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\ADC_IRQ.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\ADC_PM.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\ADC_theACLK.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\ADCclock.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\Cm3Start.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\CyDmac.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\CyFlash.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\CyLib.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\cymetadata.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\cyPm.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\CySpc.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\cyutils.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\LCD.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\LCD_LCDPort.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\LCD_PM.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\LED0.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\LED1.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\LED2.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\LED3.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\LED4.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\LED5.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\LED6.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\LED7.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\main.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\Listing Files\PotPin.lst</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\GoSocedo.elf</v>
+<v>LAB2\GoSocedo\CortexM3\ARM_GCC_473\Debug\GoSocedo.hex</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
