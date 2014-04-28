@@ -1,0 +1,192 @@
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/CortexM3/ARM_GCC_473/Debug/ADC.o : C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADC.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADC_AMux.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADC_Ext_CP_Clk.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADC_theACLK.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADC.c 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADC.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADC_AMux.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADC_Ext_CP_Clk.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADC_theACLK.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyFlash.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyLib.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CySpc.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyPm.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice_trm.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cytypes.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADC.c : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/CortexM3/ARM_GCC_473/Debug/ADC_AMux.o : C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADC_AMux.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADC_AMux.c 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADC_AMux.c : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/CortexM3/ARM_GCC_473/Debug/ADC_Ext_CP_Clk.o : C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADC_Ext_CP_Clk.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADC_Ext_CP_Clk.c 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADC_Ext_CP_Clk.c : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/CortexM3/ARM_GCC_473/Debug/ADC_INT.o : C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADC.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADC_INT.c 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADC_INT.c : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/CortexM3/ARM_GCC_473/Debug/ADC_IRQ.o : C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADC_IRQ.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADC_IRQ.c 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADC_IRQ.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADC_IRQ.c : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/CortexM3/ARM_GCC_473/Debug/ADC_PM.o : C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADC.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADC_PM.c 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADC_PM.c : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/CortexM3/ARM_GCC_473/Debug/ADC_theACLK.o : C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADC_theACLK.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADC_theACLK.c 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADC_theACLK.c : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/CortexM3/ARM_GCC_473/Debug/ADCclock.o : C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADCclock.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADCclock.c 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADCclock.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/ADCclock.c : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/CortexM3/ARM_GCC_473/Debug/Cm3Start.o : C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyDmac.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/Cm3Start.c 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyDmac.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/Cm3Start.c : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/CortexM3/ARM_GCC_473/Debug/CyDmac.o : C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyDmac.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyDmac.c 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyDmac.c : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/CortexM3/ARM_GCC_473/Debug/CyFlash.o : C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyFlash.c 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyFlash.c : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/CortexM3/ARM_GCC_473/Debug/CyLib.o : C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyLib.c 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyLib.c : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/CortexM3/ARM_GCC_473/Debug/CySpc.o : C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CySpc.c 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CySpc.c : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/CortexM3/ARM_GCC_473/Debug/LCD.o : C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LCD.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LCD.c 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LCD.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LCD.c : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/CortexM3/ARM_GCC_473/Debug/LCD_LCDPort.o : C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LCD_LCDPort.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LCD_LCDPort_aliases.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LCD_LCDPort.c 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LCD_LCDPort.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LCD_LCDPort_aliases.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cypins.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LCD_LCDPort.c : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/CortexM3/ARM_GCC_473/Debug/LCD_PM.o : C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LCD.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LCD_PM.c 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LCD_PM.c : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/CortexM3/ARM_GCC_473/Debug/LED0.o : C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED0.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED0_aliases.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED0.c 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED0.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED0_aliases.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED0.c : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/CortexM3/ARM_GCC_473/Debug/LED1.o : C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED1.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED1_aliases.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED1.c 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED1.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED1_aliases.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED1.c : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/CortexM3/ARM_GCC_473/Debug/LED2.o : C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED2.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED2_aliases.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED2.c 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED2.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED2_aliases.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED2.c : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/CortexM3/ARM_GCC_473/Debug/LED3.o : C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED3.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED3_aliases.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED3.c 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED3.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED3_aliases.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED3.c : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/CortexM3/ARM_GCC_473/Debug/LED4.o : C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED4.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED4_aliases.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED4.c 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED4.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED4_aliases.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED4.c : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/CortexM3/ARM_GCC_473/Debug/LED5.o : C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED5.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED5_aliases.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED5.c 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED5.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED5_aliases.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED5.c : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/CortexM3/ARM_GCC_473/Debug/LED6.o : C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED6.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED6_aliases.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED6.c 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED6.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED6_aliases.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED6.c : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/CortexM3/ARM_GCC_473/Debug/LED7.o : C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED7.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED7_aliases.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED7.c 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED7.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED7_aliases.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/LED7.c : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/CortexM3/ARM_GCC_473/Debug/PotPin.o : C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/PotPin.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/PotPin_aliases.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/PotPin.c 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/PotPin.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/PotPin_aliases.h : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/PotPin.c : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/CortexM3/ARM_GCC_473/Debug/cyPm.o : C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyPm.c 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyPm.c : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/CortexM3/ARM_GCC_473/Debug/cyfitter_cfg.o : C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter_cfg.c 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter_cfg.c : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/CortexM3/ARM_GCC_473/Debug/cymetadata.o : C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cymetadata.c 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cymetadata.c : 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/CortexM3/ARM_GCC_473/Debug/cyutils.o : C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyutils.c 
+
+C:/Users/akashbad/Documents/6.115/Lab5/lab2/GoSocedo.cydsn/Generated_Source/PSoC5/cyutils.c : 
+

@@ -1,0 +1,28 @@
+
+----------------------------------------------------------------------
+
+Verifying bitstream.
+
+-----------------------------------------------------------------------
+
+
+---------Mapping jacks.---------
+
+
+---------Processing bitstream.---------
+
+Utilized "dsi_hc@[DSI=(1,1)][side=bottom]"
+Utilized "dsi_hc@[DSI=(0,3)][side=top]"
+Utilized "dsi_hv_a@[DSI=(0,3)][side=top]"
+Utilized "dsi_hv_b@[DSI=(1,3)][side=bottom]"
+Utilized "dsi_hc@[DSI=(0,5)][side=top]"
+Utilized "dsi_hv_a@[DSI=(0,5)][side=top]"
+Utilized "dsi_hv_b@[DSI=(1,5)][side=bottom]"
+
+
+----------------------------------------------------------------------
+
+Bitstream verification passed.
+
+-----------------------------------------------------------------------
+

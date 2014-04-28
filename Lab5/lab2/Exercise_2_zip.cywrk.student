@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="LAB2\LAB2">
+<ExpandedNodeIds>
+<v>LAB2</v>
+<v>LAB2\LAB2</v>
+<v>LAB2\LAB2\TopDesign.cysch</v>
+<v>LAB2\LAB2\LAB2.cydwr</v>
+<v>LAB2\LAB2\Header Files</v>
+<v>LAB2\LAB2\Header Files\device.h</v>
+<v>LAB2\LAB2\Source Files</v>
+<v>LAB2\LAB2\Source Files\main.c</v>
+<v>LAB2\LAB2\Generated_Source</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\cm3gcc.ld</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\Cm3Iar.icf</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\Cm3RealView.scat</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\Cm3Start.c</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\core_cm3.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\core_cm3_psoc5.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\core_cmFunc.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\core_cmInstr.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\CyBootAsmGnu.s</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\CyBootAsmIar.s</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\CyBootAsmRv.s</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\CyDmac.c</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\CyDmac.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\CyFlash.c</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\CyFlash.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\CyLib.c</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\CyLib.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\cypins.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\cyPm.c</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\cyPm.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\CySpc.c</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\CySpc.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\cytypes.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\cyutils.c</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\LCD_Char_1</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\LCD_Char_1\LCD_Char_1.c</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\LCD_Char_1\LCD_Char_1.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\LCD_Char_1\LCD_Char_1_PM.c</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\LCD_Char_1_LCDPort</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\LCD_Char_1_LCDPort\LCD_Char_1_LCDPort.c</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\LCD_Char_1_LCDPort\LCD_Char_1_LCDPort.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\LCD_Char_1_LCDPort\LCD_Char_1_LCDPort_aliases.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cydevice.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cydevice_trm.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cydevicegnu.inc</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cydevicegnu_trm.inc</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cydeviceiar.inc</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cydeviceiar_trm.inc</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cydevicerv.inc</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cydevicerv_trm.inc</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cydisabledsheets.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cyfitter.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cyfitter_cfg.c</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cyfitter_cfg.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cyfittergnu.inc</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cyfitteriar.inc</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cyfitterrv.inc</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cymetadata.c</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\project.h</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>LAB2</v>
+<v>LAB2\LAB2</v>
+<v>LAB2\LAB2\TopDesign.cysch</v>
+<v>LAB2\LAB2\LAB2.cydwr</v>
+<v>LAB2\LAB2\Header Files</v>
+<v>LAB2\LAB2\Header Files\device.h</v>
+<v>LAB2\LAB2\Source Files</v>
+<v>LAB2\LAB2\Source Files\main.c</v>
+<v>LAB2\LAB2\Generated_Source</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\cm3gcc.ld</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\Cm3Iar.icf</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\Cm3RealView.scat</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\Cm3Start.c</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\core_cm3.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\core_cm3_psoc5.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\core_cmFunc.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\core_cmInstr.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\CyBootAsmGnu.s</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\CyBootAsmIar.s</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\CyBootAsmRv.s</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\CyDmac.c</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\CyDmac.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\CyFlash.c</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\CyFlash.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\CyLib.c</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\CyLib.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\cypins.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\cyPm.c</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\cyPm.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\CySpc.c</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\CySpc.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\cytypes.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cy_boot\cyutils.c</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\LCD_Char_1</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\LCD_Char_1\LCD_Char_1.c</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\LCD_Char_1\LCD_Char_1.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\LCD_Char_1\LCD_Char_1_PM.c</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\LCD_Char_1_LCDPort</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\LCD_Char_1_LCDPort\LCD_Char_1_LCDPort.c</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\LCD_Char_1_LCDPort\LCD_Char_1_LCDPort.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\LCD_Char_1_LCDPort\LCD_Char_1_LCDPort_aliases.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cydevice.h</v>
+<v>LAB2\LAB2\Generated_Source\PSoC5\cydevice_trm.h</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>LAB2</v>
+<v>LAB2\LAB2</v>
+<v>LAB2\LAB2\TopDesign</v>
+<v>LAB2\LAB2\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>LAB2</v>
+<v>LAB2\LAB2</v>
+<v>LAB2\LAB2\TopDesign</v>
+<v>LAB2\LAB2\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>LAB2</v>
+<v>LAB2\LAB2</v>
+<v>LAB2\LAB2\CortexM3</v>
+<v>LAB2\LAB2\CortexM3\ARM_GCC_473</v>
+<v>LAB2\LAB2\CortexM3\ARM_GCC_473\Debug</v>
+<v>LAB2\LAB2\CortexM3\ARM_GCC_473\Debug\LAB2.elf</v>
+<v>LAB2\LAB2\CortexM3\ARM_GCC_473\Debug\LAB2.hex</v>
+<v>LAB2\LAB2\CortexM3\ARM_GCC_473\Debug\LAB2.map</v>
+<v>LAB2\LAB2\LAB2.rpt</v>
+<v>LAB2\LAB2\LAB2_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>LAB2</v>
+<v>LAB2\LAB2</v>
+<v>LAB2\LAB2\CortexM3</v>
+<v>LAB2\LAB2\CortexM3\ARM_GCC_473</v>
+<v>LAB2\LAB2\CortexM3\ARM_GCC_473\Debug</v>
+<v>LAB2\LAB2\CortexM3\ARM_GCC_473\Debug\LAB2.elf</v>
+<v>LAB2\LAB2\CortexM3\ARM_GCC_473\Debug\LAB2.hex</v>
+<v>LAB2\LAB2\CortexM3\ARM_GCC_473\Debug\LAB2.map</v>
+<v>LAB2\LAB2\LAB2.rpt</v>
+<v>LAB2\LAB2\LAB2_timing.html</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>LAB2</v>
+<v>LAB2\LAB2</v>
+<v>LAB2\LAB2\PSoC 5 Architecture TRM</v>
+<v>LAB2\LAB2\CY8C58LP Family Datasheet</v>
+<v>LAB2\LAB2\System Reference Guide v4_0</v>
+<v>LAB2\LAB2\CharLCD_v1_90</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>LAB2</v>
+<v>LAB2\LAB2</v>
+<v>LAB2\LAB2\PSoC 5 Architecture TRM</v>
+<v>LAB2\LAB2\CY8C58LP Family Datasheet</v>
+<v>LAB2\LAB2\System Reference Guide v4_0</v>
+<v>LAB2\LAB2\CharLCD_v1_90</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\LAB2.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\LAB2.cydsn\main.c" />
+</OpenDocs>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>

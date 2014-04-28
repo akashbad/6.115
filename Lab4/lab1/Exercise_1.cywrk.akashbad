@@ -159,25 +159,6 @@
 <VisibleNodeIds>
 <v>LAB1</v>
 <v>LAB1\LAB1</v>
-<v>LAB1\LAB1\CortexM3</v>
-<v>LAB1\LAB1\CortexM3\ARM_GCC_473</v>
-<v>LAB1\LAB1\CortexM3\ARM_GCC_473\Debug</v>
-<v>LAB1\LAB1\CortexM3\ARM_GCC_473\Debug\Listing Files</v>
-<v>LAB1\LAB1\CortexM3\ARM_GCC_473\Debug\Listing Files\Cm3Start.lst</v>
-<v>LAB1\LAB1\CortexM3\ARM_GCC_473\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>LAB1\LAB1\CortexM3\ARM_GCC_473\Debug\Listing Files\CyDmac.lst</v>
-<v>LAB1\LAB1\CortexM3\ARM_GCC_473\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>LAB1\LAB1\CortexM3\ARM_GCC_473\Debug\Listing Files\CyFlash.lst</v>
-<v>LAB1\LAB1\CortexM3\ARM_GCC_473\Debug\Listing Files\CyLib.lst</v>
-<v>LAB1\LAB1\CortexM3\ARM_GCC_473\Debug\Listing Files\cymetadata.lst</v>
-<v>LAB1\LAB1\CortexM3\ARM_GCC_473\Debug\Listing Files\cyPm.lst</v>
-<v>LAB1\LAB1\CortexM3\ARM_GCC_473\Debug\Listing Files\CySpc.lst</v>
-<v>LAB1\LAB1\CortexM3\ARM_GCC_473\Debug\Listing Files\cyutils.lst</v>
-<v>LAB1\LAB1\CortexM3\ARM_GCC_473\Debug\Listing Files\main.lst</v>
-<v>LAB1\LAB1\CortexM3\ARM_GCC_473\Debug\Listing Files\Pin_1.lst</v>
-<v>LAB1\LAB1\CortexM3\ARM_GCC_473\Debug\LAB1.elf</v>
-<v>LAB1\LAB1\CortexM3\ARM_GCC_473\Debug\LAB1.hex</v>
-<v>LAB1\LAB1\CortexM3\ARM_GCC_473\Debug\LAB1.map</v>
 <v>LAB1\LAB1\LAB1.rpt</v>
 <v>LAB1\LAB1\LAB1_timing.html</v>
 </VisibleNodeIds>

@@ -1,7 +1,4 @@
---------------- Rebuild Started: 02/24/2014 20:41:09 Project: 115_is_cool, Configuration: ARM GCC 4.7.3 Debug ---------------
-Deleting file ".\115_is_cool.cycdx"
-Deleting file ".\115_is_cool.rpt"
-Deleting file ".\115_is_cool_timing.html"
+--------------- Rebuild Started: 04/14/2014 17:11:01 Project: 115_is_cool, Configuration: ARM GCC 4.7.3 Debug ---------------
 cydsfit.exe "-.appdatapath" "C:\Users\akashbad\AppData\Local\Cypress Semiconductor\PSoC Creator\3.0" "-.fdsnotice" "-.fdswarpdepfile=warp_dependencies.txt" "-.fdselabdepfile=elab_dependencies.txt" "-.fdsbldfile=generated_files.txt" "-p" "C:\Users\akashbad\Documents\6.115\Lab2\blinky\115_is_cool.cydsn\115_is_cool.cyprj" "-d" "CY8C5868AXI-LP035" "-s" "C:\Users\akashbad\Documents\6.115\Lab2\blinky\115_is_cool.cydsn\Generated_Source\PSoC5" "--" "-yv2" "-v3" "-ygs" "-q10" "-o2" "-.fftcfgtype=LE"
 Elaborating Design...
 HDL Generation ...
@@ -44,4 +41,4 @@ cyelftool.exe -C C:\Users\akashbad\Documents\6.115\Lab2\blinky\115_is_cool.cydsn
 cyelftool.exe -S C:\Users\akashbad\Documents\6.115\Lab2\blinky\115_is_cool.cydsn\ARM_GCC_473\Debug\115_is_cool.elf
 Flash used: 3102 of 262144 bytes (1.2 %).
 SRAM used: 20797 of 65536 bytes (31.7 %).
---------------- Rebuild Succeeded: 02/24/2014 20:41:24 ---------------
+--------------- Rebuild Succeeded: 04/14/2014 17:11:15 ---------------

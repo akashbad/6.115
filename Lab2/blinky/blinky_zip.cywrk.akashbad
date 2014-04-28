@@ -13,134 +13,19 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="115_is_cool\115_is_cool\Source Files\main.c">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="115_is_cool\115_is_cool">
 <ExpandedNodeIds>
+<v>115_is_cool</v>
+<v>115_is_cool\115_is_cool</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
 <v>115_is_cool</v>
 <v>115_is_cool\115_is_cool</v>
 <v>115_is_cool\115_is_cool\TopDesign.cysch</v>
 <v>115_is_cool\115_is_cool\115_is_cool.cydwr</v>
 <v>115_is_cool\115_is_cool\Header Files</v>
-<v>115_is_cool\115_is_cool\Header Files\device.h</v>
 <v>115_is_cool\115_is_cool\Source Files</v>
-<v>115_is_cool\115_is_cool\Source Files\main.c</v>
 <v>115_is_cool\115_is_cool\Generated_Source</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\A</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\A\A.c</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\A\A.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\A\A_aliases.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\B</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\B\B.c</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\B\B.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\B\B_aliases.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\C</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\C\C.c</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\C\C.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\C\C_aliases.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\cm3gcc.ld</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\Cm3Iar.icf</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\Cm3RealView.scat</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\Cm3Start.c</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\core_cm3.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\core_cm3_psoc5.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\core_cmFunc.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\core_cmInstr.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\CyBootAsmGnu.s</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\CyBootAsmIar.s</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\CyBootAsmRv.s</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\CyDmac.c</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\CyDmac.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\CyFlash.c</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\CyFlash.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\CyLib.c</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\CyLib.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\cypins.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\cyPm.c</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\cyPm.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\CySpc.c</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\CySpc.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\cytypes.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\cyutils.c</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\D</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\D\D.c</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\D\D.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\D\D_aliases.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\E</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\E\E.c</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\E\E.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\E\E_aliases.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\F</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\F\F.c</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\F\F.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\F\F_aliases.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\G</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\G\G.c</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\G\G.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\G\G_aliases.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\P</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\P\P.c</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\P\P.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\P\P_aliases.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cydevice.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cydevice_trm.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cydevicegnu.inc</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cydevicegnu_trm.inc</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cydeviceiar.inc</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cydeviceiar_trm.inc</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cydevicerv.inc</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cydevicerv_trm.inc</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cydisabledsheets.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cyfitter.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cyfitter_cfg.c</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cyfitter_cfg.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cyfittergnu.inc</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cyfitteriar.inc</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cyfitterrv.inc</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cymetadata.c</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\project.h</v>
-</ExpandedNodeIds>
-<VisibleNodeIds>
-<v>115_is_cool\115_is_cool\Source Files</v>
-<v>115_is_cool\115_is_cool\Source Files\main.c</v>
-<v>115_is_cool\115_is_cool\Generated_Source</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\A</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\A\A.c</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\A\A.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\A\A_aliases.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\B</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\B\B.c</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\B\B.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\B\B_aliases.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\C</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\C\C.c</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\C\C.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\C\C_aliases.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\cm3gcc.ld</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\Cm3Iar.icf</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\Cm3RealView.scat</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\Cm3Start.c</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\core_cm3.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\core_cm3_psoc5.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\core_cmFunc.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\core_cmInstr.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\CyBootAsmGnu.s</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\CyBootAsmIar.s</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\CyBootAsmRv.s</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\CyDmac.c</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\CyDmac.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\CyFlash.c</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\CyFlash.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\CyLib.c</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\CyLib.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\cypins.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\cyPm.c</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\cyPm.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\CySpc.c</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\CySpc.h</v>
-<v>115_is_cool\115_is_cool\Generated_Source\PSoC5\cy_boot\cytypes.h</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -257,7 +142,6 @@
 <name v=".\115_is_cool.cydsn\115_is_cool.cydwr" />
 <name v=".\115_is_cool.cydsn\device.h" />
 <name v=".\115_is_cool.cydsn\main.c" />
-<name v=".\115_is_cool.cydsn\Generated_Source\PSoC5\A.h" />
 </OpenDocs>
 <config v="" />
 <AutoUpdate v="true" />
