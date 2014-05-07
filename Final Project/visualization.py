@@ -3,7 +3,7 @@ from matplotlib import pyplot
 
 ser = serial.Serial("/dev/tty.usbserial",9600)
 pyplot.ion()
-pyplot.ylim([0,50])
+pyplot.ylim([0,20])
 plot, = pyplot.plot([0 for x in range(32)])
 while True:
   try:

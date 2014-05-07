@@ -15,21 +15,39 @@ init:
    mov   th1,  #0fdh      ; set 9600 baud with xtal=11.059mhz
    mov   scon, #50h       ; set serial control reg for 8 bit data
                           ; and mode 1
-   mov r1, #00h 
+   mov p1, #00h
+   setb p3.2              ; LEDs off to start
 loop:
-  mov p1, r1
-  inc r1
-  mov dptr, #0fe00h
-  movx @dptr, a
-  movx a, @dptr  
+  mov p1, r1              ; select address
+  mov dptr, #0fe00h       ; data pointer
+  movx @dptr, a           ; initiate conversion 
+  movx a, @dptr           ; get result
+  clr p3.2                ; immediately light LED
+  mov r0, a               ; store the low value
+  inc r1                  ; increment here to waste time
+  clr c                   ; clear the carry for subtraction
+  lcall stall
+  movx @dptr, a           ; start new conversion
+  movx a, @dptr
+  setb p3.2               ; LED off again
+  subb a, r0              ; subtract low from high
+  jnc print
+  mov a, #00h             ; if not carry then negative
+print:
   lcall prthex
   mov a, #20h
   lcall sndchr
+  lcall stall
   cjne r1, #32, loop
   mov r1, #00h 
   lcall crlf
-  ;lcall getchr
   sjmp loop   
+
+stall:
+  mov r7, #255
+  stall_loop: djnz r7, stall_loop
+  ret
+
 ;===============================================================
 ; subroutine sndchr
 ; this routine takes the chr in the acc and sends it out the
