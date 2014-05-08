@@ -19,6 +19,7 @@ init:
    setb p3.2              ; LEDs off to start
 loop:
   mov p1, r1              ; select address
+  lcall stall
   mov dptr, #0fe00h       ; data pointer
   movx @dptr, a           ; initiate conversion 
   movx a, @dptr           ; get result
@@ -37,7 +38,6 @@ print:
   lcall prthex
   mov a, #20h
   lcall sndchr
-  lcall stall
   cjne r1, #32, loop
   mov r1, #00h 
   lcall crlf
