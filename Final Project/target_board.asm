@@ -100,18 +100,22 @@ position_loop:
   movx a, @dptr             ; get value from memory
   jb 00h, value_print       ; if in debug mode print value only
   jz position_loop_end      ; direct to end if value is 0
-  lcall prthex              ; print that value
-  mov a, #3ah               ; print a colon
-  lcall sndchr              ; send the colon
+  ;lcall prthex              ; print that value
+  ;mov a, #3ah               ; print a colon
+  ;lcall sndchr              ; send the colon
   mov a, dpl                ; put the position in acc
 value_print: 
   lcall prthex              ; print that position
   mov a, #20h               ; print a space
   lcall sndchr              ; send space
+  setb 01h                  ; flag saying there is data
 position_loop_end:  
   inc dptr                  ; increment the data pointer
   djnz r6, position_loop    ; keep count and repeat
+  jnb 01h, print_return     ; don't print newline without data
   lcall crlf                ; newline for framing
+  clr 01h                   ; clear for next go
+print_return:  
   ret
 
 ;==================================================================
