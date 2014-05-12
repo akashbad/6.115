@@ -1,0 +1,57 @@
+# CapSense_CSD_Design01
+# 2014-05-12 18:41:06Z
+
+# IO_0@[IOP=(1)][IoId=(0)] is reserved: SWDDebugEnabled
+dont_use_io iocell 1 0
+# IO_1@[IOP=(1)][IoId=(1)] is reserved: SWDDebugEnabled
+dont_use_io iocell 1 1
+# IO_3@[IOP=(1)][IoId=(3)] is reserved: SWDDebugEnabled
+dont_use_io iocell 1 3
+set_location "CapSense" capsensecell -1 -1 0
+set_location "ClockBlock" clockblockcell -1 -1 0
+set_io "LED1(0)" iocell 6 0
+set_io "LED2(0)" iocell 6 6
+set_location "\CapSense_CSD:BufCH0\" csabufcell -1 -1 1
+set_location "\CapSense_CSD:ClockGen:ScanSpeed\" 1 3 7
+set_location "\CapSense_CSD:ClockGen:SyncCtrl:CtrlReg\" 0 3 6
+set_location "\CapSense_CSD:ClockGen:UDB:PrescalerDp:u0\" 1 5 2
+set_location "\CapSense_CSD:ClockGen:clock_detect_reg\" 1 3 0 0
+set_location "\CapSense_CSD:ClockGen:cstate_2\" 0 3 0 2
+set_location "\CapSense_CSD:ClockGen:inter_reset\" 0 3 0 1
+set_location "\CapSense_CSD:ClockGen:sC16:PRSdp:u0\" 0 3 2
+set_location "\CapSense_CSD:ClockGen:sC16:PRSdp:u1\" 1 3 2
+set_location "\CapSense_CSD:ClockGen:tmp_ppulse_dly\" 1 5 0 0
+set_location "\CapSense_CSD:ClockGen:tmp_ppulse_reg\" 1 5 1 0
+set_io "\CapSense_CSD:CmodCH0(0)\" iocell 15 5
+set_location "\CapSense_CSD:CompCH0:ctComp\" comparatorcell -1 -1 1
+set_location "\CapSense_CSD:IdacCH0:viDAC8\" vidaccell -1 -1 3
+set_location "\CapSense_CSD:IsrCH0\" interrupt -1 -1 0
+set_location "\CapSense_CSD:MeasureCH0:UDB:Counter:u0\" 0 4 2
+set_location "\CapSense_CSD:MeasureCH0:UDB:Window:u0\" 1 4 2
+set_location "\CapSense_CSD:MeasureCH0:cs_addr_cnt_0\" 0 4 1 0
+set_location "\CapSense_CSD:MeasureCH0:cs_addr_cnt_1\" 0 4 1 2
+set_location "\CapSense_CSD:MeasureCH0:cs_addr_cnt_2\" 0 4 1 1
+set_location "\CapSense_CSD:MeasureCH0:cs_addr_win_0\" 0 4 0 2
+set_location "\CapSense_CSD:MeasureCH0:cs_addr_win_1\" 1 5 1 1
+set_location "\CapSense_CSD:MeasureCH0:cs_addr_win_2\" 1 4 0 0
+set_location "\CapSense_CSD:MeasureCH0:genblk1:SyncCMPR\" 0 4 5 0
+set_location "\CapSense_CSD:MeasureCH0:wndState_0\" 0 4 0 1
+set_location "\CapSense_CSD:MeasureCH0:wndState_1\" 0 3 1 1
+set_location "\CapSense_CSD:MeasureCH0:wndState_2\" 0 4 0 3
+set_location "\CapSense_CSD:Net_1603\" 0 3 1 0
+set_io "\CapSense_CSD:PortCH0(0)\" iocell 5 6
+set_io "\CapSense_CSD:PortCH0(1)\" iocell 5 5
+set_io "\CapSense_CSD:PortCH0(2)\" iocell 5 0
+set_io "\CapSense_CSD:PortCH0(3)\" iocell 5 1
+set_io "\CapSense_CSD:PortCH0(4)\" iocell 5 2
+set_io "\CapSense_CSD:PortCH0(5)\" iocell 5 3
+set_io "\CapSense_CSD:PortCH0(6)\" iocell 5 4
+set_location "\CapSense_CSD:PreChargeClk\" 0 3 0 0
+set_location "\CapSense_CSD:mrst\" 0 3 0 3
+set_io "\LCD:LCDPort(0)\" iocell 2 0
+set_io "\LCD:LCDPort(1)\" iocell 2 1
+set_io "\LCD:LCDPort(2)\" iocell 2 2
+set_io "\LCD:LCDPort(3)\" iocell 2 3
+set_io "\LCD:LCDPort(4)\" iocell 2 4
+set_io "\LCD:LCDPort(5)\" iocell 2 5
+set_io "\LCD:LCDPort(6)\" iocell 2 6

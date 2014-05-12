@@ -1,0 +1,55 @@
+--------------- Build Started: 05/12/2014 13:41:54 Project: USB_UART01, Configuration: ARM GCC 4.7.3 Debug ---------------
+cydsfit.exe "-.appdatapath" "C:\Users\akashbad\AppData\Local\Cypress Semiconductor\PSoC Creator\3.0" "-.fdsnotice" "-.fdswarpdepfile=warp_dependencies.txt" "-.fdselabdepfile=elab_dependencies.txt" "-.fdsbldfile=generated_files.txt" "-p" "C:\Users\akashbad\Documents\6.115\Final Project\LauncherController.cydsn\USB_UART01.cydsn\USB_UART01.cyprj" "-d" "CY8C5868AXI-LP035" "-s" "C:\Users\akashbad\Documents\6.115\Final Project\LauncherController.cydsn\USB_UART01.cydsn\Generated_Source\PSoC5" "--" "-yv2" "-v3" "-ygs" "-q10" "-o2" "-.fftcfgtype=LE"
+Elaborating Design...
+HDL Generation ...
+Synthesis ...
+Place and Route ...
+Tech mapping ...
+ADD: pft.M0040: information: The following 2 pin(s) will be assigned a location by the fitter: \USBUART_1:Dm(0)\, \USBUART_1:Dp(0)\
+Analog Placement ...
+Analog Routing ...
+Analog Code Generation ...
+Digital Placement ...
+Digital Routing ...
+Bitstream Generation ...
+Static timing analysis ...
+API Generation ...
+Dependency Generation ...
+Clean Temporary Files ...
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -Wa,-alh=.\ARM_GCC_473\Debug\main.lst -ffunction-sections -c .\main.c -o .\ARM_GCC_473\Debug\main.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -Wa,-alh=.\ARM_GCC_473\Debug\cyfitter_cfg.lst -ffunction-sections -c .\Generated_Source\PSoC5\cyfitter_cfg.c -o .\ARM_GCC_473\Debug\cyfitter_cfg.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -Wa,-alh=.\ARM_GCC_473\Debug\cymetadata.lst -ffunction-sections -c .\Generated_Source\PSoC5\cymetadata.c -o .\ARM_GCC_473\Debug\cymetadata.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -Wa,-alh=.\ARM_GCC_473\Debug\USBUART_1.lst -ffunction-sections -c .\Generated_Source\PSoC5\USBUART_1.c -o .\ARM_GCC_473\Debug\USBUART_1.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -Wa,-alh=.\ARM_GCC_473\Debug\USBUART_1_audio.lst -ffunction-sections -c .\Generated_Source\PSoC5\USBUART_1_audio.c -o .\ARM_GCC_473\Debug\USBUART_1_audio.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -Wa,-alh=.\ARM_GCC_473\Debug\USBUART_1_boot.lst -ffunction-sections -c .\Generated_Source\PSoC5\USBUART_1_boot.c -o .\ARM_GCC_473\Debug\USBUART_1_boot.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -Wa,-alh=.\ARM_GCC_473\Debug\USBUART_1_cdc.lst -ffunction-sections -c .\Generated_Source\PSoC5\USBUART_1_cdc.c -o .\ARM_GCC_473\Debug\USBUART_1_cdc.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -Wa,-alh=.\ARM_GCC_473\Debug\USBUART_1_cls.lst -ffunction-sections -c .\Generated_Source\PSoC5\USBUART_1_cls.c -o .\ARM_GCC_473\Debug\USBUART_1_cls.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -Wa,-alh=.\ARM_GCC_473\Debug\USBUART_1_descr.lst -ffunction-sections -c .\Generated_Source\PSoC5\USBUART_1_descr.c -o .\ARM_GCC_473\Debug\USBUART_1_descr.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -Wa,-alh=.\ARM_GCC_473\Debug\USBUART_1_drv.lst -ffunction-sections -c .\Generated_Source\PSoC5\USBUART_1_drv.c -o .\ARM_GCC_473\Debug\USBUART_1_drv.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -Wa,-alh=.\ARM_GCC_473\Debug\USBUART_1_episr.lst -ffunction-sections -c .\Generated_Source\PSoC5\USBUART_1_episr.c -o .\ARM_GCC_473\Debug\USBUART_1_episr.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -Wa,-alh=.\ARM_GCC_473\Debug\USBUART_1_hid.lst -ffunction-sections -c .\Generated_Source\PSoC5\USBUART_1_hid.c -o .\ARM_GCC_473\Debug\USBUART_1_hid.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -Wa,-alh=.\ARM_GCC_473\Debug\USBUART_1_pm.lst -ffunction-sections -c .\Generated_Source\PSoC5\USBUART_1_pm.c -o .\ARM_GCC_473\Debug\USBUART_1_pm.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -Wa,-alh=.\ARM_GCC_473\Debug\USBUART_1_std.lst -ffunction-sections -c .\Generated_Source\PSoC5\USBUART_1_std.c -o .\ARM_GCC_473\Debug\USBUART_1_std.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -Wa,-alh=.\ARM_GCC_473\Debug\USBUART_1_vnd.lst -ffunction-sections -c .\Generated_Source\PSoC5\USBUART_1_vnd.c -o .\ARM_GCC_473\Debug\USBUART_1_vnd.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -Wa,-alh=.\ARM_GCC_473\Debug\USBUART_1_midi.lst -ffunction-sections -c .\Generated_Source\PSoC5\USBUART_1_midi.c -o .\ARM_GCC_473\Debug\USBUART_1_midi.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -Wa,-alh=.\ARM_GCC_473\Debug\LCD.lst -ffunction-sections -c .\Generated_Source\PSoC5\LCD.c -o .\ARM_GCC_473\Debug\LCD.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -Wa,-alh=.\ARM_GCC_473\Debug\LCD_PM.lst -ffunction-sections -c .\Generated_Source\PSoC5\LCD_PM.c -o .\ARM_GCC_473\Debug\LCD_PM.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -Wa,-alh=.\ARM_GCC_473\Debug\USBUART_1_Dm.lst -ffunction-sections -c .\Generated_Source\PSoC5\USBUART_1_Dm.c -o .\ARM_GCC_473\Debug\USBUART_1_Dm.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -Wa,-alh=.\ARM_GCC_473\Debug\USBUART_1_Dp.lst -ffunction-sections -c .\Generated_Source\PSoC5\USBUART_1_Dp.c -o .\ARM_GCC_473\Debug\USBUART_1_Dp.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -Wa,-alh=.\ARM_GCC_473\Debug\LCD_LCDPort.lst -ffunction-sections -c .\Generated_Source\PSoC5\LCD_LCDPort.c -o .\ARM_GCC_473\Debug\LCD_LCDPort.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -Wa,-alh=.\ARM_GCC_473\Debug\Cm3Start.lst -ffunction-sections -c .\Generated_Source\PSoC5\Cm3Start.c -o .\ARM_GCC_473\Debug\Cm3Start.o
+arm-none-eabi-as.exe -I. -I./Generated_Source/PSoC5 -mcpu=cortex-m3 -mthumb -g -alh=.\ARM_GCC_473\Debug/CyBootAsmGnu.lst -o .\ARM_GCC_473\Debug\CyBootAsmGnu.o .\Generated_Source\PSoC5\CyBootAsmGnu.s
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -Wa,-alh=.\ARM_GCC_473\Debug\CyDmac.lst -ffunction-sections -c .\Generated_Source\PSoC5\CyDmac.c -o .\ARM_GCC_473\Debug\CyDmac.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -Wa,-alh=.\ARM_GCC_473\Debug\CyFlash.lst -ffunction-sections -c .\Generated_Source\PSoC5\CyFlash.c -o .\ARM_GCC_473\Debug\CyFlash.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -Wa,-alh=.\ARM_GCC_473\Debug\CyLib.lst -ffunction-sections -c .\Generated_Source\PSoC5\CyLib.c -o .\ARM_GCC_473\Debug\CyLib.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -Wa,-alh=.\ARM_GCC_473\Debug\cyPm.lst -ffunction-sections -c .\Generated_Source\PSoC5\cyPm.c -o .\ARM_GCC_473\Debug\cyPm.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -Wa,-alh=.\ARM_GCC_473\Debug\CySpc.lst -ffunction-sections -c .\Generated_Source\PSoC5\CySpc.c -o .\ARM_GCC_473\Debug\CySpc.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -Wa,-alh=.\ARM_GCC_473\Debug\cyutils.lst -ffunction-sections -c .\Generated_Source\PSoC5\cyutils.c -o .\ARM_GCC_473\Debug\cyutils.o
+arm-none-eabi-ar.exe -rs .\ARM_GCC_473\Debug\USB_UART01.a .\ARM_GCC_473\Debug\cyfitter_cfg.o .\ARM_GCC_473\Debug\USBUART_1.o .\ARM_GCC_473\Debug\USBUART_1_audio.o .\ARM_GCC_473\Debug\USBUART_1_boot.o .\ARM_GCC_473\Debug\USBUART_1_cdc.o .\ARM_GCC_473\Debug\USBUART_1_cls.o .\ARM_GCC_473\Debug\USBUART_1_descr.o .\ARM_GCC_473\Debug\USBUART_1_drv.o .\ARM_GCC_473\Debug\USBUART_1_episr.o .\ARM_GCC_473\Debug\USBUART_1_hid.o .\ARM_GCC_473\Debug\USBUART_1_pm.o .\ARM_GCC_473\Debug\USBUART_1_std.o .\ARM_GCC_473\Debug\USBUART_1_vnd.o .\ARM_GCC_473\Debug\USBUART_1_midi.o .\ARM_GCC_473\Debug\LCD.o .\ARM_GCC_473\Debug\LCD_PM.o .\ARM_GCC_473\Debug\USBUART_1_Dm.o .\ARM_GCC_473\Debug\USBUART_1_Dp.o .\ARM_GCC_473\Debug\LCD_LCDPort.o .\ARM_GCC_473\Debug\CyBootAsmGnu.o .\ARM_GCC_473\Debug\CyDmac.o .\ARM_GCC_473\Debug\CyFlash.o .\ARM_GCC_473\Debug\CyLib.o .\ARM_GCC_473\Debug\cyPm.o .\ARM_GCC_473\Debug\CySpc.o .\ARM_GCC_473\Debug\cyutils.o
+arm-none-eabi-ar.exe: creating .\ARM_GCC_473\Debug\USB_UART01.a
+arm-none-eabi-gcc.exe -mthumb -march=armv7-m -mfix-cortex-m3-ldrd -T .\Generated_Source\PSoC5\cm3gcc.ld -g -Wl,-Map,.\ARM_GCC_473\Debug\USB_UART01.map -specs=nano.specs -Wl,--gc-sections -Wl,--start-group -o .\ARM_GCC_473\Debug\USB_UART01.elf .\ARM_GCC_473\Debug\main.o .\ARM_GCC_473\Debug\cymetadata.o .\ARM_GCC_473\Debug\Cm3Start.o .\ARM_GCC_473\Debug\USB_UART01.a "C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a" -Wl,--end-group
+cyelftool.exe -C "C:\Users\akashbad\Documents\6.115\Final Project\LauncherController.cydsn\USB_UART01.cydsn\ARM_GCC_473\Debug\USB_UART01.elf" --flash_size 262144 --flash_row_size 256
+cyelftool.exe -S "C:\Users\akashbad\Documents\6.115\Final Project\LauncherController.cydsn\USB_UART01.cydsn\ARM_GCC_473\Debug\USB_UART01.elf"
+Flash used: 28112 of 262144 bytes (10.7 %).
+SRAM used: 21221 of 65536 bytes (32.4 %).
+--------------- Build Succeeded: 05/12/2014 13:42:11 ---------------
