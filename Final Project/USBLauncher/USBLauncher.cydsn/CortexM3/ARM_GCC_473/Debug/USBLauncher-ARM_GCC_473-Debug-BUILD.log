@@ -1,0 +1,17 @@
+--------------- Build Started: 04/28/2014 19:13:22 Project: USBLauncher, Configuration: ARM GCC 4.7.3 Debug ---------------
+The code generation step is up to date.
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM3\ARM_GCC_473\Debug\main.lst -ffunction-sections -c .\main.c -o .\CortexM3\ARM_GCC_473\Debug\main.o
+.\main.c: In function 'main':
+.\main.c:122:5: warning: implicit declaration of function 'USBFS_Start' [-Wimplicit-function-declaration]
+.\main.c:122:20: error: 'USBFS_DWR_VDDD_OPERATION' undeclared (first use in this function)
+.\main.c:122:20: note: each undeclared identifier is reported only once for each function it appears in
+.\main.c:125:5: warning: implicit declaration of function 'USBFS_bGetConfiguration' [-Wimplicit-function-declaration]
+.\main.c:136:3: warning: implicit declaration of function 'USBFS_GetEPState' [-Wimplicit-function-declaration]
+.\main.c:136:39: error: 'USBFS_IN_BUFFER_EMPTY' undeclared (first use in this function)
+.\main.c:139:4: warning: implicit declaration of function 'USBFS_LoadEP' [-Wimplicit-function-declaration]
+.\main.c:141:4: warning: implicit declaration of function 'USBFS_EnableOutEP' [-Wimplicit-function-declaration]
+.\main.c:145:40: error: 'USBFS_OUT_BUFFER_FULL' undeclared (first use in this function)
+.\main.c:148:4: warning: implicit declaration of function 'USBFS_GetEPCount' [-Wimplicit-function-declaration]
+.\main.c:150:4: warning: implicit declaration of function 'USBFS_ReadOutEP' [-Wimplicit-function-declaration]
+The command 'arm-none-eabi-gcc.exe' failed with exit code '1'.
+--------------- Build Failed: 04/28/2014 19:13:23 ---------------

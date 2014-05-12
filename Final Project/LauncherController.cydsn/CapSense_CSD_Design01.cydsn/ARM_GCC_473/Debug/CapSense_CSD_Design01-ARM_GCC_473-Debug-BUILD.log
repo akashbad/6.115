@@ -1,0 +1,58 @@
+--------------- Build Started: 05/12/2014 14:40:48 Project: CapSense_CSD_Design01, Configuration: ARM GCC 4.7.3 Debug ---------------
+cydsfit.exe "-.appdatapath" "C:\Users\akashbad\AppData\Local\Cypress Semiconductor\PSoC Creator\3.0" "-.fdsnotice" "-.fdswarpdepfile=warp_dependencies.txt" "-.fdselabdepfile=elab_dependencies.txt" "-.fdsbldfile=generated_files.txt" "-p" "C:\Users\akashbad\Documents\6.115\Final Project\LauncherController.cydsn\CapSense_CSD_Design01.cydsn\CapSense_CSD_Design01.cyprj" "-d" "CY8C5868AXI-LP035" "-s" "C:\Users\akashbad\Documents\6.115\Final Project\LauncherController.cydsn\CapSense_CSD_Design01.cydsn\Generated_Source\PSoC5" "--" "-yv2" "-v3" "-ygs" "-q10" "-o2" "-.fftcfgtype=LE"
+Elaborating Design...
+HDL Generation ...
+Synthesis ...
+Place and Route ...
+Tech mapping ...
+Info: mpr.M0037: Unused pieces of the design have been optimized out. See the Tech mapping section of the report file for details. (App=cydsfit)
+Analog Placement ...
+Log: apr.M0058: The analog placement iterative improvement is 49% done. (App=cydsfit)
+Log: apr.M0058: The analog placement iterative improvement is 72% done. (App=cydsfit)
+Analog Routing ...
+Analog Code Generation ...
+Digital Placement ...
+Digital Routing ...
+Bitstream Generation ...
+Static timing analysis ...
+API Generation ...
+Dependency Generation ...
+Clean Temporary Files ...
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -g -Wa,-alh=.\ARM_GCC_473\Debug\main.lst -ffunction-sections -c .\main.c -o .\ARM_GCC_473\Debug\main.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -g -Wa,-alh=.\ARM_GCC_473\Debug\cyfitter_cfg.lst -ffunction-sections -c .\Generated_Source\PSoC5\cyfitter_cfg.c -o .\ARM_GCC_473\Debug\cyfitter_cfg.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -g -Wa,-alh=.\ARM_GCC_473\Debug\cymetadata.lst -ffunction-sections -c .\Generated_Source\PSoC5\cymetadata.c -o .\ARM_GCC_473\Debug\cymetadata.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -g -Wa,-alh=.\ARM_GCC_473\Debug\CapSense_CSD.lst -ffunction-sections -c .\Generated_Source\PSoC5\CapSense_CSD.c -o .\ARM_GCC_473\Debug\CapSense_CSD.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -g -Wa,-alh=.\ARM_GCC_473\Debug\CapSense_CSD_CSHL.lst -ffunction-sections -c .\Generated_Source\PSoC5\CapSense_CSD_CSHL.c -o .\ARM_GCC_473\Debug\CapSense_CSD_CSHL.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -g -Wa,-alh=.\ARM_GCC_473\Debug\CapSense_CSD_INT.lst -ffunction-sections -c .\Generated_Source\PSoC5\CapSense_CSD_INT.c -o .\ARM_GCC_473\Debug\CapSense_CSD_INT.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -g -Wa,-alh=.\ARM_GCC_473\Debug\CapSense_CSD_Pins.lst -ffunction-sections -c .\Generated_Source\PSoC5\CapSense_CSD_Pins.c -o .\ARM_GCC_473\Debug\CapSense_CSD_Pins.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -g -Wa,-alh=.\ARM_GCC_473\Debug\CapSense_CSD_PM.lst -ffunction-sections -c .\Generated_Source\PSoC5\CapSense_CSD_PM.c -o .\ARM_GCC_473\Debug\CapSense_CSD_PM.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -g -Wa,-alh=.\ARM_GCC_473\Debug\CapSense_CSD_SMS_Wrapper.lst -ffunction-sections -c .\Generated_Source\PSoC5\CapSense_CSD_SMS_Wrapper.c -o .\ARM_GCC_473\Debug\CapSense_CSD_SMS_Wrapper.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -g -Wa,-alh=.\ARM_GCC_473\Debug\CapSense_CSD_TunerHelper.lst -ffunction-sections -c .\Generated_Source\PSoC5\CapSense_CSD_TunerHelper.c -o .\ARM_GCC_473\Debug\CapSense_CSD_TunerHelper.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -g -Wa,-alh=.\ARM_GCC_473\Debug\LCD_BarGraph.lst -ffunction-sections -c .\Generated_Source\PSoC5\LCD_BarGraph.c -o .\ARM_GCC_473\Debug\LCD_BarGraph.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -g -Wa,-alh=.\ARM_GCC_473\Debug\LCD.lst -ffunction-sections -c .\Generated_Source\PSoC5\LCD.c -o .\ARM_GCC_473\Debug\LCD.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -g -Wa,-alh=.\ARM_GCC_473\Debug\LCD_PM.lst -ffunction-sections -c .\Generated_Source\PSoC5\LCD_PM.c -o .\ARM_GCC_473\Debug\LCD_PM.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -g -Wa,-alh=.\ARM_GCC_473\Debug\LED1.lst -ffunction-sections -c .\Generated_Source\PSoC5\LED1.c -o .\ARM_GCC_473\Debug\LED1.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -g -Wa,-alh=.\ARM_GCC_473\Debug\LED2.lst -ffunction-sections -c .\Generated_Source\PSoC5\LED2.c -o .\ARM_GCC_473\Debug\LED2.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -g -Wa,-alh=.\ARM_GCC_473\Debug\CapSense_CSD_CompCH0.lst -ffunction-sections -c .\Generated_Source\PSoC5\CapSense_CSD_CompCH0.c -o .\ARM_GCC_473\Debug\CapSense_CSD_CompCH0.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -g -Wa,-alh=.\ARM_GCC_473\Debug\CapSense_CSD_CompCH0_PM.lst -ffunction-sections -c .\Generated_Source\PSoC5\CapSense_CSD_CompCH0_PM.c -o .\ARM_GCC_473\Debug\CapSense_CSD_CompCH0_PM.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -g -Wa,-alh=.\ARM_GCC_473\Debug\CapSense_CSD_IdacCH0.lst -ffunction-sections -c .\Generated_Source\PSoC5\CapSense_CSD_IdacCH0.c -o .\ARM_GCC_473\Debug\CapSense_CSD_IdacCH0.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -g -Wa,-alh=.\ARM_GCC_473\Debug\CapSense_CSD_IdacCH0_PM.lst -ffunction-sections -c .\Generated_Source\PSoC5\CapSense_CSD_IdacCH0_PM.c -o .\ARM_GCC_473\Debug\CapSense_CSD_IdacCH0_PM.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -g -Wa,-alh=.\ARM_GCC_473\Debug\CapSense_CSD_AMuxCH0.lst -ffunction-sections -c .\Generated_Source\PSoC5\CapSense_CSD_AMuxCH0.c -o .\ARM_GCC_473\Debug\CapSense_CSD_AMuxCH0.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -g -Wa,-alh=.\ARM_GCC_473\Debug\CapSense_CSD_IntClock.lst -ffunction-sections -c .\Generated_Source\PSoC5\CapSense_CSD_IntClock.c -o .\ARM_GCC_473\Debug\CapSense_CSD_IntClock.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -g -Wa,-alh=.\ARM_GCC_473\Debug\LCD_LCDPort.lst -ffunction-sections -c .\Generated_Source\PSoC5\LCD_LCDPort.c -o .\ARM_GCC_473\Debug\LCD_LCDPort.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -g -Wa,-alh=.\ARM_GCC_473\Debug\Cm3Start.lst -ffunction-sections -c .\Generated_Source\PSoC5\Cm3Start.c -o .\ARM_GCC_473\Debug\Cm3Start.o
+arm-none-eabi-as.exe -I. -I./Generated_Source/PSoC5 -mcpu=cortex-m3 -mthumb -g -alh=.\ARM_GCC_473\Debug/CyBootAsmGnu.lst -o .\ARM_GCC_473\Debug\CyBootAsmGnu.o .\Generated_Source\PSoC5\CyBootAsmGnu.s
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -g -Wa,-alh=.\ARM_GCC_473\Debug\CyDmac.lst -ffunction-sections -c .\Generated_Source\PSoC5\CyDmac.c -o .\ARM_GCC_473\Debug\CyDmac.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -g -Wa,-alh=.\ARM_GCC_473\Debug\CyFlash.lst -ffunction-sections -c .\Generated_Source\PSoC5\CyFlash.c -o .\ARM_GCC_473\Debug\CyFlash.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -g -Wa,-alh=.\ARM_GCC_473\Debug\CyLib.lst -ffunction-sections -c .\Generated_Source\PSoC5\CyLib.c -o .\ARM_GCC_473\Debug\CyLib.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -g -Wa,-alh=.\ARM_GCC_473\Debug\cyPm.lst -ffunction-sections -c .\Generated_Source\PSoC5\cyPm.c -o .\ARM_GCC_473\Debug\cyPm.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -g -Wa,-alh=.\ARM_GCC_473\Debug\CySpc.lst -ffunction-sections -c .\Generated_Source\PSoC5\CySpc.c -o .\ARM_GCC_473\Debug\CySpc.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC5 -Wno-main -mcpu=cortex-m3 -mthumb -g -Wa,-alh=.\ARM_GCC_473\Debug\cyutils.lst -ffunction-sections -c .\Generated_Source\PSoC5\cyutils.c -o .\ARM_GCC_473\Debug\cyutils.o
+arm-none-eabi-ar.exe -rs .\ARM_GCC_473\Debug\CapSense_CSD_Design01.a .\ARM_GCC_473\Debug\cyfitter_cfg.o .\ARM_GCC_473\Debug\CapSense_CSD.o .\ARM_GCC_473\Debug\CapSense_CSD_CSHL.o .\ARM_GCC_473\Debug\CapSense_CSD_INT.o .\ARM_GCC_473\Debug\CapSense_CSD_Pins.o .\ARM_GCC_473\Debug\CapSense_CSD_PM.o .\ARM_GCC_473\Debug\CapSense_CSD_SMS_Wrapper.o .\ARM_GCC_473\Debug\CapSense_CSD_TunerHelper.o .\ARM_GCC_473\Debug\LCD_BarGraph.o .\ARM_GCC_473\Debug\LCD.o .\ARM_GCC_473\Debug\LCD_PM.o .\ARM_GCC_473\Debug\LED1.o .\ARM_GCC_473\Debug\LED2.o .\ARM_GCC_473\Debug\CapSense_CSD_CompCH0.o .\ARM_GCC_473\Debug\CapSense_CSD_CompCH0_PM.o .\ARM_GCC_473\Debug\CapSense_CSD_IdacCH0.o .\ARM_GCC_473\Debug\CapSense_CSD_IdacCH0_PM.o .\ARM_GCC_473\Debug\CapSense_CSD_AMuxCH0.o .\ARM_GCC_473\Debug\CapSense_CSD_IntClock.o .\ARM_GCC_473\Debug\LCD_LCDPort.o .\ARM_GCC_473\Debug\CyBootAsmGnu.o .\ARM_GCC_473\Debug\CyDmac.o .\ARM_GCC_473\Debug\CyFlash.o .\ARM_GCC_473\Debug\CyLib.o .\ARM_GCC_473\Debug\cyPm.o .\ARM_GCC_473\Debug\CySpc.o .\ARM_GCC_473\Debug\cyutils.o
+arm-none-eabi-ar.exe: creating .\ARM_GCC_473\Debug\CapSense_CSD_Design01.a
+arm-none-eabi-gcc.exe -mthumb -march=armv7-m -mfix-cortex-m3-ldrd -T .\Generated_Source\PSoC5\cm3gcc.ld -g -Wl,-Map,.\ARM_GCC_473\Debug\CapSense_CSD_Design01.map -specs=nano.specs -Wl,--gc-sections -Wl,--start-group -o .\ARM_GCC_473\Debug\CapSense_CSD_Design01.elf .\ARM_GCC_473\Debug\main.o .\ARM_GCC_473\Debug\cymetadata.o .\ARM_GCC_473\Debug\Cm3Start.o .\ARM_GCC_473\Debug\CapSense_CSD_Design01.a "C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a" -Wl,--end-group
+cyelftool.exe -C "C:\Users\akashbad\Documents\6.115\Final Project\LauncherController.cydsn\CapSense_CSD_Design01.cydsn\ARM_GCC_473\Debug\CapSense_CSD_Design01.elf" --flash_size 262144 --flash_row_size 256
+cyelftool.exe -S "C:\Users\akashbad\Documents\6.115\Final Project\LauncherController.cydsn\CapSense_CSD_Design01.cydsn\ARM_GCC_473\Debug\CapSense_CSD_Design01.elf"
+Flash used: 10014 of 262144 bytes (3.8 %).
+SRAM used: 20901 of 65536 bytes (31.9 %).
+--------------- Build Succeeded: 05/12/2014 14:41:17 ---------------

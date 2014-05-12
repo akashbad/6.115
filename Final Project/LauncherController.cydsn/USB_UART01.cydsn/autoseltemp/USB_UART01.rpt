@@ -1,0 +1,21 @@
+Loading plugins phase: Elapsed time ==> 0s.328ms
+Initializing data phase: Elapsed time ==> 2s.243ms
+<CYPRESSTAG name="CyDsfit arguments...">
+cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -p C:\Users\akashbad\Documents\6.115\Final Project\LauncherController.cydsn\USB_UART01.cydsn\USB_UART01.cyprj -d CY8C3244AXA-153 -s C:\Users\akashbad\Documents\6.115\Final Project\LauncherController.cydsn\USB_UART01.cydsn\Generated_Source\PSoC3 -- -yv2 -v3 -ygs -q10 -o2 -.fftcfgtype=BE -.fasautosel=full</CYPRESSTAG>
+<CYPRESSTAG name="Design elaboration results...">
+ADD: pft.M0025: error: Clock Error: (PLL_OUT must operate in the range of 24MHz to 50MHz for the currently selected device.).
+ * C:\Users\akashbad\Documents\6.115\Final Project\LauncherController.cydsn\USB_UART01.cydsn\USB_UART01.cydwr (PLL_OUT)
+
+ADD: pft.M0025: error: Clock Error: (Source clock 'PLL_OUT' contains an error.  Address the error on 'PLL_OUT' or select another source for this clock.).
+ * C:\Users\akashbad\Documents\6.115\Final Project\LauncherController.cydsn\USB_UART01.cydsn\USB_UART01.cydwr (MASTER_CLK)
+
+ADD: pft.M0025: error: Clock Error: (The source clock's frequency is unknown. Source clocks must have a known frequency or an explicit divider must be used.).
+ * C:\Users\akashbad\Documents\6.115\Final Project\LauncherController.cydsn\USB_UART01.cydsn\USB_UART01.cydwr (BUS_CLK)
+
+ADD: pft.M0025: error: Clock Error: (Source clock 'BUS_CLK' contains an error.  Address the error on 'BUS_CLK' or select another source for this clock.).
+ * C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_60\PSoC3\USBFS_v2_60.cysch (Instance: Clock_vbus)
+ * C:\Users\akashbad\Documents\6.115\Final Project\LauncherController.cydsn\USB_UART01.cydsn\USB_UART01.cydwr (USBUART_1_Clock_vbus)
+
+</CYPRESSTAG>
+Elaboration phase: Elapsed time ==> 2s.534ms
+Error: cdf.M0005: CyDsFit aborted due to errors, please address all errors and rerun CyDsFit. (App=cydsfit)

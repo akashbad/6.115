@@ -1,0 +1,8 @@
+--------------- Build Started: 05/12/2014 14:32:52 Project: USB_UART01, Configuration: DP8051 Keil 9.51 Debug ---------------
+Project 2 of 3: Initializing Build...
+cydsfit.exe "-.appdatapath" "C:\Users\akashbad\AppData\Local\Cypress Semiconductor\PSoC Creator\3.0" "-.fdsnotice" "-.fdswarpdepfile=warp_dependencies.txt" "-.fdselabdepfile=elab_dependencies.txt" "-.fdsbldfile=generated_files.txt" "-p" "C:\Users\akashbad\Documents\6.115\Final Project\LauncherController.cydsn\USB_UART01.cydsn\USB_UART01.cyprj" "-d" "CY8C3244AXA-153" "-s" "C:\Users\akashbad\Documents\6.115\Final Project\LauncherController.cydsn\USB_UART01.cydsn\Generated_Source\PSoC3" "--" "-yv2" "-v3" "-ygs" "-q10" "-o2" "-.fftcfgtype=BE" "-.fasautosel=full"
+Elaborating Design...
+ADD: pft.M0025: error: Clock Error: (PLL_OUT must operate in the range of 24MHz to 50MHz for the currently selected device.).
+ * C:\Users\akashbad\Documents\6.115\Final Project\LauncherController.cydsn\USB_UART01.cydsn\USB_UART01.cydwr (PLL_OUT)
+ADD: pft.M0025: error: Clock Error: (Source clock 'PLL_OUT' contains an error.  Address the error on 'PLL_OUT' or select another source for this clock.).
+--------------- Build Failed: 05/12/2014 14:32:58 ---------------

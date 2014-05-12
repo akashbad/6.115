@@ -1,0 +1,87 @@
+dont_use_io iocell 1 0
+dont_use_io iocell 1 1
+dont_use_io iocell 1 3
+set_location "\CapSense:MeasureCH0:cs_addr_win_1\" macrocell 1 3 0 3
+set_location "\CapSense:MeasureCH0:cs_addr_cnt_2\" macrocell 0 5 1 1
+set_location "\CapSense:ClockGen:ScanSpeed\" count7cell 1 3 7 
+set_location "__ONE__" macrocell 3 2 0 0
+set_location "\Target_UART:BUART:rx_counter_load\" macrocell 0 4 0 0
+set_location "\CapSense:MeasureCH0:wndState_1\" macrocell 1 3 0 1
+set_location "\CapSense:MeasureCH0:UDB:Counter:u0\" datapathcell 0 5 2 
+set_location "\CapSense:MeasureCH0:cs_addr_win_2\" macrocell 0 5 1 0
+set_location "\Target_UART:BUART:sRX:RxShifter:u0\" datapathcell 1 5 2 
+set_location "\Target_UART:BUART:rx_postpoll\" macrocell 1 5 1 0
+set_location "\CapSense:ClockGen:inter_reset\" macrocell 1 4 0 1
+set_location "\CapSense:MeasureCH0:wndState_0\" macrocell 1 4 1 1
+set_location "\CapSense:mrst\" macrocell 1 4 0 3
+set_location "\CapSense:ClockGen:cstate_2\" macrocell 1 4 0 2
+set_location "\Target_UART:BUART:rx_load_fifo\" macrocell 0 4 0 3
+set_location "\Target_UART:BUART:rx_state_3\" macrocell 0 4 0 2
+set_location "\Target_UART:BUART:rx_bitclk_enable\" macrocell 0 3 0 3
+set_location "\CapSense:ClockGen:sC16:PRSdp:u1\" datapathcell 0 4 2 
+set_location "\Target_UART:BUART:pollcount_0\" macrocell 0 3 0 2
+set_location "\CapSense:ClockGen:tmp_ppulse_dly\" macrocell 0 3 1 3
+set_location "\CapSense:MeasureCH0:cs_addr_cnt_0\" macrocell 0 5 1 2
+set_location "\Target_UART:BUART:rx_state_2\" macrocell 0 4 0 1
+set_location "\CapSense:MeasureCH0:UDB:Window:u0\" datapathcell 0 3 2 
+set_location "\Target_UART:BUART:rx_status_3\" macrocell 0 5 0 0
+set_location "\CapSense:MeasureCH0:cs_addr_win_0\" macrocell 0 3 1 0
+set_location "\Target_UART:BUART:rx_status_5\" macrocell 1 5 0 0
+set_location "\CapSense:MeasureCH0:cs_addr_cnt_1\" macrocell 0 3 0 0
+set_location "\CapSense:ClockGen:clock_detect_reg\" macrocell 0 3 1 1
+set_location "\Target_UART:BUART:sRX:RxBitCounter\" count7cell 0 3 7 
+set_location "\Target_UART:BUART:sRX:RxSts\" statusicell 1 5 4 
+set_location "\Target_UART:BUART:rx_address_detected\" macrocell 1 5 1 2
+set_location "\Target_UART:BUART:rx_last\" macrocell 0 5 0 2
+set_location "\Target_UART:BUART:rx_status_4\" macrocell 1 5 0 1
+set_location "\Target_UART:BUART:pollcount_1\" macrocell 0 3 0 1
+set_location "\CapSense:ClockGen:tmp_ppulse_reg\" macrocell 0 4 1 2
+set_location "\CapSense:Net_1603\" macrocell 1 4 1 0
+set_location "\CapSense:MeasureCH0:wndState_2\" macrocell 1 3 0 2
+set_location "\Target_UART:BUART:rx_state_0\" macrocell 0 5 0 3
+set_location "\CapSense:ClockGen:sC16:PRSdp:u0\" datapathcell 1 4 2 
+set_location "\CapSense:PreChargeClk\" macrocell 0 4 1 1
+set_location "\Target_UART:BUART:rx_state_stop1_reg\" macrocell 0 5 0 1
+set_io "\LCD:LCDPort(4)\" iocell 2 4
+set_io "\CapSense:PortCH0(4)\" iocell 5 2
+set_location "\CapSense:IsrCH0\" interrupt -1 -1 1
+set_location "RX(0)_SYNC" synccell 0 5 5 0
+set_location "\Launcher_UART:ep_0\" interrupt -1 -1 24
+set_location "\Launcher_UART:ep_2\" interrupt -1 -1 3
+set_location "\Launcher_UART:ep_1\" interrupt -1 -1 2
+set_location "\Launcher_UART:ep_3\" interrupt -1 -1 4
+set_location "CapSense" capsensecell -1 -1 0
+set_location "\Launcher_UART:dp_int\" interrupt -1 -1 12
+set_location "RX_INT" interrupt -1 -1 0
+set_location "\Launcher_UART:Dp\" logicalport -1 -1 8
+set_location "\CapSense:CompCH0:ctComp\" comparatorcell -1 -1 1
+set_location "\Launcher_UART:bus_reset\" interrupt -1 -1 23
+set_location "\CapSense:MeasureCH0:genblk1:SyncCMPR\" synccell 0 4 5 0
+set_io "\LCD:LCDPort(6)\" iocell 2 6
+set_io "\CapSense:PortCH0(6)\" iocell 5 4
+set_io "\LCD:LCDPort(5)\" iocell 2 5
+set_io "\CapSense:PortCH0(5)\" iocell 5 3
+set_io "\LCD:LCDPort(2)\" iocell 2 2
+set_io "\CapSense:PortCH0(2)\" iocell 5 0
+set_location "ClockBlock" clockblockcell -1 -1 0
+set_location "\Launcher_UART:arb_int\" interrupt -1 -1 22
+set_location "\Launcher_UART:sof_int\" interrupt -1 -1 21
+set_location "\CapSense:BufCH0\" csabufcell -1 -1 0
+set_location "\Launcher_UART:USB\" usbcell -1 -1 0
+set_location "\CapSense:IdacCH0:viDAC8\" vidaccell -1 -1 0
+set_io "RX(0)" iocell 6 0
+set_io "\LCD:LCDPort(1)\" iocell 2 1
+set_io "\CapSense:PortCH0(1)\" iocell 5 5
+set_location "\CapSense:ClockGen:SyncCtrl:CtrlReg\" controlcell 1 4 6 
+# Note: port 12 is the logical name for port 7
+set_io "Target_Control(0)" iocell 12 4
+set_io "\CapSense:CmodCH0(0)\" iocell 6 4
+set_io "\CapSense:PortCH0(0)\" iocell 5 6
+set_io "\LCD:LCDPort(0)\" iocell 2 0
+# Note: port 15 is the logical name for port 8
+set_io "\Launcher_UART:Dm(0)\" iocell 15 7
+set_io "\LCD:LCDPort(3)\" iocell 2 3
+set_io "\CapSense:PortCH0(3)\" iocell 5 1
+set_location "\CapSense:ClockGen:FF:Prescaler\" timercell -1 -1 0
+# Note: port 15 is the logical name for port 8
+set_io "\Launcher_UART:Dp(0)\" iocell 15 6
