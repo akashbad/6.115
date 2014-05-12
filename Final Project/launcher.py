@@ -7,6 +7,8 @@ This is an api to interact with the Dream Cheeky Thunder Missile launcher
 
 import usb
 import sys
+import serial
+import time
 
 class MissileLauncher:
   
@@ -31,15 +33,50 @@ class MissileLauncher:
 
   #each of the movement commands will cause the turret to move in that direction until it gets a stop
   def down(self):
-    self.command(0x01)
+    self.move_command(0x01)
   def up(self):
-    self.command(0x02)
+    self.move_command(0x02)
   def left(self):
-    self.command(0x04)
+    self.move_command(0x04)
   def right(self):
-    self.command(0x08)
+    self.move_command(0x08)
+  def move_command(self, command):
+    self.command(command)
+    time.sleep(0.1)
+    self.stop();
   def fire(self):
     self.command(0x10)
   def stop(self):
     self.command(0x20)
 
+def __main__():
+  launcher = MissileLauncher()
+  ser = serial.Serial("/dev/tty.usbmodem1411",9600,timeout=1)
+  previous_command = "";
+  while True:
+    try:
+      line = ser.readline().strip()
+      if line == previous_command:
+        continue;
+      previous_command = line;
+      if line == "fire":
+        launcher.fire()
+        time.sleep(5);
+        ser.flush();
+      if line == "right":
+        launcher.right() 
+      if line == "left":
+        launcher.left() 
+      if line == "up":
+        launcher.up() 
+      if line == "down":
+        launcher.down()
+      if line == "stop":
+        launcher.stop()
+    except KeyboardInterrupt:
+      print 'exiting'
+      break
+  ser.flush()
+  ser.close()
+
+__main__()
