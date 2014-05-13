@@ -56,10 +56,18 @@ Archive member included because of file (symbol)
                               .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o) (Launcher_UART_DEVICE0_DESCR)
 C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
                               .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o) (SMS_LIB_V3_CalculateThresholds)
+c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_addsubdf3.o)
+                              .\CortexM3\ARM_GCC_473\Debug\main.o (__aeabi_dsub)
+c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_muldivdf3.o)
+                              .\CortexM3\ARM_GCC_473\Debug\main.o (__aeabi_dmul)
+c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_fixunsdfsi.o)
+                              .\CortexM3\ARM_GCC_473\Debug\main.o (__aeabi_d2uiz)
 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_addsubsf3.o)
                               .\CortexM3\ARM_GCC_473\Debug\main.o (__aeabi_fsub)
 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_muldivsf3.o)
                               .\CortexM3\ARM_GCC_473\Debug\main.o (__aeabi_fmul)
+c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_cmpsf2.o)
+                              .\CortexM3\ARM_GCC_473\Debug\main.o (__aeabi_fcmple)
 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_fixunssfsi.o)
                               .\CortexM3\ARM_GCC_473\Debug\main.o (__aeabi_f2uiz)
 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-__atexit2.o)
@@ -120,7 +128,6 @@ Launcher_UART_transferByteCount
                     0x2               .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
 Launcher_UART_cdc_data_in_ep
                     0x1               .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
-buffer              0x50              .\CortexM3\ARM_GCC_473\Debug\main.o
 CapSense_sensorSignal
                     0x7               .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
 CapSense_analogSwitchDivider
@@ -140,7 +147,6 @@ Launcher_UART_ep0Toggle
                     0x1               .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
 Launcher_UART_interfaceSetting
                     0x2               .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
-count               0x1               .\CortexM3\ARM_GCC_473\Debug\main.o
 CapSense_sensorBaseline
                     0xe               .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
 CapSense_sensorIndex
@@ -596,8 +602,6 @@ Discarded input sections
  .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_Control.o)
  .text.Target_Control_SetDriveMode
                 0x00000000       0x40 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_Control.o)
- .text.Target_Control_Read
-                0x00000000       0x24 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_Control.o)
  .text.Target_Control_ReadDataReg
                 0x00000000       0x24 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_Control.o)
  .text          0x00000000        0x0 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyFlash.o)
@@ -684,10 +688,18 @@ Discarded input sections
                 0x00000000       0x7c C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
  .text.SMS_LIB_AutoTune1Ch
                 0x00000000       0x7c C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_muldivdf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_muldivdf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_fixunsdfsi.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_fixunsdfsi.o)
  .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_addsubsf3.o)
  .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_addsubsf3.o)
  .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_muldivsf3.o)
  .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_muldivsf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_cmpsf2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_cmpsf2.o)
  .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_fixunssfsi.o)
  .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_fixunssfsi.o)
  .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-__atexit2.o)
@@ -776,7 +788,7 @@ END GROUP
                 0x00000001                CY_APPL_NUM = 0x1
                 0x00000001                CY_APPL_MAX = 0x1
                 0x00000040                CY_METADATA_SIZE = 0x40
-                0x1fff8410                PROVIDE (__cy_heap_start, _end)
+                0x1fff83c0                PROVIDE (__cy_heap_start, _end)
                 0x00000001                PROVIDE (__cy_region_num, ((__cy_regions_end - __cy_regions) / 0x10))
                 0x20008000                PROVIDE (__cy_stack, (ORIGIN (ram) + 0x10000))
                 0x20004000                PROVIDE (__cy_heap_end, (__cy_stack - 0x4000))
@@ -791,7 +803,7 @@ END GROUP
                 0x00000800                ee_size = (CY_APPL_LOADABLE && ! (CY_EE_IN_BTLDR))?(CY_EE_SIZE / CY_APPL_MAX):CY_EE_SIZE
                 0x00000000                PROVIDE (CY_ECC_OFFSET, ecc_offset)
 
-.text           0x00000000     0x60ec
+.text           0x00000000     0x6b88
  CREATE_OBJECT_SYMBOLS
                 0x00000000                PROVIDE (__cy_interrupt_vector, RomVectors)
  *(.romvectors)
@@ -808,461 +820,509 @@ END GROUP
                 0x00000001                ASSERT ((((appl_start + .) <= 0x10000) || 0x1), DMA Init must be within the first 64k of flash)
  *(.text .text.* .gnu.linkonce.t.*)
  .text          0x0000002c       0x54 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtbegin.o
- .text.RX_INT   0x00000080      0x174 .\CortexM3\ARM_GCC_473\Debug\main.o
+ .text.RX_INT   0x00000080      0x1d0 .\CortexM3\ARM_GCC_473\Debug\main.o
                 0x00000080                RX_INT
- .text.main     0x000001f4      0x4a8 .\CortexM3\ARM_GCC_473\Debug\main.o
-                0x000001f4                main
+ .text.main     0x00000250      0x16c .\CortexM3\ARM_GCC_473\Debug\main.o
+                0x00000250                main
  .text.position
-                0x0000069c      0x194 .\CortexM3\ARM_GCC_473\Debug\main.o
-                0x0000069c                position
+                0x000003bc      0x1a4 .\CortexM3\ARM_GCC_473\Debug\main.o
+                0x000003bc                position
  .text.print_line
-                0x00000830       0x34 .\CortexM3\ARM_GCC_473\Debug\main.o
-                0x00000830                print_line
- .text.score    0x00000864       0x94 .\CortexM3\ARM_GCC_473\Debug\main.o
-                0x00000864                score
+                0x00000560       0x34 .\CortexM3\ARM_GCC_473\Debug\main.o
+                0x00000560                print_line
+ .text.score    0x00000594      0x13c .\CortexM3\ARM_GCC_473\Debug\main.o
+                0x00000594                score
+ .text.game_output_update
+                0x000006d0       0xd4 .\CortexM3\ARM_GCC_473\Debug\main.o
+                0x000006d0                game_output_update
+ .text.cap_sense_read
+                0x000007a4      0x310 .\CortexM3\ARM_GCC_473\Debug\main.o
+                0x000007a4                cap_sense_read
  .text.IntDefaultHandler
-                0x000008f8        0x8 .\CortexM3\ARM_GCC_473\Debug\Cm3Start.o
-                0x000008f8                IntDefaultHandler
- .text.Start_c  0x00000900       0xcc .\CortexM3\ARM_GCC_473\Debug\Cm3Start.o
-                0x00000900                Start_c
+                0x00000ab4        0x8 .\CortexM3\ARM_GCC_473\Debug\Cm3Start.o
+                0x00000ab4                IntDefaultHandler
+ .text.Start_c  0x00000abc       0xcc .\CortexM3\ARM_GCC_473\Debug\Cm3Start.o
+                0x00000abc                Start_c
  .text.initialize_psoc
-                0x000009cc       0xb4 .\CortexM3\ARM_GCC_473\Debug\Cm3Start.o
-                0x000009cc                initialize_psoc
+                0x00000b88       0xb4 .\CortexM3\ARM_GCC_473\Debug\Cm3Start.o
+                0x00000b88                initialize_psoc
  .text.CYMEMZERO
-                0x00000a80       0x20 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
+                0x00000c3c       0x20 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
  .text.CYCONFIGCPY
-                0x00000aa0       0x20 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
+                0x00000c5c       0x20 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
  .text.CyClockStartupError
-                0x00000ac0        0xc .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
+                0x00000c7c        0xc .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
  .text.cfg_write_bytes32
-                0x00000acc       0x84 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
+                0x00000c88       0x84 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
  .text.ClockSetup
-                0x00000b50      0x170 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
+                0x00000d0c      0x170 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
  .text.AnalogSetDefault
-                0x00000cc0       0x88 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
+                0x00000e7c       0x88 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
  .text.CapSense_AMuxCH0_Set
-                0x00000d48       0x4c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
-                0x00000d48                CapSense_AMuxCH0_Set
+                0x00000f04       0x4c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
+                0x00000f04                CapSense_AMuxCH0_Set
  .text.CapSense_AMuxCH0_Unset
-                0x00000d94       0x50 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
-                0x00000d94                CapSense_AMuxCH0_Unset
+                0x00000f50       0x50 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
+                0x00000f50                CapSense_AMuxCH0_Unset
  .text.cyfitter_cfg
-                0x00000de4      0x1e8 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
-                0x00000de4                cyfitter_cfg
+                0x00000fa0      0x1e8 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
+                0x00000fa0                cyfitter_cfg
  .text.LCD_Init
-                0x00000fcc       0x90 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
-                0x00000fcc                LCD_Init
+                0x00001188       0x90 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
+                0x00001188                LCD_Init
  .text.LCD_Enable
-                0x0000105c       0x1c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
-                0x0000105c                LCD_Enable
+                0x00001218       0x1c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
+                0x00001218                LCD_Enable
  .text.LCD_Start
-                0x00001078       0x2c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
-                0x00001078                LCD_Start
+                0x00001234       0x2c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
+                0x00001234                LCD_Start
  .text.LCD_Position
-                0x000010a4       0x78 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
-                0x000010a4                LCD_Position
+                0x00001260       0x78 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
+                0x00001260                LCD_Position
  .text.LCD_PrintString
-                0x0000111c       0x40 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
-                0x0000111c                LCD_PrintString
+                0x000012d8       0x40 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
+                0x000012d8                LCD_PrintString
  .text.LCD_WriteData
-                0x0000115c       0x38 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
-                0x0000115c                LCD_WriteData
+                0x00001318       0x38 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
+                0x00001318                LCD_WriteData
  .text.LCD_WriteControl
-                0x00001194       0x38 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
-                0x00001194                LCD_WriteControl
+                0x00001350       0x38 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
+                0x00001350                LCD_WriteControl
  .text.LCD_IsReady
-                0x000011cc      0x208 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
-                0x000011cc                LCD_IsReady
+                0x00001388      0x208 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
+                0x00001388                LCD_IsReady
  .text.LCD_WrDatNib
-                0x000013d4       0xb0 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
+                0x00001590       0xb0 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
  .text.LCD_WrCntrlNib
-                0x00001484       0x90 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
+                0x00001640       0x90 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
  .text.LCD_PrintNumber
-                0x00001514      0x104 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
-                0x00001514                LCD_PrintNumber
+                0x000016d0      0x104 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
+                0x000016d0                LCD_PrintNumber
  .text.Target_UART_Start
-                0x00001618       0x2c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART.o)
-                0x00001618                Target_UART_Start
+                0x000017d4       0x2c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART.o)
+                0x000017d4                Target_UART_Start
  .text.Target_UART_Init
-                0x00001644       0x28 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART.o)
-                0x00001644                Target_UART_Init
+                0x00001800       0x28 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART.o)
+                0x00001800                Target_UART_Init
  .text.Target_UART_Enable
-                0x0000166c       0x5c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART.o)
-                0x0000166c                Target_UART_Enable
+                0x00001828       0x5c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART.o)
+                0x00001828                Target_UART_Enable
  .text.Target_UART_ReadRxData
-                0x000016c8       0x20 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART.o)
-                0x000016c8                Target_UART_ReadRxData
+                0x00001884       0x20 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART.o)
+                0x00001884                Target_UART_ReadRxData
  .text.Target_UART_ClearRxBuffer
-                0x000016e8       0x58 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART.o)
-                0x000016e8                Target_UART_ClearRxBuffer
+                0x000018a4       0x58 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART.o)
+                0x000018a4                Target_UART_ClearRxBuffer
  .text.RX_INT_StartEx
-                0x00001740       0x28 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(RX_INT.o)
-                0x00001740                RX_INT_StartEx
+                0x000018fc       0x28 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(RX_INT.o)
+                0x000018fc                RX_INT_StartEx
  .text.RX_INT_SetVector
-                0x00001768       0x28 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(RX_INT.o)
-                0x00001768                RX_INT_SetVector
+                0x00001924       0x28 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(RX_INT.o)
+                0x00001924                RX_INT_SetVector
  .text.RX_INT_SetPriority
-                0x00001790       0x28 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(RX_INT.o)
-                0x00001790                RX_INT_SetPriority
+                0x0000194c       0x28 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(RX_INT.o)
+                0x0000194c                RX_INT_SetPriority
  .text.RX_INT_Enable
-                0x000017b8       0x18 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(RX_INT.o)
-                0x000017b8                RX_INT_Enable
+                0x00001974       0x18 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(RX_INT.o)
+                0x00001974                RX_INT_Enable
  .text.RX_INT_Disable
-                0x000017d0       0x18 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(RX_INT.o)
-                0x000017d0                RX_INT_Disable
+                0x0000198c       0x18 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(RX_INT.o)
+                0x0000198c                RX_INT_Disable
  .text.Target_UART_IntClock_Start
-                0x000017e8       0x44 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART_IntClock.o)
-                0x000017e8                Target_UART_IntClock_Start
- *fill*         0x0000182c        0x4 00
- .text          0x00001830       0x28 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyBootAsmGnu.o)
-                0x00001830                CyDelayCycles
-                0x00001844                CyEnterCriticalSection
-                0x0000184c                CyExitCriticalSection
- .text.CyHalt   0x00001858       0x18 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyLib.o)
-                0x00001858                CyHalt
- .text.CyDelay  0x00001870       0x48 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyLib.o)
-                0x00001870                CyDelay
+                0x000019a4       0x44 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART_IntClock.o)
+                0x000019a4                Target_UART_IntClock_Start
+ .text          0x000019e8       0x28 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyBootAsmGnu.o)
+                0x000019e8                CyDelayCycles
+                0x000019fc                CyEnterCriticalSection
+                0x00001a04                CyExitCriticalSection
+ .text.CyHalt   0x00001a10       0x18 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyLib.o)
+                0x00001a10                CyHalt
+ .text.CyDelay  0x00001a28       0x48 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyLib.o)
+                0x00001a28                CyDelay
  .text.CyDelayUs
-                0x000018b8       0x28 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyLib.o)
-                0x000018b8                CyDelayUs
+                0x00001a70       0x28 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyLib.o)
+                0x00001a70                CyDelayUs
  .text.CyIntSetVector
-                0x000018e0       0x60 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyLib.o)
-                0x000018e0                CyIntSetVector
+                0x00001a98       0x60 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyLib.o)
+                0x00001a98                CyIntSetVector
  .text.CyIntSetPriority
-                0x00001940       0x4c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyLib.o)
-                0x00001940                CyIntSetPriority
+                0x00001af8       0x4c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyLib.o)
+                0x00001af8                CyIntSetPriority
  .text.Launcher_UART_Start
-                0x0000198c       0x44 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART.o)
-                0x0000198c                Launcher_UART_Start
+                0x00001b44       0x44 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART.o)
+                0x00001b44                Launcher_UART_Start
  .text.Launcher_UART_Init
-                0x000019d0      0x238 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART.o)
-                0x000019d0                Launcher_UART_Init
+                0x00001b88      0x238 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART.o)
+                0x00001b88                Launcher_UART_Init
  .text.Launcher_UART_InitComponent
-                0x00001c08      0x138 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART.o)
-                0x00001c08                Launcher_UART_InitComponent
+                0x00001dc0      0x138 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART.o)
+                0x00001dc0                Launcher_UART_InitComponent
  .text.Launcher_UART_ReInitComponent
-                0x00001d40       0x88 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART.o)
-                0x00001d40                Launcher_UART_ReInitComponent
+                0x00001ef8       0x88 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART.o)
+                0x00001ef8                Launcher_UART_ReInitComponent
  .text.Launcher_UART_GetConfiguration
-                0x00001dc8       0x18 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART.o)
-                0x00001dc8                Launcher_UART_GetConfiguration
+                0x00001f80       0x18 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART.o)
+                0x00001f80                Launcher_UART_GetConfiguration
  .text.Launcher_UART_LoadInEP
-                0x00001de0      0x150 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART.o)
-                0x00001de0                Launcher_UART_LoadInEP
+                0x00001f98      0x150 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART.o)
+                0x00001f98                Launcher_UART_LoadInEP
  .text.Launcher_UART_EnableOutEP
-                0x00001f30       0x78 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART.o)
-                0x00001f30                Launcher_UART_EnableOutEP
+                0x000020e8       0x78 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART.o)
+                0x000020e8                Launcher_UART_EnableOutEP
  .text.Launcher_UART_DispatchCDCClassRqst
-                0x00001fa8      0x11c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
-                0x00001fa8                Launcher_UART_DispatchCDCClassRqst
+                0x00002160      0x11c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
+                0x00002160                Launcher_UART_DispatchCDCClassRqst
  .text.Launcher_UART_CDC_Init
-                0x000020c4       0x28 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
-                0x000020c4                Launcher_UART_CDC_Init
+                0x0000227c       0x28 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
+                0x0000227c                Launcher_UART_CDC_Init
  .text.Launcher_UART_StrLen
-                0x000020ec       0x34 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
+                0x000022a4       0x34 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
  .text.Launcher_UART_PutString
-                0x00002120       0xec .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
-                0x00002120                Launcher_UART_PutString
+                0x000022d8       0xec .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
+                0x000022d8                Launcher_UART_PutString
  .text.Launcher_UART_PutCRLF
-                0x0000220c       0x3c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
-                0x0000220c                Launcher_UART_PutCRLF
+                0x000023c4       0x3c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
+                0x000023c4                Launcher_UART_PutCRLF
  .text.Launcher_UART_CDCIsReady
-                0x00002248       0x34 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
-                0x00002248                Launcher_UART_CDCIsReady
+                0x00002400       0x34 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
+                0x00002400                Launcher_UART_CDCIsReady
  .text.Launcher_UART_EP_0_ISR
-                0x0000227c      0x140 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
-                0x0000227c                Launcher_UART_EP_0_ISR
+                0x00002434      0x140 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
+                0x00002434                Launcher_UART_EP_0_ISR
  .text.Launcher_UART_HandleSetup
-                0x000023bc       0xa8 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
-                0x000023bc                Launcher_UART_HandleSetup
+                0x00002574       0xa8 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
+                0x00002574                Launcher_UART_HandleSetup
  .text.Launcher_UART_HandleIN
-                0x00002464       0x50 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
-                0x00002464                Launcher_UART_HandleIN
+                0x0000261c       0x50 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
+                0x0000261c                Launcher_UART_HandleIN
  .text.Launcher_UART_HandleOUT
-                0x000024b4       0x60 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
-                0x000024b4                Launcher_UART_HandleOUT
+                0x0000266c       0x60 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
+                0x0000266c                Launcher_UART_HandleOUT
  .text.Launcher_UART_LoadEP0
-                0x00002514      0x138 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
-                0x00002514                Launcher_UART_LoadEP0
+                0x000026cc      0x138 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
+                0x000026cc                Launcher_UART_LoadEP0
  .text.Launcher_UART_InitControlRead
-                0x0000264c       0x90 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
-                0x0000264c                Launcher_UART_InitControlRead
+                0x00002804       0x90 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
+                0x00002804                Launcher_UART_InitControlRead
  .text.Launcher_UART_InitZeroLengthControlTransfer
-                0x000026dc       0x58 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
-                0x000026dc                Launcher_UART_InitZeroLengthControlTransfer
+                0x00002894       0x58 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
+                0x00002894                Launcher_UART_InitZeroLengthControlTransfer
  .text.Launcher_UART_ControlReadDataStage
-                0x00002734        0xc .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
-                0x00002734                Launcher_UART_ControlReadDataStage
+                0x000028ec        0xc .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
+                0x000028ec                Launcher_UART_ControlReadDataStage
  .text.Launcher_UART_ControlReadStatusStage
-                0x00002740       0x54 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
-                0x00002740                Launcher_UART_ControlReadStatusStage
+                0x000028f8       0x54 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
+                0x000028f8                Launcher_UART_ControlReadStatusStage
  .text.Launcher_UART_InitControlWrite
-                0x00002794       0x84 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
-                0x00002794                Launcher_UART_InitControlWrite
+                0x0000294c       0x84 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
+                0x0000294c                Launcher_UART_InitControlWrite
  .text.Launcher_UART_ControlWriteDataStage
-                0x00002818       0xfc .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
-                0x00002818                Launcher_UART_ControlWriteDataStage
+                0x000029d0       0xfc .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
+                0x000029d0                Launcher_UART_ControlWriteDataStage
  .text.Launcher_UART_ControlWriteStatusStage
-                0x00002914       0x2c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
-                0x00002914                Launcher_UART_ControlWriteStatusStage
+                0x00002acc       0x2c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
+                0x00002acc                Launcher_UART_ControlWriteStatusStage
  .text.Launcher_UART_InitNoDataControlTransfer
-                0x00002940       0x48 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
-                0x00002940                Launcher_UART_InitNoDataControlTransfer
+                0x00002af8       0x48 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
+                0x00002af8                Launcher_UART_InitNoDataControlTransfer
  .text.Launcher_UART_NoDataControlStatusStage
-                0x00002988       0x64 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
-                0x00002988                Launcher_UART_NoDataControlStatusStage
+                0x00002b40       0x64 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
+                0x00002b40                Launcher_UART_NoDataControlStatusStage
  .text.Launcher_UART_UpdateStatusBlock
-                0x000029ec       0x58 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
-                0x000029ec                Launcher_UART_UpdateStatusBlock
+                0x00002ba4       0x58 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
+                0x00002ba4                Launcher_UART_UpdateStatusBlock
  .text.Launcher_UART_InitializeStatusBlock
-                0x00002a44       0x48 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
-                0x00002a44                Launcher_UART_InitializeStatusBlock
+                0x00002bfc       0x48 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
+                0x00002bfc                Launcher_UART_InitializeStatusBlock
  .text.Launcher_UART_EP_1_ISR
-                0x00002a8c       0x74 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_episr.o)
-                0x00002a8c                Launcher_UART_EP_1_ISR
+                0x00002c44       0x74 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_episr.o)
+                0x00002c44                Launcher_UART_EP_1_ISR
  .text.Launcher_UART_EP_2_ISR
-                0x00002b00       0x74 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_episr.o)
-                0x00002b00                Launcher_UART_EP_2_ISR
+                0x00002cb8       0x74 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_episr.o)
+                0x00002cb8                Launcher_UART_EP_2_ISR
  .text.Launcher_UART_EP_3_ISR
-                0x00002b74       0x7c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_episr.o)
-                0x00002b74                Launcher_UART_EP_3_ISR
+                0x00002d2c       0x7c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_episr.o)
+                0x00002d2c                Launcher_UART_EP_3_ISR
  .text.Launcher_UART_SOF_ISR
-                0x00002bf0        0xc .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_episr.o)
-                0x00002bf0                Launcher_UART_SOF_ISR
+                0x00002da8        0xc .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_episr.o)
+                0x00002da8                Launcher_UART_SOF_ISR
  .text.Launcher_UART_BUS_RESET_ISR
-                0x00002bfc        0xc .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_episr.o)
-                0x00002bfc                Launcher_UART_BUS_RESET_ISR
+                0x00002db4        0xc .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_episr.o)
+                0x00002db4                Launcher_UART_BUS_RESET_ISR
  .text.Launcher_UART_HandleStandardRqst
-                0x00002c08      0x614 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
-                0x00002c08                Launcher_UART_HandleStandardRqst
+                0x00002dc0      0x614 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
+                0x00002dc0                Launcher_UART_HandleStandardRqst
  .text.Launcher_UART_ReadDieID
-                0x0000321c       0xa8 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
-                0x0000321c                Launcher_UART_ReadDieID
+                0x000033d4       0xa8 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
+                0x000033d4                Launcher_UART_ReadDieID
  .text.Launcher_UART_ConfigReg
-                0x000032c4      0x204 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
-                0x000032c4                Launcher_UART_ConfigReg
+                0x0000347c      0x204 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
+                0x0000347c                Launcher_UART_ConfigReg
  .text.Launcher_UART_Config
-                0x000034c8      0x474 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
-                0x000034c8                Launcher_UART_Config
+                0x00003680      0x474 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
+                0x00003680                Launcher_UART_Config
  .text.Launcher_UART_ConfigAltChanged
-                0x0000393c      0x354 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
-                0x0000393c                Launcher_UART_ConfigAltChanged
+                0x00003af4      0x354 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
+                0x00003af4                Launcher_UART_ConfigAltChanged
  .text.Launcher_UART_GetConfigTablePtr
-                0x00003c90       0x44 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
-                0x00003c90                Launcher_UART_GetConfigTablePtr
+                0x00003e48       0x44 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
+                0x00003e48                Launcher_UART_GetConfigTablePtr
  .text.Launcher_UART_GetDeviceTablePtr
-                0x00003cd4       0x28 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
-                0x00003cd4                Launcher_UART_GetDeviceTablePtr
+                0x00003e8c       0x28 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
+                0x00003e8c                Launcher_UART_GetDeviceTablePtr
  .text.Launcher_UART_GetInterfaceClassTablePtr
-                0x00003cfc       0x48 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
-                0x00003cfc                Launcher_UART_GetInterfaceClassTablePtr
+                0x00003eb4       0x48 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
+                0x00003eb4                Launcher_UART_GetInterfaceClassTablePtr
  .text.Launcher_UART_SetEndpointHalt
-                0x00003d44      0x130 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
-                0x00003d44                Launcher_UART_SetEndpointHalt
+                0x00003efc      0x130 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
+                0x00003efc                Launcher_UART_SetEndpointHalt
  .text.Launcher_UART_ClearEndpointHalt
-                0x00003e74      0x1c4 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
-                0x00003e74                Launcher_UART_ClearEndpointHalt
+                0x0000402c      0x1c4 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
+                0x0000402c                Launcher_UART_ClearEndpointHalt
  .text.Launcher_UART_ValidateAlternateSetting
-                0x00004038       0x90 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
-                0x00004038                Launcher_UART_ValidateAlternateSetting
+                0x000041f0       0x90 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
+                0x000041f0                Launcher_UART_ValidateAlternateSetting
  .text.Launcher_UART_HandleVendorRqst
-                0x000040c8       0x70 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_vnd.o)
-                0x000040c8                Launcher_UART_HandleVendorRqst
+                0x00004280       0x70 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_vnd.o)
+                0x00004280                Launcher_UART_HandleVendorRqst
  .text.CapSense_Init
-                0x00004138      0x1d4 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
-                0x00004138                CapSense_Init
+                0x000042f0      0x1d4 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
+                0x000042f0                CapSense_Init
  .text.CapSense_Enable
-                0x0000430c       0xfc .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
-                0x0000430c                CapSense_Enable
+                0x000044c4       0xfc .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
+                0x000044c4                CapSense_Enable
  .text.CapSense_Start
-                0x00004408       0x3c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
-                0x00004408                CapSense_Start
+                0x000045c0       0x3c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
+                0x000045c0                CapSense_Start
  .text.CapSense_FindNextSensor
-                0x00004444       0x58 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
-                0x00004444                CapSense_FindNextSensor
+                0x000045fc       0x58 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
+                0x000045fc                CapSense_FindNextSensor
  .text.CapSense_SetScanSlotSettings
-                0x0000449c       0x5c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
-                0x0000449c                CapSense_SetScanSlotSettings
+                0x00004654       0x5c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
+                0x00004654                CapSense_SetScanSlotSettings
  .text.CapSense_ScanSensor
-                0x000044f8       0x44 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
-                0x000044f8                CapSense_ScanSensor
+                0x000046b0       0x44 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
+                0x000046b0                CapSense_ScanSensor
  .text.CapSense_ScanEnabledWidgets
-                0x0000453c       0x80 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
-                0x0000453c                CapSense_ScanEnabledWidgets
+                0x000046f4       0x80 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
+                0x000046f4                CapSense_ScanEnabledWidgets
  .text.CapSense_IsBusy
-                0x000045bc       0x20 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
-                0x000045bc                CapSense_IsBusy
+                0x00004774       0x20 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
+                0x00004774                CapSense_IsBusy
  .text.CapSense_ClearSensors
-                0x000045dc       0x2c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
-                0x000045dc                CapSense_ClearSensors
+                0x00004794       0x2c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
+                0x00004794                CapSense_ClearSensors
  .text.CapSense_EnableSensor
-                0x00004608       0x7c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
-                0x00004608                CapSense_EnableSensor
+                0x000047c0       0x7c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
+                0x000047c0                CapSense_EnableSensor
  .text.CapSense_DisableSensor
-                0x00004684       0x84 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
-                0x00004684                CapSense_DisableSensor
+                0x0000483c       0x84 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
+                0x0000483c                CapSense_DisableSensor
  .text.CapSense_PreScan
-                0x00004708       0x78 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
-                0x00004708                CapSense_PreScan
+                0x000048c0       0x78 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
+                0x000048c0                CapSense_PreScan
  .text.CapSense_PostScan
-                0x00004780       0xc8 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
-                0x00004780                CapSense_PostScan
+                0x00004938       0xc8 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
+                0x00004938                CapSense_PostScan
  .text.CapSense_SetPrescaler
-                0x00004848       0x34 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
-                0x00004848                CapSense_SetPrescaler
+                0x00004a00       0x34 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
+                0x00004a00                CapSense_SetPrescaler
  .text.CapSense_SetAnalogSwitchesSource
-                0x0000487c       0x54 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
-                0x0000487c                CapSense_SetAnalogSwitchesSource
+                0x00004a34       0x54 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
+                0x00004a34                CapSense_SetAnalogSwitchesSource
  .text.CapSense_BaseInit
-                0x000048d0       0x9c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
-                0x000048d0                CapSense_BaseInit
+                0x00004a88       0x9c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
+                0x00004a88                CapSense_BaseInit
  .text.CapSense_InitializeSensorBaseline
-                0x0000496c       0x30 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
-                0x0000496c                CapSense_InitializeSensorBaseline
+                0x00004b24       0x30 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
+                0x00004b24                CapSense_InitializeSensorBaseline
  .text.CapSense_InitializeAllBaselines
-                0x0000499c       0x2c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
-                0x0000499c                CapSense_InitializeAllBaselines
+                0x00004b54       0x2c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
+                0x00004b54                CapSense_InitializeAllBaselines
  .text.CapSense_UpdateSensorBaseline
-                0x000049c8      0x1e8 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
-                0x000049c8                CapSense_UpdateSensorBaseline
+                0x00004b80      0x1e8 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
+                0x00004b80                CapSense_UpdateSensorBaseline
  .text.CapSense_UpdateEnabledBaselines
-                0x00004bb0       0x5c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
-                0x00004bb0                CapSense_UpdateEnabledBaselines
+                0x00004d68       0x5c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
+                0x00004d68                CapSense_UpdateEnabledBaselines
  .text.CapSense_CheckIsSensorActive
-                0x00004c0c      0x180 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
-                0x00004c0c                CapSense_CheckIsSensorActive
+                0x00004dc4      0x180 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
+                0x00004dc4                CapSense_CheckIsSensorActive
  .text.CapSense_CheckIsWidgetActive
-                0x00004d8c       0x60 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
-                0x00004d8c                CapSense_CheckIsWidgetActive
+                0x00004f44       0x60 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
+                0x00004f44                CapSense_CheckIsWidgetActive
  .text.CapSense_FindMaximum
-                0x00004dec       0x7c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
-                0x00004dec                CapSense_FindMaximum
+                0x00004fa4       0x7c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
+                0x00004fa4                CapSense_FindMaximum
  .text.CapSense_CalcCentroid
-                0x00004e68      0x1e0 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
-                0x00004e68                CapSense_CalcCentroid
+                0x00005020      0x1e0 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
+                0x00005020                CapSense_CalcCentroid
  .text.CapSense_GetCentroidPos
-                0x00005048      0x140 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
-                0x00005048                CapSense_GetCentroidPos
+                0x00005200      0x140 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
+                0x00005200                CapSense_GetCentroidPos
  .text.CapSense_IIR4Filter
-                0x00005188       0x3c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
-                0x00005188                CapSense_IIR4Filter
+                0x00005340       0x3c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
+                0x00005340                CapSense_IIR4Filter
  .text.CapSense_IsrCH0_ISR
-                0x000051c4       0xac .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_INT.o)
-                0x000051c4                CapSense_IsrCH0_ISR
+                0x0000537c       0xac .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_INT.o)
+                0x0000537c                CapSense_IsrCH0_ISR
  .text.SMS_LIB_ScanSensor
-                0x00005270       0x1c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
-                0x00005270                SMS_LIB_ScanSensor
+                0x00005428       0x1c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
+                0x00005428                SMS_LIB_ScanSensor
  .text.SMS_LIB_IsBusy
-                0x0000528c       0x10 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
-                0x0000528c                SMS_LIB_IsBusy
+                0x00005444       0x10 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
+                0x00005444                SMS_LIB_IsBusy
  .text.CapSense_CalculateThresholds
-                0x0000529c       0x1c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
-                0x0000529c                CapSense_CalculateThresholds
+                0x00005454       0x1c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
+                0x00005454                CapSense_CalculateThresholds
  .text.CapSense_AutoTune
-                0x000052b8        0xc .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
-                0x000052b8                CapSense_AutoTune
+                0x00005470        0xc .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
+                0x00005470                CapSense_AutoTune
  .text.SMS_LIB_V3_SetAnalogSwitchesSrc_PRS
-                0x000052c4       0x10 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
-                0x000052c4                SMS_LIB_V3_SetAnalogSwitchesSrc_PRS
+                0x0000547c       0x10 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
+                0x0000547c                SMS_LIB_V3_SetAnalogSwitchesSrc_PRS
  .text.SMS_LIB_V3_SetAnalogSwitchesSrc_Prescaler
-                0x000052d4       0x10 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
-                0x000052d4                SMS_LIB_V3_SetAnalogSwitchesSrc_Prescaler
+                0x0000548c       0x10 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
+                0x0000548c                SMS_LIB_V3_SetAnalogSwitchesSrc_Prescaler
  .text.CapSense_CompCH0_Init
-                0x000052e4       0x9c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CompCH0.o)
-                0x000052e4                CapSense_CompCH0_Init
+                0x0000549c       0x9c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CompCH0.o)
+                0x0000549c                CapSense_CompCH0_Init
  .text.CapSense_CompCH0_Enable
-                0x00005380       0x44 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CompCH0.o)
-                0x00005380                CapSense_CompCH0_Enable
+                0x00005538       0x44 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CompCH0.o)
+                0x00005538                CapSense_CompCH0_Enable
  .text.CapSense_CompCH0_SetSpeed
-                0x000053c4       0xa0 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CompCH0.o)
-                0x000053c4                CapSense_CompCH0_SetSpeed
+                0x0000557c       0xa0 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CompCH0.o)
+                0x0000557c                CapSense_CompCH0_SetSpeed
  .text.CapSense_IdacCH0_Init
-                0x00005464       0x68 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IdacCH0.o)
-                0x00005464                CapSense_IdacCH0_Init
+                0x0000561c       0x68 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IdacCH0.o)
+                0x0000561c                CapSense_IdacCH0_Init
  .text.CapSense_IdacCH0_Enable
-                0x000054cc       0x44 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IdacCH0.o)
-                0x000054cc                CapSense_IdacCH0_Enable
+                0x00005684       0x44 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IdacCH0.o)
+                0x00005684                CapSense_IdacCH0_Enable
  .text.CapSense_IdacCH0_SetSpeed
-                0x00005510       0x54 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IdacCH0.o)
-                0x00005510                CapSense_IdacCH0_SetSpeed
+                0x000056c8       0x54 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IdacCH0.o)
+                0x000056c8                CapSense_IdacCH0_SetSpeed
  .text.CapSense_IdacCH0_SetPolarity
-                0x00005564       0x54 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IdacCH0.o)
-                0x00005564                CapSense_IdacCH0_SetPolarity
+                0x0000571c       0x54 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IdacCH0.o)
+                0x0000571c                CapSense_IdacCH0_SetPolarity
  .text.CapSense_IdacCH0_SetRange
-                0x000055b8       0x54 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IdacCH0.o)
-                0x000055b8                CapSense_IdacCH0_SetRange
+                0x00005770       0x54 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IdacCH0.o)
+                0x00005770                CapSense_IdacCH0_SetRange
  .text.CapSense_IdacCH0_SetValue
-                0x0000560c       0x20 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IdacCH0.o)
-                0x0000560c                CapSense_IdacCH0_SetValue
+                0x000057c4       0x20 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IdacCH0.o)
+                0x000057c4                CapSense_IdacCH0_SetValue
  .text.CapSense_IdacCH0_DacTrim
-                0x0000562c       0x5c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IdacCH0.o)
-                0x0000562c                CapSense_IdacCH0_DacTrim
+                0x000057e4       0x5c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IdacCH0.o)
+                0x000057e4                CapSense_IdacCH0_DacTrim
  .text.CapSense_AMuxCH0_Init
-                0x00005688        0xc .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_AMuxCH0.o)
-                0x00005688                CapSense_AMuxCH0_Init
+                0x00005840        0xc .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_AMuxCH0.o)
+                0x00005840                CapSense_AMuxCH0_Init
  .text.CapSense_AMuxCH0_DisconnectAll
-                0x00005694       0x2c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_AMuxCH0.o)
-                0x00005694                CapSense_AMuxCH0_DisconnectAll
+                0x0000584c       0x2c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_AMuxCH0.o)
+                0x0000584c                CapSense_AMuxCH0_DisconnectAll
  .text.CapSense_IntClock_Start
-                0x000056c0       0x44 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IntClock.o)
-                0x000056c0                CapSense_IntClock_Start
+                0x00005878       0x44 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IntClock.o)
+                0x00005878                CapSense_IntClock_Start
  .text.Target_Control_Write
-                0x00005704       0x44 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_Control.o)
-                0x00005704                Target_Control_Write
+                0x000058bc       0x44 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_Control.o)
+                0x000058bc                Target_Control_Write
+ .text.Target_Control_Read
+                0x00005900       0x24 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_Control.o)
+                0x00005900                Target_Control_Read
  .text.Launcher_UART_DispatchClassRqst
-                0x00005748       0xa8 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cls.o)
-                0x00005748                Launcher_UART_DispatchClassRqst
+                0x00005924       0xa8 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cls.o)
+                0x00005924                Launcher_UART_DispatchClassRqst
  .text.SMS_LIB_V3_CallibrateSensor1Ch
-                0x000057f0       0x84 C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
-                0x000057f0                SMS_LIB_V3_CallibrateSensor1Ch
+                0x000059cc       0x84 C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
+                0x000059cc                SMS_LIB_V3_CallibrateSensor1Ch
  .text.SMS_LIB_V3_AutoTuneSensor1Ch
-                0x00005874       0x6c C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
-                0x00005874                SMS_LIB_V3_AutoTuneSensor1Ch
+                0x00005a50       0x6c C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
+                0x00005a50                SMS_LIB_V3_AutoTuneSensor1Ch
  .text.SMS_LIB_V3_MeasureNoiseEnvelope
-                0x000058e0       0x94 C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
-                0x000058e0                SMS_LIB_V3_MeasureNoiseEnvelope
+                0x00005abc       0x94 C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
+                0x00005abc                SMS_LIB_V3_MeasureNoiseEnvelope
  .text.SMS_LIB_V3_CalculateThresholds
-                0x00005974       0xc8 C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
-                0x00005974                SMS_LIB_V3_CalculateThresholds
+                0x00005b50       0xc8 C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
+                0x00005b50                SMS_LIB_V3_CalculateThresholds
  .text.SMS_LIB_V3_Sensors2WidgetResolutionTransform
-                0x00005a3c       0x98 C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
-                0x00005a3c                SMS_LIB_V3_Sensors2WidgetResolutionTransform
+                0x00005c18       0x98 C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
+                0x00005c18                SMS_LIB_V3_Sensors2WidgetResolutionTransform
  .text.SMS_LIB_V3_AutoTune1Ch
-                0x00005ad4       0x88 C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
-                0x00005ad4                SMS_LIB_V3_AutoTune1Ch
- .text          0x00005b5c      0x21c c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_addsubsf3.o)
-                0x00005b5c                __aeabi_frsub
-                0x00005b64                __subsf3
-                0x00005b64                __aeabi_fsub
-                0x00005b68                __aeabi_fadd
-                0x00005b68                __addsf3
-                0x00005cc8                __aeabi_ui2f
-                0x00005cc8                __floatunsisf
-                0x00005cd0                __aeabi_i2f
-                0x00005cd0                __floatsisf
-                0x00005cec                __aeabi_ul2f
-                0x00005cec                __floatundisf
-                0x00005cfc                __aeabi_l2f
-                0x00005cfc                __floatdisf
- .text          0x00005d78      0x2a0 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_muldivsf3.o)
-                0x00005d78                __mulsf3
-                0x00005d78                __aeabi_fmul
-                0x00005ee0                __aeabi_fdiv
-                0x00005ee0                __divsf3
- .text          0x00006018       0x40 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_fixunssfsi.o)
-                0x00006018                __fixunssfsi
-                0x00006018                __aeabi_f2uiz
+                0x00005cb0       0x88 C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
+                0x00005cb0                SMS_LIB_V3_AutoTune1Ch
+ .text          0x00005d38      0x370 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_addsubdf3.o)
+                0x00005d38                __aeabi_drsub
+                0x00005d40                __aeabi_dsub
+                0x00005d40                __subdf3
+                0x00005d44                __aeabi_dadd
+                0x00005d44                __adddf3
+                0x00005fbc                __floatunsidf
+                0x00005fbc                __aeabi_ui2d
+                0x00005fdc                __floatsidf
+                0x00005fdc                __aeabi_i2d
+                0x00006000                __aeabi_f2d
+                0x00006000                __extendsfdf2
+                0x0000603c                __floatundidf
+                0x0000603c                __aeabi_ul2d
+                0x0000604c                __floatdidf
+                0x0000604c                __aeabi_l2d
+ .text          0x000060a8      0x424 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_muldivdf3.o)
+                0x000060a8                __aeabi_dmul
+                0x000060a8                __muldf3
+                0x000062fc                __divdf3
+                0x000062fc                __aeabi_ddiv
+ .text          0x000064cc       0x40 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_fixunsdfsi.o)
+                0x000064cc                __aeabi_d2uiz
+                0x000064cc                __fixunsdfsi
+ .text          0x0000650c      0x21c c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_addsubsf3.o)
+                0x0000650c                __aeabi_frsub
+                0x00006514                __subsf3
+                0x00006514                __aeabi_fsub
+                0x00006518                __aeabi_fadd
+                0x00006518                __addsf3
+                0x00006678                __aeabi_ui2f
+                0x00006678                __floatunsisf
+                0x00006680                __aeabi_i2f
+                0x00006680                __floatsisf
+                0x0000669c                __aeabi_ul2f
+                0x0000669c                __floatundisf
+                0x000066ac                __aeabi_l2f
+                0x000066ac                __floatdisf
+ .text          0x00006728      0x2a0 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_muldivsf3.o)
+                0x00006728                __mulsf3
+                0x00006728                __aeabi_fmul
+                0x00006890                __aeabi_fdiv
+                0x00006890                __divsf3
+ .text          0x000069c8       0xec c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_cmpsf2.o)
+                0x000069c8                __gesf2
+                0x000069c8                __gtsf2
+                0x000069d0                __lesf2
+                0x000069d0                __ltsf2
+                0x000069d8                __nesf2
+                0x000069d8                __eqsf2
+                0x000069d8                __cmpsf2
+                0x00006a38                __aeabi_cfrcmple
+                0x00006a40                __aeabi_cfcmpeq
+                0x00006a40                __aeabi_cfcmple
+                0x00006a50                __aeabi_fcmpeq
+                0x00006a64                __aeabi_fcmplt
+                0x00006a78                __aeabi_fcmple
+                0x00006a8c                __aeabi_fcmpge
+                0x00006aa0                __aeabi_fcmpgt
+ .text          0x00006ab4       0x40 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_fixunssfsi.o)
+                0x00006ab4                __fixunssfsi
+                0x00006ab4                __aeabi_f2uiz
  .text.__libc_init_array
-                0x00006058       0x4c c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-init.o)
-                0x00006058                __libc_init_array
- .text.memcpy   0x000060a4       0x12 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memcpy.o)
-                0x000060a4                memcpy
- .text.memset   0x000060b6       0x10 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memset.o)
-                0x000060b6                memset
- .text.strcmp   0x000060c6       0x16 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-strcmp.o)
-                0x000060c6                strcmp
- .text.strlen   0x000060dc       0x10 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-strlen.o)
-                0x000060dc                strlen
+                0x00006af4       0x4c c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-init.o)
+                0x00006af4                __libc_init_array
+ .text.memcpy   0x00006b40       0x12 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memcpy.o)
+                0x00006b40                memcpy
+ .text.memset   0x00006b52       0x10 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memset.o)
+                0x00006b52                memset
+ .text.strcmp   0x00006b62       0x16 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-strcmp.o)
+                0x00006b62                strcmp
+ .text.strlen   0x00006b78       0x10 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-strlen.o)
+                0x00006b78                strlen
  *(.plt)
  *(.gnu.warning)
  *(.glue_7t)
@@ -1275,106 +1335,105 @@ END GROUP
  *(.ARM.extab* .gnu.linkonce.armextab.*)
  *(.gcc_except_table)
 
-.v4_bx          0x000060ec        0x0
+.v4_bx          0x00006b88        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x000060ec        0x0
+.iplt           0x00006b88        0x0
  .iplt          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtbegin.o
 
 .eh_frame_hdr
  *(.eh_frame_hdr)
 
-.eh_frame       0x000060ec        0x4
+.eh_frame       0x00006b88        0x4
  *(.eh_frame)
- .eh_frame      0x000060ec        0x0 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtbegin.o
- .eh_frame      0x000060ec        0x4 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtend.o
-                0x000060f0                PROVIDE (__exidx_start, .)
+ .eh_frame      0x00006b88        0x0 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtbegin.o
+ .eh_frame      0x00006b88        0x4 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtend.o
+                0x00006b8c                PROVIDE (__exidx_start, .)
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x000060f0                __exidx_end = .
+                0x00006b8c                __exidx_end = .
 
-.rodata         0x000060f0      0x380
+.rodata         0x00006b8c      0x39c
  *(.rodata .rodata.* .gnu.linkonce.r.*)
- .rodata        0x000060f0       0xac .\CortexM3\ARM_GCC_473\Debug\main.o
- .rodata        0x0000619c       0x64 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
-                0x0000619c                CapSense_AMuxCH0__addrTable
-                0x000061c4                CapSense_AMuxCH0__maskTable
- .rodata        0x00006200        0x4 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
- .rodata        0x00006204       0x14 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
- .rodata        0x00006218       0x54 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
-                0x00006218                CapSense_pcTable
-                0x00006234                CapSense_portTable
-                0x0000623c                CapSense_maskTable
-                0x00006244                CapSense_csTable
-                0x00006264                CapSense_widgetNumber
- .rodata        0x0000626c       0x10 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
-                0x0000626c                CapSense_rawDataIndex
-                0x00006270                CapSense_numberOfSensors
-                0x00006274                CapSense_centroidMult
-                0x00006278                CapSense_posFiltersMask
- .rodata        0x0000627c       0x28 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
-                0x0000627c                SMS_LIB_SensorSensitivity
-                0x00006284                SMS_LIB_PrescalerTbl
- .rodata        0x000062a4      0x194 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_descr.o)
-                0x000062a4                Launcher_UART_DEVICE0_DESCR
-                0x000062b8                Launcher_UART_DEVICE0_CONFIGURATION0_DESCR
-                0x000062fc                Launcher_UART_STRING_DESCRIPTORS
-                0x0000639c                Launcher_UART_SN_STRING_DESCRIPTOR
-                0x000063a0                Launcher_UART_DEVICE0_CONFIGURATION0_EP_SETTINGS_TABLE
-                0x000063b8                Launcher_UART_DEVICE0_CONFIGURATION0_INTERFACE_CLASS
-                0x000063bc                Launcher_UART_DEVICE0_CONFIGURATION0_TABLE
-                0x000063e4                Launcher_UART_DEVICE0_TABLE
-                0x000063f4                Launcher_UART_TABLE
-                0x000063fc                Launcher_UART_MSOS_DESCRIPTOR
-                0x00006410                Launcher_UART_MSOS_CONFIGURATION_DESCR
-                0x00006438                . = ALIGN (0x4)
+ .rodata        0x00006b8c       0xcc .\CortexM3\ARM_GCC_473\Debug\main.o
+ .rodata        0x00006c58       0x64 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
+                0x00006c58                CapSense_AMuxCH0__addrTable
+                0x00006c80                CapSense_AMuxCH0__maskTable
+ .rodata        0x00006cbc        0x4 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
+ .rodata        0x00006cc0       0x14 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
+ .rodata        0x00006cd4       0x54 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
+                0x00006cd4                CapSense_pcTable
+                0x00006cf0                CapSense_portTable
+                0x00006cf8                CapSense_maskTable
+                0x00006d00                CapSense_csTable
+                0x00006d20                CapSense_widgetNumber
+ .rodata        0x00006d28       0x10 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
+                0x00006d28                CapSense_rawDataIndex
+                0x00006d2c                CapSense_numberOfSensors
+                0x00006d30                CapSense_centroidMult
+                0x00006d34                CapSense_posFiltersMask
+ .rodata        0x00006d38       0x28 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
+                0x00006d38                SMS_LIB_SensorSensitivity
+                0x00006d40                SMS_LIB_PrescalerTbl
+ .rodata        0x00006d60      0x194 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_descr.o)
+                0x00006d60                Launcher_UART_DEVICE0_DESCR
+                0x00006d74                Launcher_UART_DEVICE0_CONFIGURATION0_DESCR
+                0x00006db8                Launcher_UART_STRING_DESCRIPTORS
+                0x00006e58                Launcher_UART_SN_STRING_DESCRIPTOR
+                0x00006e5c                Launcher_UART_DEVICE0_CONFIGURATION0_EP_SETTINGS_TABLE
+                0x00006e74                Launcher_UART_DEVICE0_CONFIGURATION0_INTERFACE_CLASS
+                0x00006e78                Launcher_UART_DEVICE0_CONFIGURATION0_TABLE
+                0x00006ea0                Launcher_UART_DEVICE0_TABLE
+                0x00006eb0                Launcher_UART_TABLE
+                0x00006eb8                Launcher_UART_MSOS_DESCRIPTOR
+                0x00006ecc                Launcher_UART_MSOS_CONFIGURATION_DESCR
+                0x00006ef4                . = ALIGN (0x4)
  *(.init)
- .init          0x00006438        0x4 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crti.o
-                0x00006438                _init
- .init          0x0000643c        0x8 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtn.o
-                0x00006444                . = ALIGN (0x4)
-                0x00006444                __preinit_array_start = .
+ .init          0x00006ef4        0x4 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crti.o
+                0x00006ef4                _init
+ .init          0x00006ef8        0x8 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtn.o
+                0x00006f00                . = ALIGN (0x4)
+                0x00006f00                __preinit_array_start = .
  *(.preinit_array)
-                0x00006444                __preinit_array_end = .
-                0x00006444                . = ALIGN (0x4)
-                0x00006444                __init_array_start = .
+                0x00006f00                __preinit_array_end = .
+                0x00006f00                . = ALIGN (0x4)
+                0x00006f00                __init_array_start = .
  *(SORT(.init_array.*))
  *(.init_array)
- .init_array    0x00006444        0x4 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtbegin.o
- .init_array    0x00006448        0x4 .\CortexM3\ARM_GCC_473\Debug\Cm3Start.o
-                0x0000644c                __init_array_end = .
-                0x0000644c                . = ALIGN (0x4)
+ .init_array    0x00006f00        0x4 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtbegin.o
+ .init_array    0x00006f04        0x4 .\CortexM3\ARM_GCC_473\Debug\Cm3Start.o
+                0x00006f08                __init_array_end = .
+                0x00006f08                . = ALIGN (0x4)
  *(.fini)
- .fini          0x0000644c        0x4 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crti.o
-                0x0000644c                _fini
- .fini          0x00006450        0x8 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtn.o
-                0x00006458                . = ALIGN (0x4)
-                0x00006458                __fini_array_start = .
+ .fini          0x00006f08        0x4 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crti.o
+                0x00006f08                _fini
+ .fini          0x00006f0c        0x8 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtn.o
+                0x00006f14                . = ALIGN (0x4)
+                0x00006f14                __fini_array_start = .
  *(.fini_array)
- .fini_array    0x00006458        0x4 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtbegin.o
+ .fini_array    0x00006f14        0x4 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtbegin.o
  *(SORT(.fini_array.*))
-                0x0000645c                __fini_array_end = .
-                0x0000645c                . = ALIGN (0x4)
+                0x00006f18                __fini_array_end = .
+                0x00006f18                . = ALIGN (0x4)
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT(.ctors.*))
  *crtend.o(.ctors)
-                0x0000645c                . = ALIGN (0x4)
+                0x00006f18                . = ALIGN (0x4)
  *crtbegin.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o) .dtors)
  *(SORT(.dtors.*))
  *crtend.o(.dtors)
-                0x0000645c                . = ALIGN (0x4)
-                0x0000645c                __cy_regions = .
-                0x0000645c        0x4 LONG 0x6470 __cy_region_init_ram
-                0x00006460        0x4 LONG 0x1fff8108 __cy_region_start_data
-                0x00006464        0x4 LONG 0x70 __cy_region_init_size_ram
-                0x00006468        0x4 LONG 0x298 __cy_region_zero_size_ram
-                0x0000646c                __cy_regions_end = .
-                0x00006470                . = ALIGN (0x8)
- *fill*         0x0000646c        0x4 00
-                0x00006470                _etext = .
+                0x00006f18                . = ALIGN (0x4)
+                0x00006f18                __cy_regions = .
+                0x00006f18        0x4 LONG 0x6f28 __cy_region_init_ram
+                0x00006f1c        0x4 LONG 0x1fff8108 __cy_region_start_data
+                0x00006f20        0x4 LONG 0x70 __cy_region_init_size_ram
+                0x00006f24        0x4 LONG 0x248 __cy_region_zero_size_ram
+                0x00006f28                __cy_regions_end = .
+                0x00006f28                . = ALIGN (0x8)
+                0x00006f28                _etext = .
 
 .ramvectors     0x1fff8000      0x100
                 0x1fff8000                __cy_region_start_ram = .
@@ -1388,7 +1447,7 @@ END GROUP
  .noinit        0x1fff8104        0x1 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyLib.o)
                 0x1fff8104                CyResetStatus
 
-.data           0x1fff8108       0x70 load address 0x00006470
+.data           0x1fff8108       0x70 load address 0x00006f28
                 0x1fff8108                __cy_region_start_data = .
  *(.jcr)
  .jcr           0x1fff8108        0x0 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtbegin.o
@@ -1434,10 +1493,10 @@ END GROUP
  *(.ram)
                 0x1fff8178                _edata = .
 
-.igot.plt       0x1fff8178        0x0 load address 0x000064e0
+.igot.plt       0x1fff8178        0x0 load address 0x00006f98
  .igot.plt      0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtbegin.o
 
-.bss            0x1fff8178      0x298 load address 0x000064e0
+.bss            0x1fff8178      0x248 load address 0x00006f98
                 0x1fff8178                PROVIDE (__bss_start__, .)
  *(.shbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
@@ -1455,7 +1514,7 @@ END GROUP
  .bss           0x1fff81a0        0x8 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
                 0x1fff81a0                CapSense_debounceCounter
  *(COMMON)
- COMMON         0x1fff81a8       0xe8 .\CortexM3\ARM_GCC_473\Debug\main.o
+ COMMON         0x1fff81a8       0x96 .\CortexM3\ARM_GCC_473\Debug\main.o
                 0x1fff81a8                frame_samples
                 0x1fff820c                b_score
                 0x1fff8210                patterns
@@ -1463,85 +1522,84 @@ END GROUP
                 0x1fff821e                turn
                 0x1fff8220                position_value
                 0x1fff8224                pattern_index
-                0x1fff8228                buffer
-                0x1fff8278                messages
-                0x1fff8288                left_button_state
-                0x1fff8289                message_index
-                0x1fff828a                pattern_change_state
-                0x1fff828b                count
-                0x1fff828c                frame_index
-                0x1fff828e                a_score
- COMMON         0x1fff8290        0xf .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
-                0x1fff8290                Launcher_UART_lineChanged
-                0x1fff8291                Launcher_UART_cdc_data_in_ep
-                0x1fff8292                Launcher_UART_cdc_data_out_ep
-                0x1fff8294                Launcher_UART_lineControlBitmap
-                0x1fff8298                Launcher_UART_lineCoding
- *fill*         0x1fff829f        0x1 00
- COMMON         0x1fff82a0       0x9a .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
-                0x1fff82a0                Launcher_UART_ep0Count
-                0x1fff82a4                Launcher_UART_interfaceStatus
-                0x1fff82a8                Launcher_UART_EP
-                0x1fff8314                Launcher_UART_lastPacketSize
-                0x1fff8318                Launcher_UART_currentTD
-                0x1fff8324                Launcher_UART_interfaceSetting_last
-                0x1fff8326                Launcher_UART_transferByteCount
-                0x1fff8328                Launcher_UART_ep0Mode
-                0x1fff8329                Launcher_UART_ep0Toggle
-                0x1fff832c                Launcher_UART_interfaceSetting
-                0x1fff832e                Launcher_UART_interfaceNumber
-                0x1fff8330                Launcher_UART_interfaceClass
-                0x1fff8334                Launcher_UART_device
-                0x1fff8335                Launcher_UART_deviceStatus
-                0x1fff8336                Launcher_UART_configurationChanged
-                0x1fff8337                Launcher_UART_transferState
-                0x1fff8338                Launcher_UART_deviceAddress
-                0x1fff8339                Launcher_UART_configuration
- *fill*         0x1fff833a        0x2 00
- COMMON         0x1fff833c       0x19 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
-                0x1fff833c                CapSense_sensorRaw
-                0x1fff834c                CapSense_analogSwitchDivider
-                0x1fff8353                CapSense_sensorIndex
-                0x1fff8354                CapSense_csv
- *fill*         0x1fff8355        0x3 00
- COMMON         0x1fff8358       0x39 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
-                0x1fff8358                CapSense_lowBaselineResetCnt
-                0x1fff8360                CapSense_sensorBaselineLow
-                0x1fff8368                CapSense_sensorSignal
-                0x1fff8370                CapSense_sensorBaseline
-                0x1fff8380                CapSense_rawFilterData1
-                0x1fff8390                CapSense_sensorOnMask
- *fill*         0x1fff8391        0x3 00
- COMMON         0x1fff8394       0x53 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
-                0x1fff8394                SMS_LIB_Table4
-                0x1fff83a4                SMS_LIB_Table7
-                0x1fff83ac                SMS_LIB_Table8
-                0x1fff83b0                SMS_LIB_Table2
-                0x1fff83b8                SMS_LIB_Table5
-                0x1fff83c8                SMS_LIB_Table9
-                0x1fff83cc                SMS_LIB_Table6
-                0x1fff83d4                SMS_LIB_Table1
-                0x1fff83dc                SMS_LIB_Table10
-                0x1fff83e0                SMS_LIB_Table3
- *fill*         0x1fff83e7        0x1 00
- COMMON         0x1fff83e8       0x22 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_descr.o)
-                0x1fff83e8                Launcher_UART_idSerialNumberStringDescriptor
-                0x1fff8410                . = ALIGN (0x8)
- *fill*         0x1fff840a        0x6 00
+                0x1fff8228                messages
+                0x1fff8238                left_button_state
+                0x1fff8239                message_index
+                0x1fff823a                pattern_change_state
+                0x1fff823b                frame_index
+                0x1fff823c                a_score
+ *fill*         0x1fff823e        0x2 00
+ COMMON         0x1fff8240        0xf .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
+                0x1fff8240                Launcher_UART_lineChanged
+                0x1fff8241                Launcher_UART_cdc_data_in_ep
+                0x1fff8242                Launcher_UART_cdc_data_out_ep
+                0x1fff8244                Launcher_UART_lineControlBitmap
+                0x1fff8248                Launcher_UART_lineCoding
+ *fill*         0x1fff824f        0x1 00
+ COMMON         0x1fff8250       0x9a .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
+                0x1fff8250                Launcher_UART_ep0Count
+                0x1fff8254                Launcher_UART_interfaceStatus
+                0x1fff8258                Launcher_UART_EP
+                0x1fff82c4                Launcher_UART_lastPacketSize
+                0x1fff82c8                Launcher_UART_currentTD
+                0x1fff82d4                Launcher_UART_interfaceSetting_last
+                0x1fff82d6                Launcher_UART_transferByteCount
+                0x1fff82d8                Launcher_UART_ep0Mode
+                0x1fff82d9                Launcher_UART_ep0Toggle
+                0x1fff82dc                Launcher_UART_interfaceSetting
+                0x1fff82de                Launcher_UART_interfaceNumber
+                0x1fff82e0                Launcher_UART_interfaceClass
+                0x1fff82e4                Launcher_UART_device
+                0x1fff82e5                Launcher_UART_deviceStatus
+                0x1fff82e6                Launcher_UART_configurationChanged
+                0x1fff82e7                Launcher_UART_transferState
+                0x1fff82e8                Launcher_UART_deviceAddress
+                0x1fff82e9                Launcher_UART_configuration
+ *fill*         0x1fff82ea        0x2 00
+ COMMON         0x1fff82ec       0x19 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
+                0x1fff82ec                CapSense_sensorRaw
+                0x1fff82fc                CapSense_analogSwitchDivider
+                0x1fff8303                CapSense_sensorIndex
+                0x1fff8304                CapSense_csv
+ *fill*         0x1fff8305        0x3 00
+ COMMON         0x1fff8308       0x39 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
+                0x1fff8308                CapSense_lowBaselineResetCnt
+                0x1fff8310                CapSense_sensorBaselineLow
+                0x1fff8318                CapSense_sensorSignal
+                0x1fff8320                CapSense_sensorBaseline
+                0x1fff8330                CapSense_rawFilterData1
+                0x1fff8340                CapSense_sensorOnMask
+ *fill*         0x1fff8341        0x3 00
+ COMMON         0x1fff8344       0x53 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
+                0x1fff8344                SMS_LIB_Table4
+                0x1fff8354                SMS_LIB_Table7
+                0x1fff835c                SMS_LIB_Table8
+                0x1fff8360                SMS_LIB_Table2
+                0x1fff8368                SMS_LIB_Table5
+                0x1fff8378                SMS_LIB_Table9
+                0x1fff837c                SMS_LIB_Table6
+                0x1fff8384                SMS_LIB_Table1
+                0x1fff838c                SMS_LIB_Table10
+                0x1fff8390                SMS_LIB_Table3
+ *fill*         0x1fff8397        0x1 00
+ COMMON         0x1fff8398       0x22 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_descr.o)
+                0x1fff8398                Launcher_UART_idSerialNumberStringDescriptor
+                0x1fff83c0                . = ALIGN (0x8)
+ *fill*         0x1fff83ba        0x6 00
  *(.ram.b)
-                0x1fff8410                _end = .
-                0x1fff8410                __end = .
-                0x1fff8410                PROVIDE (end, .)
-                0x1fff8410                PROVIDE (__bss_end__, .)
-                0x00006470                __cy_region_init_ram = LOADADDR (.data)
+                0x1fff83c0                _end = .
+                0x1fff83c0                __end = .
+                0x1fff83c0                PROVIDE (end, .)
+                0x1fff83c0                PROVIDE (__bss_end__, .)
+                0x00006f28                __cy_region_init_ram = LOADADDR (.data)
                 0x00000070                __cy_region_init_size_ram = (_edata - ADDR (.data))
-                0x00000298                __cy_region_zero_size_ram = (_end - _edata)
+                0x00000248                __cy_region_zero_size_ram = (_end - _edata)
 
-.heap           0x1fff8410     0x1000 load address 0x000064e0
-                0x1fff8410                . = _end
-                0x1fff9410                . = (. + 0x1000)
- *fill*         0x1fff8410     0x1000 00
-                0x1fff9410                __cy_heap_limit = .
+.heap           0x1fff83c0     0x1000 load address 0x00006f98
+                0x1fff83c0                . = _end
+                0x1fff93c0                . = (. + 0x1000)
+ *fill*         0x1fff83c0     0x1000 00
+                0x1fff93c0                __cy_heap_limit = .
 
 .stack          0x20004000     0x4000
                 0x20004000                __cy_stack_limit = .
@@ -1586,7 +1644,7 @@ END GROUP
  .cymeta        0x90500000        0xc .\CortexM3\ARM_GCC_473\Debug\cymetadata.o
                 0x90500000                cy_metadata
 
-.rel.dyn        0x000064e0        0x0 load address 0x9050000c
+.rel.dyn        0x00006f98        0x0 load address 0x9050000c
  .rel.iplt      0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtbegin.o
 
 .stab
@@ -1607,342 +1665,342 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000      0xde8
+.debug_aranges  0x00000000      0xdf8
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0x40 .\CortexM3\ARM_GCC_473\Debug\main.o
+                0x00000000       0x50 .\CortexM3\ARM_GCC_473\Debug\main.o
  .debug_aranges
-                0x00000040       0x18 .\CortexM3\ARM_GCC_473\Debug\cymetadata.o
+                0x00000050       0x18 .\CortexM3\ARM_GCC_473\Debug\cymetadata.o
  .debug_aranges
-                0x00000058       0x40 .\CortexM3\ARM_GCC_473\Debug\Cm3Start.o
+                0x00000068       0x40 .\CortexM3\ARM_GCC_473\Debug\Cm3Start.o
  .debug_aranges
-                0x00000098       0x70 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
+                0x000000a8       0x70 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
  .debug_aranges
-                0x00000108       0x90 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
+                0x00000118       0x90 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
  .debug_aranges
-                0x00000198       0x98 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART.o)
+                0x000001a8       0x98 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART.o)
  .debug_aranges
-                0x00000230       0x80 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(RX_INT.o)
+                0x00000240       0x80 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(RX_INT.o)
  .debug_aranges
-                0x000002b0       0x70 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART_IntClock.o)
+                0x000002c0       0x70 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART_IntClock.o)
  .debug_aranges
-                0x00000320       0x20 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyBootAsmGnu.o)
+                0x00000330       0x20 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyBootAsmGnu.o)
  .debug_aranges
-                0x00000340      0x218 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyLib.o)
+                0x00000350      0x218 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyLib.o)
  .debug_aranges
-                0x00000558       0x90 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyPm.o)
+                0x00000568       0x90 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyPm.o)
  .debug_aranges
-                0x000005e8       0xb0 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART.o)
+                0x000005f8       0xb0 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART.o)
  .debug_aranges
-                0x00000698       0xb0 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
+                0x000006a8       0xb0 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
  .debug_aranges
-                0x00000748       0x98 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
+                0x00000758       0x98 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
  .debug_aranges
-                0x000007e0       0x40 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_episr.o)
+                0x000007f0       0x40 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_episr.o)
  .debug_aranges
-                0x00000820       0x78 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
+                0x00000830       0x78 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
  .debug_aranges
-                0x00000898       0x20 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_vnd.o)
+                0x000008a8       0x20 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_vnd.o)
  .debug_aranges
-                0x000008b8       0xb0 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
+                0x000008c8       0xb0 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
  .debug_aranges
-                0x00000968       0x90 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
+                0x00000978       0x90 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
  .debug_aranges
-                0x000009f8       0x20 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_INT.o)
+                0x00000a08       0x20 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_INT.o)
  .debug_aranges
-                0x00000a18       0x50 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
+                0x00000a28       0x50 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
  .debug_aranges
-                0x00000a68       0x70 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CompCH0.o)
+                0x00000a78       0x70 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CompCH0.o)
  .debug_aranges
-                0x00000ad8       0x60 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IdacCH0.o)
+                0x00000ae8       0x60 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IdacCH0.o)
  .debug_aranges
-                0x00000b38       0x48 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_AMuxCH0.o)
+                0x00000b48       0x48 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_AMuxCH0.o)
  .debug_aranges
-                0x00000b80       0x70 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IntClock.o)
+                0x00000b90       0x70 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IntClock.o)
  .debug_aranges
-                0x00000bf0       0x38 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_Control.o)
+                0x00000c00       0x38 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_Control.o)
  .debug_aranges
-                0x00000c28       0x78 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyFlash.o)
+                0x00000c38       0x78 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyFlash.o)
  .debug_aranges
-                0x00000ca0       0x68 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CySpc.o)
+                0x00000cb0       0x68 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CySpc.o)
  .debug_aranges
-                0x00000d08       0x20 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cls.o)
+                0x00000d18       0x20 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cls.o)
  .debug_aranges
-                0x00000d28       0x18 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_descr.o)
+                0x00000d38       0x18 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_descr.o)
  .debug_aranges
-                0x00000d40       0xa8 C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
+                0x00000d50       0xa8 C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0x7e7f
+.debug_info     0x00000000     0x7e72
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000      0x38d .\CortexM3\ARM_GCC_473\Debug\main.o
- .debug_info    0x0000038d      0x140 .\CortexM3\ARM_GCC_473\Debug\cymetadata.o
- .debug_info    0x000004cd      0x2ea .\CortexM3\ARM_GCC_473\Debug\Cm3Start.o
- .debug_info    0x000007b7      0x470 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
- .debug_info    0x00000c27      0x3d2 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
- .debug_info    0x00000ff9      0x345 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART.o)
- .debug_info    0x0000133e      0x278 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(RX_INT.o)
- .debug_info    0x000015b6      0x294 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART_IntClock.o)
- .debug_info    0x0000184a       0x99 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyBootAsmGnu.o)
- .debug_info    0x000018e3      0xcd7 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyLib.o)
- .debug_info    0x000025ba      0x5c3 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyPm.o)
- .debug_info    0x00002b7d      0x659 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART.o)
- .debug_info    0x000031d6      0x5f7 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
- .debug_info    0x000037cd      0x56e .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
- .debug_info    0x00003d3b      0x1d6 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_episr.o)
- .debug_info    0x00003f11      0x83f .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
- .debug_info    0x00004750      0x18d .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_vnd.o)
- .debug_info    0x000048dd      0x5ad .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
- .debug_info    0x00004e8a      0x848 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
- .debug_info    0x000056d2       0xce .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_INT.o)
- .debug_info    0x000057a0      0x473 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
- .debug_info    0x00005c13      0x276 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CompCH0.o)
- .debug_info    0x00005e89      0x1dd .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IdacCH0.o)
- .debug_info    0x00006066      0x171 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_AMuxCH0.o)
- .debug_info    0x000061d7      0x294 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IntClock.o)
- .debug_info    0x0000646b      0x134 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_Control.o)
- .debug_info    0x0000659f      0x354 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyFlash.o)
- .debug_info    0x000068f3      0x3d9 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CySpc.o)
- .debug_info    0x00006ccc      0x1b9 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cls.o)
- .debug_info    0x00006e85      0x2e5 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_descr.o)
- .debug_info    0x0000716a      0xd15 C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
+ .debug_info    0x00000000      0x380 .\CortexM3\ARM_GCC_473\Debug\main.o
+ .debug_info    0x00000380      0x140 .\CortexM3\ARM_GCC_473\Debug\cymetadata.o
+ .debug_info    0x000004c0      0x2ea .\CortexM3\ARM_GCC_473\Debug\Cm3Start.o
+ .debug_info    0x000007aa      0x470 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
+ .debug_info    0x00000c1a      0x3d2 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
+ .debug_info    0x00000fec      0x345 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART.o)
+ .debug_info    0x00001331      0x278 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(RX_INT.o)
+ .debug_info    0x000015a9      0x294 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART_IntClock.o)
+ .debug_info    0x0000183d       0x99 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyBootAsmGnu.o)
+ .debug_info    0x000018d6      0xcd7 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyLib.o)
+ .debug_info    0x000025ad      0x5c3 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyPm.o)
+ .debug_info    0x00002b70      0x659 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART.o)
+ .debug_info    0x000031c9      0x5f7 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
+ .debug_info    0x000037c0      0x56e .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
+ .debug_info    0x00003d2e      0x1d6 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_episr.o)
+ .debug_info    0x00003f04      0x83f .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
+ .debug_info    0x00004743      0x18d .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_vnd.o)
+ .debug_info    0x000048d0      0x5ad .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
+ .debug_info    0x00004e7d      0x848 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
+ .debug_info    0x000056c5       0xce .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_INT.o)
+ .debug_info    0x00005793      0x473 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
+ .debug_info    0x00005c06      0x276 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CompCH0.o)
+ .debug_info    0x00005e7c      0x1dd .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IdacCH0.o)
+ .debug_info    0x00006059      0x171 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_AMuxCH0.o)
+ .debug_info    0x000061ca      0x294 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IntClock.o)
+ .debug_info    0x0000645e      0x134 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_Control.o)
+ .debug_info    0x00006592      0x354 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyFlash.o)
+ .debug_info    0x000068e6      0x3d9 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CySpc.o)
+ .debug_info    0x00006cbf      0x1b9 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cls.o)
+ .debug_info    0x00006e78      0x2e5 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_descr.o)
+ .debug_info    0x0000715d      0xd15 C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
 
-.debug_abbrev   0x00000000     0x2458
+.debug_abbrev   0x00000000     0x2493
  *(.debug_abbrev)
- .debug_abbrev  0x00000000      0x139 .\CortexM3\ARM_GCC_473\Debug\main.o
- .debug_abbrev  0x00000139       0x77 .\CortexM3\ARM_GCC_473\Debug\cymetadata.o
- .debug_abbrev  0x000001b0      0x175 .\CortexM3\ARM_GCC_473\Debug\Cm3Start.o
- .debug_abbrev  0x00000325      0x1b2 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
- .debug_abbrev  0x000004d7      0x122 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
- .debug_abbrev  0x000005f9      0x14c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART.o)
- .debug_abbrev  0x00000745      0x12d .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(RX_INT.o)
- .debug_abbrev  0x00000872      0x11f .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART_IntClock.o)
- .debug_abbrev  0x00000991       0x14 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyBootAsmGnu.o)
- .debug_abbrev  0x000009a5      0x207 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyLib.o)
- .debug_abbrev  0x00000bac      0x170 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyPm.o)
- .debug_abbrev  0x00000d1c      0x1b4 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART.o)
- .debug_abbrev  0x00000ed0      0x1d0 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
- .debug_abbrev  0x000010a0      0x16e .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
- .debug_abbrev  0x0000120e       0xc7 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_episr.o)
- .debug_abbrev  0x000012d5      0x1a1 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
- .debug_abbrev  0x00001476       0xba .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_vnd.o)
- .debug_abbrev  0x00001530      0x15a .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
- .debug_abbrev  0x0000168a      0x177 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
- .debug_abbrev  0x00001801       0x69 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_INT.o)
- .debug_abbrev  0x0000186a      0x103 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
- .debug_abbrev  0x0000196d      0x148 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CompCH0.o)
- .debug_abbrev  0x00001ab5      0x116 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IdacCH0.o)
- .debug_abbrev  0x00001bcb       0x9a .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_AMuxCH0.o)
- .debug_abbrev  0x00001c65      0x11f .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IntClock.o)
- .debug_abbrev  0x00001d84       0x92 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_Control.o)
- .debug_abbrev  0x00001e16      0x172 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyFlash.o)
- .debug_abbrev  0x00001f88      0x15f .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CySpc.o)
- .debug_abbrev  0x000020e7       0xba .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cls.o)
- .debug_abbrev  0x000021a1       0xa7 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_descr.o)
- .debug_abbrev  0x00002248      0x210 C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
+ .debug_abbrev  0x00000000      0x174 .\CortexM3\ARM_GCC_473\Debug\main.o
+ .debug_abbrev  0x00000174       0x77 .\CortexM3\ARM_GCC_473\Debug\cymetadata.o
+ .debug_abbrev  0x000001eb      0x175 .\CortexM3\ARM_GCC_473\Debug\Cm3Start.o
+ .debug_abbrev  0x00000360      0x1b2 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
+ .debug_abbrev  0x00000512      0x122 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
+ .debug_abbrev  0x00000634      0x14c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART.o)
+ .debug_abbrev  0x00000780      0x12d .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(RX_INT.o)
+ .debug_abbrev  0x000008ad      0x11f .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART_IntClock.o)
+ .debug_abbrev  0x000009cc       0x14 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyBootAsmGnu.o)
+ .debug_abbrev  0x000009e0      0x207 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyLib.o)
+ .debug_abbrev  0x00000be7      0x170 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyPm.o)
+ .debug_abbrev  0x00000d57      0x1b4 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART.o)
+ .debug_abbrev  0x00000f0b      0x1d0 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
+ .debug_abbrev  0x000010db      0x16e .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
+ .debug_abbrev  0x00001249       0xc7 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_episr.o)
+ .debug_abbrev  0x00001310      0x1a1 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
+ .debug_abbrev  0x000014b1       0xba .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_vnd.o)
+ .debug_abbrev  0x0000156b      0x15a .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
+ .debug_abbrev  0x000016c5      0x177 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
+ .debug_abbrev  0x0000183c       0x69 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_INT.o)
+ .debug_abbrev  0x000018a5      0x103 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
+ .debug_abbrev  0x000019a8      0x148 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CompCH0.o)
+ .debug_abbrev  0x00001af0      0x116 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IdacCH0.o)
+ .debug_abbrev  0x00001c06       0x9a .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_AMuxCH0.o)
+ .debug_abbrev  0x00001ca0      0x11f .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IntClock.o)
+ .debug_abbrev  0x00001dbf       0x92 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_Control.o)
+ .debug_abbrev  0x00001e51      0x172 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyFlash.o)
+ .debug_abbrev  0x00001fc3      0x15f .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CySpc.o)
+ .debug_abbrev  0x00002122       0xba .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cls.o)
+ .debug_abbrev  0x000021dc       0xa7 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_descr.o)
+ .debug_abbrev  0x00002283      0x210 C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
 
-.debug_line     0x00000000     0x3a99
+.debug_line     0x00000000     0x3aee
  *(.debug_line)
- .debug_line    0x00000000      0x277 .\CortexM3\ARM_GCC_473\Debug\main.o
- .debug_line    0x00000277       0x53 .\CortexM3\ARM_GCC_473\Debug\cymetadata.o
- .debug_line    0x000002ca      0x1b0 .\CortexM3\ARM_GCC_473\Debug\Cm3Start.o
- .debug_line    0x0000047a      0x229 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
- .debug_line    0x000006a3      0x1f9 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
- .debug_line    0x0000089c      0x1bb .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART.o)
- .debug_line    0x00000a57      0x141 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(RX_INT.o)
- .debug_line    0x00000b98      0x1ab .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART_IntClock.o)
- .debug_line    0x00000d43       0x68 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyBootAsmGnu.o)
- .debug_line    0x00000dab      0x73b .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyLib.o)
- .debug_line    0x000014e6      0x347 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyPm.o)
- .debug_line    0x0000182d      0x2b6 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART.o)
- .debug_line    0x00001ae3      0x23a .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
- .debug_line    0x00001d1d      0x22e .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
- .debug_line    0x00001f4b       0xf7 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_episr.o)
- .debug_line    0x00002042      0x42c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
- .debug_line    0x0000246e       0x9d .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_vnd.o)
- .debug_line    0x0000250b      0x256 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
- .debug_line    0x00002761      0x2ea .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
- .debug_line    0x00002a4b       0x7a .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_INT.o)
- .debug_line    0x00002ac5       0xfb .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
- .debug_line    0x00002bc0      0x175 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CompCH0.o)
- .debug_line    0x00002d35      0x116 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IdacCH0.o)
- .debug_line    0x00002e4b       0xdc .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_AMuxCH0.o)
- .debug_line    0x00002f27      0x1a8 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IntClock.o)
- .debug_line    0x000030cf       0x9f .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_Control.o)
- .debug_line    0x0000316e      0x1a7 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyFlash.o)
- .debug_line    0x00003315      0x1a7 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CySpc.o)
- .debug_line    0x000034bc       0xaa .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cls.o)
- .debug_line    0x00003566       0x6f .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_descr.o)
- .debug_line    0x000035d5      0x4c4 C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
+ .debug_line    0x00000000      0x2cc .\CortexM3\ARM_GCC_473\Debug\main.o
+ .debug_line    0x000002cc       0x53 .\CortexM3\ARM_GCC_473\Debug\cymetadata.o
+ .debug_line    0x0000031f      0x1b0 .\CortexM3\ARM_GCC_473\Debug\Cm3Start.o
+ .debug_line    0x000004cf      0x229 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
+ .debug_line    0x000006f8      0x1f9 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
+ .debug_line    0x000008f1      0x1bb .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART.o)
+ .debug_line    0x00000aac      0x141 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(RX_INT.o)
+ .debug_line    0x00000bed      0x1ab .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART_IntClock.o)
+ .debug_line    0x00000d98       0x68 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyBootAsmGnu.o)
+ .debug_line    0x00000e00      0x73b .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyLib.o)
+ .debug_line    0x0000153b      0x347 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyPm.o)
+ .debug_line    0x00001882      0x2b6 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART.o)
+ .debug_line    0x00001b38      0x23a .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
+ .debug_line    0x00001d72      0x22e .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
+ .debug_line    0x00001fa0       0xf7 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_episr.o)
+ .debug_line    0x00002097      0x42c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
+ .debug_line    0x000024c3       0x9d .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_vnd.o)
+ .debug_line    0x00002560      0x256 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
+ .debug_line    0x000027b6      0x2ea .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
+ .debug_line    0x00002aa0       0x7a .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_INT.o)
+ .debug_line    0x00002b1a       0xfb .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
+ .debug_line    0x00002c15      0x175 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CompCH0.o)
+ .debug_line    0x00002d8a      0x116 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IdacCH0.o)
+ .debug_line    0x00002ea0       0xdc .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_AMuxCH0.o)
+ .debug_line    0x00002f7c      0x1a8 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IntClock.o)
+ .debug_line    0x00003124       0x9f .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_Control.o)
+ .debug_line    0x000031c3      0x1a7 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyFlash.o)
+ .debug_line    0x0000336a      0x1a7 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CySpc.o)
+ .debug_line    0x00003511       0xaa .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cls.o)
+ .debug_line    0x000035bb       0x6f .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_descr.o)
+ .debug_line    0x0000362a      0x4c4 C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
 
-.debug_frame    0x00000000     0x2bd0
+.debug_frame    0x00000000     0x2c08
  *(.debug_frame)
- .debug_frame   0x00000000       0xb4 .\CortexM3\ARM_GCC_473\Debug\main.o
- .debug_frame   0x000000b4       0xa4 .\CortexM3\ARM_GCC_473\Debug\Cm3Start.o
- .debug_frame   0x00000158      0x158 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
- .debug_frame   0x000002b0      0x1e0 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
- .debug_frame   0x00000490      0x1e4 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART.o)
- .debug_frame   0x00000674      0x180 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(RX_INT.o)
- .debug_frame   0x000007f4      0x14c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART_IntClock.o)
- .debug_frame   0x00000940      0x778 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyLib.o)
- .debug_frame   0x000010b8      0x1d0 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyPm.o)
- .debug_frame   0x00001288      0x238 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART.o)
- .debug_frame   0x000014c0      0x248 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
- .debug_frame   0x00001708      0x1e0 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
- .debug_frame   0x000018e8       0x9c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_episr.o)
- .debug_frame   0x00001984      0x180 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
- .debug_frame   0x00001b04       0x30 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_vnd.o)
- .debug_frame   0x00001b34      0x248 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
- .debug_frame   0x00001d7c      0x1d8 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
- .debug_frame   0x00001f54       0x2c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_INT.o)
- .debug_frame   0x00001f80       0xdc .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
- .debug_frame   0x0000205c      0x14c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CompCH0.o)
- .debug_frame   0x000021a8      0x114 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IdacCH0.o)
- .debug_frame   0x000022bc       0xc4 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_AMuxCH0.o)
- .debug_frame   0x00002380      0x14c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IntClock.o)
- .debug_frame   0x000024cc       0x80 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_Control.o)
- .debug_frame   0x0000254c      0x178 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyFlash.o)
- .debug_frame   0x000026c4      0x13c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CySpc.o)
- .debug_frame   0x00002800       0x30 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cls.o)
- .debug_frame   0x00002830      0x270 C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
- .debug_frame   0x00002aa0       0x28 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-__atexit2.o)
- .debug_frame   0x00002ac8       0x28 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-exit.o)
- .debug_frame   0x00002af0       0x2c c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-fini.o)
- .debug_frame   0x00002b1c       0x2c c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-init.o)
- .debug_frame   0x00002b48       0x28 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memcpy.o)
- .debug_frame   0x00002b70       0x20 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memset.o)
- .debug_frame   0x00002b90       0x20 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-strcmp.o)
- .debug_frame   0x00002bb0       0x20 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-strlen.o)
+ .debug_frame   0x00000000       0xec .\CortexM3\ARM_GCC_473\Debug\main.o
+ .debug_frame   0x000000ec       0xa4 .\CortexM3\ARM_GCC_473\Debug\Cm3Start.o
+ .debug_frame   0x00000190      0x158 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
+ .debug_frame   0x000002e8      0x1e0 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
+ .debug_frame   0x000004c8      0x1e4 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART.o)
+ .debug_frame   0x000006ac      0x180 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(RX_INT.o)
+ .debug_frame   0x0000082c      0x14c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART_IntClock.o)
+ .debug_frame   0x00000978      0x778 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyLib.o)
+ .debug_frame   0x000010f0      0x1d0 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyPm.o)
+ .debug_frame   0x000012c0      0x238 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART.o)
+ .debug_frame   0x000014f8      0x248 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
+ .debug_frame   0x00001740      0x1e0 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
+ .debug_frame   0x00001920       0x9c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_episr.o)
+ .debug_frame   0x000019bc      0x180 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
+ .debug_frame   0x00001b3c       0x30 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_vnd.o)
+ .debug_frame   0x00001b6c      0x248 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
+ .debug_frame   0x00001db4      0x1d8 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
+ .debug_frame   0x00001f8c       0x2c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_INT.o)
+ .debug_frame   0x00001fb8       0xdc .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
+ .debug_frame   0x00002094      0x14c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CompCH0.o)
+ .debug_frame   0x000021e0      0x114 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IdacCH0.o)
+ .debug_frame   0x000022f4       0xc4 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_AMuxCH0.o)
+ .debug_frame   0x000023b8      0x14c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IntClock.o)
+ .debug_frame   0x00002504       0x80 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_Control.o)
+ .debug_frame   0x00002584      0x178 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyFlash.o)
+ .debug_frame   0x000026fc      0x13c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CySpc.o)
+ .debug_frame   0x00002838       0x30 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cls.o)
+ .debug_frame   0x00002868      0x270 C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
+ .debug_frame   0x00002ad8       0x28 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-__atexit2.o)
+ .debug_frame   0x00002b00       0x28 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-exit.o)
+ .debug_frame   0x00002b28       0x2c c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-fini.o)
+ .debug_frame   0x00002b54       0x2c c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-init.o)
+ .debug_frame   0x00002b80       0x28 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memcpy.o)
+ .debug_frame   0x00002ba8       0x20 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memset.o)
+ .debug_frame   0x00002bc8       0x20 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-strcmp.o)
+ .debug_frame   0x00002be8       0x20 c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-strlen.o)
 
-.debug_str      0x00000000     0x3b33
+.debug_str      0x00000000     0x3b55
  *(.debug_str)
- .debug_str     0x00000000      0x27c .\CortexM3\ARM_GCC_473\Debug\main.o
-                                0x2c6 (size before relaxing)
- .debug_str     0x0000027c       0x77 .\CortexM3\ARM_GCC_473\Debug\cymetadata.o
+ .debug_str     0x00000000      0x291 .\CortexM3\ARM_GCC_473\Debug\main.o
+                                0x2db (size before relaxing)
+ .debug_str     0x00000291       0x77 .\CortexM3\ARM_GCC_473\Debug\cymetadata.o
                                 0x1ae (size before relaxing)
- .debug_str     0x000002f3      0x113 .\CortexM3\ARM_GCC_473\Debug\Cm3Start.o
+ .debug_str     0x00000308      0x119 .\CortexM3\ARM_GCC_473\Debug\Cm3Start.o
                                 0x26a (size before relaxing)
- .debug_str     0x00000406      0x1bd .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
+ .debug_str     0x00000421      0x1bd .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
                                 0x327 (size before relaxing)
- .debug_str     0x000005c3      0x157 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
+ .debug_str     0x000005de      0x157 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
                                 0x2b0 (size before relaxing)
- .debug_str     0x0000071a      0x1fd .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART.o)
+ .debug_str     0x00000735      0x1fd .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART.o)
                                 0x354 (size before relaxing)
- .debug_str     0x00000917      0x10e .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(RX_INT.o)
+ .debug_str     0x00000932      0x10e .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(RX_INT.o)
                                 0x26c (size before relaxing)
- .debug_str     0x00000a25      0x200 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART_IntClock.o)
+ .debug_str     0x00000a40      0x200 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART_IntClock.o)
                                 0x34e (size before relaxing)
- .debug_str     0x00000c25      0x615 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyLib.o)
+ .debug_str     0x00000c40      0x615 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyLib.o)
                                 0x7d0 (size before relaxing)
- .debug_str     0x0000123a      0x371 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyPm.o)
+ .debug_str     0x00001255      0x371 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyPm.o)
                                 0x4df (size before relaxing)
- .debug_str     0x000015ab      0x3e4 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART.o)
+ .debug_str     0x000015c6      0x3e4 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART.o)
                                 0x568 (size before relaxing)
- .debug_str     0x0000198f      0x348 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
+ .debug_str     0x000019aa      0x348 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
                                 0x561 (size before relaxing)
- .debug_str     0x00001cd7      0x320 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
+ .debug_str     0x00001cf2      0x320 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
                                 0x679 (size before relaxing)
- .debug_str     0x00001ff7       0xa6 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_episr.o)
+ .debug_str     0x00002012       0xa6 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_episr.o)
                                 0x268 (size before relaxing)
- .debug_str     0x0000209d      0x33a .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
+ .debug_str     0x000020b8      0x33a .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
                                 0x6fd (size before relaxing)
- .debug_str     0x000023d7       0x73 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_vnd.o)
+ .debug_str     0x000023f2       0x73 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_vnd.o)
                                 0x239 (size before relaxing)
- .debug_str     0x0000244a      0x30d .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
+ .debug_str     0x00002465      0x30d .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
                                 0x483 (size before relaxing)
- .debug_str     0x00002757      0x3e2 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
+ .debug_str     0x00002772      0x3e2 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
                                 0x5fe (size before relaxing)
- .debug_str     0x00002b39       0x3c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_INT.o)
+ .debug_str     0x00002b54       0x3c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_INT.o)
                                 0x195 (size before relaxing)
- .debug_str     0x00002b75      0x319 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
+ .debug_str     0x00002b90      0x319 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
                                 0x54d (size before relaxing)
- .debug_str     0x00002e8e      0x1b7 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CompCH0.o)
+ .debug_str     0x00002ea9      0x1b7 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CompCH0.o)
                                 0x308 (size before relaxing)
- .debug_str     0x00003045      0x133 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IdacCH0.o)
+ .debug_str     0x00003060      0x133 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IdacCH0.o)
                                 0x277 (size before relaxing)
- .debug_str     0x00003178       0xfd .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_AMuxCH0.o)
+ .debug_str     0x00003193       0xfd .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_AMuxCH0.o)
                                 0x233 (size before relaxing)
- .debug_str     0x00003275      0x191 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IntClock.o)
+ .debug_str     0x00003290      0x191 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IntClock.o)
                                 0x32a (size before relaxing)
- .debug_str     0x00003406       0x95 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_Control.o)
+ .debug_str     0x00003421       0x95 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_Control.o)
                                 0x1d3 (size before relaxing)
- .debug_str     0x0000349b      0x129 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyFlash.o)
+ .debug_str     0x000034b6      0x130 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyFlash.o)
                                 0x2a5 (size before relaxing)
- .debug_str     0x000035c4       0xfe .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CySpc.o)
+ .debug_str     0x000035e6       0xfe .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CySpc.o)
                                 0x281 (size before relaxing)
- .debug_str     0x000036c2       0x4d .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cls.o)
+ .debug_str     0x000036e4       0x4d .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cls.o)
                                 0x24b (size before relaxing)
- .debug_str     0x0000370f      0x10d .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_descr.o)
+ .debug_str     0x00003731      0x10d .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_descr.o)
                                 0x3a4 (size before relaxing)
- .debug_str     0x0000381c      0x317 C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
+ .debug_str     0x0000383e      0x317 C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
                                 0x6d6 (size before relaxing)
 
-.debug_loc      0x00000000     0x5321
+.debug_loc      0x00000000     0x5379
  *(.debug_loc)
- .debug_loc     0x00000000      0x118 .\CortexM3\ARM_GCC_473\Debug\main.o
- .debug_loc     0x00000118      0x100 .\CortexM3\ARM_GCC_473\Debug\Cm3Start.o
- .debug_loc     0x00000218      0x268 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
- .debug_loc     0x00000480      0x318 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
- .debug_loc     0x00000798      0x350 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART.o)
- .debug_loc     0x00000ae8      0x278 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(RX_INT.o)
- .debug_loc     0x00000d60      0x22c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART_IntClock.o)
- .debug_loc     0x00000f8c      0xce0 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyLib.o)
- .debug_loc     0x00001c6c      0x2e8 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyPm.o)
- .debug_loc     0x00001f54      0x404 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART.o)
- .debug_loc     0x00002358      0x3d4 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
- .debug_loc     0x0000272c      0x314 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
- .debug_loc     0x00002a40       0xdc .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_episr.o)
- .debug_loc     0x00002b1c      0x294 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
- .debug_loc     0x00002db0       0x38 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_vnd.o)
- .debug_loc     0x00002de8      0x3f8 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
- .debug_loc     0x000031e0      0x348 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
- .debug_loc     0x00003528       0x2c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_INT.o)
- .debug_loc     0x00003554      0x158 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
- .debug_loc     0x000036ac      0x214 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CompCH0.o)
- .debug_loc     0x000038c0      0x1c8 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IdacCH0.o)
- .debug_loc     0x00003a88      0x12c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_AMuxCH0.o)
- .debug_loc     0x00003bb4      0x22c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IntClock.o)
- .debug_loc     0x00003de0       0xc8 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_Control.o)
- .debug_loc     0x00003ea8      0x258 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyFlash.o)
- .debug_loc     0x00004100      0x230 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CySpc.o)
- .debug_loc     0x00004330       0x38 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cls.o)
- .debug_loc     0x00004368      0xfb9 C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
+ .debug_loc     0x00000000      0x170 .\CortexM3\ARM_GCC_473\Debug\main.o
+ .debug_loc     0x00000170      0x100 .\CortexM3\ARM_GCC_473\Debug\Cm3Start.o
+ .debug_loc     0x00000270      0x268 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
+ .debug_loc     0x000004d8      0x318 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
+ .debug_loc     0x000007f0      0x350 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART.o)
+ .debug_loc     0x00000b40      0x278 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(RX_INT.o)
+ .debug_loc     0x00000db8      0x22c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART_IntClock.o)
+ .debug_loc     0x00000fe4      0xce0 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyLib.o)
+ .debug_loc     0x00001cc4      0x2e8 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyPm.o)
+ .debug_loc     0x00001fac      0x404 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART.o)
+ .debug_loc     0x000023b0      0x3d4 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
+ .debug_loc     0x00002784      0x314 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
+ .debug_loc     0x00002a98       0xdc .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_episr.o)
+ .debug_loc     0x00002b74      0x294 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
+ .debug_loc     0x00002e08       0x38 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_vnd.o)
+ .debug_loc     0x00002e40      0x3f8 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
+ .debug_loc     0x00003238      0x348 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
+ .debug_loc     0x00003580       0x2c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_INT.o)
+ .debug_loc     0x000035ac      0x158 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
+ .debug_loc     0x00003704      0x214 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CompCH0.o)
+ .debug_loc     0x00003918      0x1c8 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IdacCH0.o)
+ .debug_loc     0x00003ae0      0x12c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_AMuxCH0.o)
+ .debug_loc     0x00003c0c      0x22c .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IntClock.o)
+ .debug_loc     0x00003e38       0xc8 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_Control.o)
+ .debug_loc     0x00003f00      0x258 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyFlash.o)
+ .debug_loc     0x00004158      0x230 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CySpc.o)
+ .debug_loc     0x00004388       0x38 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cls.o)
+ .debug_loc     0x000043c0      0xfb9 C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
 
 .debug_macinfo
  *(.debug_macinfo)
 
-.debug_ranges   0x00000000      0xbd8
+.debug_ranges   0x00000000      0xbe8
  *(.debug_ranges)
- .debug_ranges  0x00000000       0x30 .\CortexM3\ARM_GCC_473\Debug\main.o
- .debug_ranges  0x00000030       0x30 .\CortexM3\ARM_GCC_473\Debug\Cm3Start.o
- .debug_ranges  0x00000060       0x60 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
- .debug_ranges  0x000000c0       0x80 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
- .debug_ranges  0x00000140       0x88 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART.o)
- .debug_ranges  0x000001c8       0x70 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(RX_INT.o)
- .debug_ranges  0x00000238       0x60 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART_IntClock.o)
- .debug_ranges  0x00000298      0x208 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyLib.o)
- .debug_ranges  0x000004a0       0x80 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyPm.o)
- .debug_ranges  0x00000520       0xa0 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART.o)
- .debug_ranges  0x000005c0       0xa0 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
- .debug_ranges  0x00000660       0x88 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
- .debug_ranges  0x000006e8       0x30 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_episr.o)
- .debug_ranges  0x00000718       0x68 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
- .debug_ranges  0x00000780       0x10 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_vnd.o)
- .debug_ranges  0x00000790       0xa0 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
- .debug_ranges  0x00000830       0x80 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
- .debug_ranges  0x000008b0       0x10 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_INT.o)
- .debug_ranges  0x000008c0       0x40 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
- .debug_ranges  0x00000900       0x60 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CompCH0.o)
- .debug_ranges  0x00000960       0x50 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IdacCH0.o)
- .debug_ranges  0x000009b0       0x38 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_AMuxCH0.o)
- .debug_ranges  0x000009e8       0x60 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IntClock.o)
- .debug_ranges  0x00000a48       0x28 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_Control.o)
- .debug_ranges  0x00000a70       0x68 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyFlash.o)
- .debug_ranges  0x00000ad8       0x58 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CySpc.o)
- .debug_ranges  0x00000b30       0x10 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cls.o)
- .debug_ranges  0x00000b40       0x98 C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
+ .debug_ranges  0x00000000       0x40 .\CortexM3\ARM_GCC_473\Debug\main.o
+ .debug_ranges  0x00000040       0x30 .\CortexM3\ARM_GCC_473\Debug\Cm3Start.o
+ .debug_ranges  0x00000070       0x60 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyfitter_cfg.o)
+ .debug_ranges  0x000000d0       0x80 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(LCD.o)
+ .debug_ranges  0x00000150       0x88 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART.o)
+ .debug_ranges  0x000001d8       0x70 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(RX_INT.o)
+ .debug_ranges  0x00000248       0x60 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_UART_IntClock.o)
+ .debug_ranges  0x000002a8      0x208 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyLib.o)
+ .debug_ranges  0x000004b0       0x80 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(cyPm.o)
+ .debug_ranges  0x00000530       0xa0 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART.o)
+ .debug_ranges  0x000005d0       0xa0 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cdc.o)
+ .debug_ranges  0x00000670       0x88 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_drv.o)
+ .debug_ranges  0x000006f8       0x30 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_episr.o)
+ .debug_ranges  0x00000728       0x68 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_std.o)
+ .debug_ranges  0x00000790       0x10 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_vnd.o)
+ .debug_ranges  0x000007a0       0xa0 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense.o)
+ .debug_ranges  0x00000840       0x80 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CSHL.o)
+ .debug_ranges  0x000008c0       0x10 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_INT.o)
+ .debug_ranges  0x000008d0       0x40 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_SMS_Wrapper.o)
+ .debug_ranges  0x00000910       0x60 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_CompCH0.o)
+ .debug_ranges  0x00000970       0x50 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IdacCH0.o)
+ .debug_ranges  0x000009c0       0x38 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_AMuxCH0.o)
+ .debug_ranges  0x000009f8       0x60 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CapSense_IntClock.o)
+ .debug_ranges  0x00000a58       0x28 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Target_Control.o)
+ .debug_ranges  0x00000a80       0x68 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CyFlash.o)
+ .debug_ranges  0x00000ae8       0x58 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(CySpc.o)
+ .debug_ranges  0x00000b40       0x10 .\CortexM3\ARM_GCC_473\Debug\LauncherController.a(Launcher_UART_cls.o)
+ .debug_ranges  0x00000b50       0x98 C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
 
 .comment        0x00000000       0x70
  .comment       0x00000000       0x70 .\CortexM3\ARM_GCC_473\Debug\main.o
@@ -2064,33 +2122,41 @@ END GROUP
  .ARM.attributes
                 0x0000064d       0x33 C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_473\Debug\CyComponentLibrary.a(CapSense_CSD_SmartSense_v3_40.o)
  .ARM.attributes
-                0x00000680       0x1d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_addsubsf3.o)
+                0x00000680       0x1d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_addsubdf3.o)
  .ARM.attributes
-                0x0000069d       0x1d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_muldivsf3.o)
+                0x0000069d       0x1d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_muldivdf3.o)
  .ARM.attributes
-                0x000006ba       0x1d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_fixunssfsi.o)
+                0x000006ba       0x1d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_fixunsdfsi.o)
  .ARM.attributes
-                0x000006d7       0x2d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-__atexit2.o)
+                0x000006d7       0x1d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_addsubsf3.o)
  .ARM.attributes
-                0x00000704       0x2d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-exit.o)
+                0x000006f4       0x1d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_muldivsf3.o)
  .ARM.attributes
-                0x00000731       0x2d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-fini.o)
+                0x00000711       0x1d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_cmpsf2.o)
  .ARM.attributes
-                0x0000075e       0x2d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-impure.o)
+                0x0000072e       0x1d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a(_arm_fixunssfsi.o)
  .ARM.attributes
-                0x0000078b       0x2d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-init.o)
+                0x0000074b       0x2d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-__atexit2.o)
  .ARM.attributes
-                0x000007b8       0x2d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memcpy.o)
+                0x00000778       0x2d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-exit.o)
  .ARM.attributes
-                0x000007e5       0x2d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memset.o)
+                0x000007a5       0x2d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-fini.o)
  .ARM.attributes
-                0x00000812       0x2d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-strcmp.o)
+                0x000007d2       0x2d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-impure.o)
  .ARM.attributes
-                0x0000083f       0x2d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-strlen.o)
+                0x000007ff       0x2d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-init.o)
  .ARM.attributes
-                0x0000086c       0x2d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtend.o
+                0x0000082c       0x2d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memcpy.o)
  .ARM.attributes
-                0x00000899       0x1d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtn.o
+                0x00000859       0x2d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000886       0x2d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x000008b3       0x2d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x000008e0       0x2d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtend.o
+ .ARM.attributes
+                0x0000090d       0x1d c:/program files (x86)/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtn.o
 
 /DISCARD/
  *(.note.GNU-stack)
