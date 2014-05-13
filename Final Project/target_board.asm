@@ -86,9 +86,8 @@ store:
 ; position_print - this function takes a frame of data and prints
 ;   the values according to the format expected by the listener. In
 ;   debug mode this consists of space seperated hex values which
-;   are all on one line. In run mode it only prints non-zero values
-;   and prints the position of that value along with the value
-;   itself, seperated by a colon. This saves time by not sending 
+;   are all on one line. In run mode it only prints non-zero
+;   positions which are space delimited. This saves time by not sending 
 ;   unnecessary characters for zero data. It still sends blank
 ;   newlines for empty frames as a seperator for glitches and so
 ;   the PSoC knows it is still collecting frames.
@@ -100,9 +99,6 @@ position_loop:
   movx a, @dptr             ; get value from memory
   jb 00h, value_print       ; if in debug mode print value only
   jz position_loop_end      ; direct to end if value is 0
-  ;lcall prthex              ; print that value
-  ;mov a, #3ah               ; print a colon
-  ;lcall sndchr              ; send the colon
   mov a, dpl                ; put the position in acc
 value_print: 
   lcall prthex              ; print that position

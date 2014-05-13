@@ -3,6 +3,9 @@ Launcher.py
 Akash Badshah, Spring 2014 6.115 Final Project
 
 This is an api to interact with the Dream Cheeky Thunder Missile launcher
+It also includes a main function which will establish a connection with
+Both the launcher and the PSoC and interpret the commands from the PSoC
+as commands to the launcher
 '''
 
 import usb
@@ -31,7 +34,7 @@ class MissileLauncher:
     #the led is controlled with a prefix of 0x03 and then the same padding bytes
     self.launcher.ctrl_transfer(0x21, 0x09, 0, 0, [0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00])
 
-  #each of the movement commands will cause the turret to move in that direction until it gets a stop
+  #each of the movement commands will cause the turret to move in that direction for 100ms
   def down(self):
     self.move_command(0x01)
   def up(self):
@@ -40,6 +43,8 @@ class MissileLauncher:
     self.move_command(0x04)
   def right(self):
     self.move_command(0x08)
+  #We accomplish 100ms directions by issuing a stop
+  # command quickly after
   def move_command(self, command):
     self.command(command)
     time.sleep(0.1)
@@ -50,17 +55,30 @@ class MissileLauncher:
     self.command(0x20)
 
 def __main__():
+  #connect to the launcher
   launcher = MissileLauncher()
+  #turn on the led for safety
+  launcher.led_on();
+  #connect to serial
   ser = serial.Serial("/dev/tty.usbmodem1411",9600,timeout=1)
   previous_command = "";
   while True:
+    #do until we get a keyboard interrupt
     try:
+      #pickup a line from the serial
       line = ser.readline().strip()
+      #include the prints only for debugging
+      #print line
+      # use this statefullness to prevent from
+      # issuing the same command again and again
       if line == previous_command:
         continue;
       previous_command = line;
       if line == "fire":
         launcher.fire()
+        #because of the mechanics from the launcher
+        #we need to give it enough time to fire
+        #before issuing more commands
         time.sleep(5);
         ser.flush();
       if line == "right":
@@ -73,10 +91,14 @@ def __main__():
         launcher.down()
       if line == "stop":
         launcher.stop()
+    #use this to gracefully exit the program
     except KeyboardInterrupt:
       print 'exiting'
       break
+ #nicely close the serial port and turn off the light
   ser.flush()
   ser.close()
+  launcher.led_off()
 
+#run the main
 __main__()
