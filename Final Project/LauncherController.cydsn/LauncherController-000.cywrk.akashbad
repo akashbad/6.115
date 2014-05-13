@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="LauncherController-000\LauncherController\Source Files\main.c">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="LauncherController-000\LauncherController\Generated_Source\PSoC5\CapSense\CapSense_TunerHelper.h">
 <ExpandedNodeIds>
 <v>LauncherController-000</v>
 <v>LauncherController-000\CapSense_CSD_Design02\TopDesign.cysch</v>
@@ -242,45 +242,45 @@
 <v>LauncherController-000\LauncherController\Generated_Source\PSoC5\project.h</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\LCD\LCD.c</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\LCD\LCD.h</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\LCD\LCD_PM.c</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\LCD_LCDPort</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\LCD_LCDPort\LCD_LCDPort.c</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\LCD_LCDPort\LCD_LCDPort.h</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\LCD_LCDPort\LCD_LCDPort_aliases.h</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\RX_INT</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\RX_INT\RX_INT.c</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\RX_INT\RX_INT.h</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\Target_Control</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\Target_Control\Target_Control.c</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\Target_Control\Target_Control.h</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\Target_Control\Target_Control_aliases.h</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\Target_UART</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\Target_UART\Target_UART.c</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\Target_UART\Target_UART.h</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\Target_UART\Target_UART_BOOT.c</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\Target_UART\Target_UART_INT.c</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\Target_UART\Target_UART_PM.c</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\Target_UART_IntClock</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\Target_UART_IntClock\Target_UART_IntClock.c</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\Target_UART_IntClock\Target_UART_IntClock.h</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\cydevice.h</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\cydevice_trm.h</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\cydevicegnu.inc</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\cydevicegnu_trm.inc</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\cydeviceiar.inc</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\cydeviceiar_trm.inc</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\cydevicerv.inc</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\cydevicerv_trm.inc</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\cydisabledsheets.h</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\cyfitter.h</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\cyfitter_cfg.c</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\cyfitter_cfg.h</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\cyfittergnu.inc</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\cyfitteriar.inc</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\cyfitterrv.inc</v>
-<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\cymetadata.c</v>
+<v>LauncherController-000\LauncherController\Source Files</v>
+<v>LauncherController-000\LauncherController\Source Files\main.c</v>
+<v>LauncherController-000\LauncherController\Generated_Source</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\CapSense</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\CapSense\CapSense.c</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\CapSense\CapSense.h</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\CapSense\CapSense_CSHL.c</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\CapSense\CapSense_CSHL.h</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\CapSense\CapSense_INT.c</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\CapSense\CapSense_Pins.c</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\CapSense\CapSense_Pins.h</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\CapSense\CapSense_PM.c</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\CapSense\CapSense_SMS_Wrapper.c</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\CapSense\CapSense_TunerHelper.c</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\CapSense\CapSense_TunerHelper.h</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\CapSense_AMuxCH0</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\CapSense_AMuxCH0\CapSense_AMuxCH0.c</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\CapSense_AMuxCH0\CapSense_AMuxCH0.h</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\CapSense_CompCH0</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\CapSense_CompCH0\CapSense_CompCH0.c</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\CapSense_CompCH0\CapSense_CompCH0.h</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\CapSense_CompCH0\CapSense_CompCH0_PM.c</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\CapSense_IdacCH0</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\CapSense_IdacCH0\CapSense_IdacCH0.c</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\CapSense_IdacCH0\CapSense_IdacCH0.h</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\CapSense_IdacCH0\CapSense_IdacCH0_PM.c</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\CapSense_IntClock</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\CapSense_IntClock\CapSense_IntClock.c</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\CapSense_IntClock\CapSense_IntClock.h</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\cy_boot</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\cy_boot\cm3gcc.ld</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\cy_boot\Cm3Iar.icf</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\cy_boot\Cm3RealView.scat</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\cy_boot\Cm3Start.c</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\cy_boot\core_cm3.h</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\cy_boot\core_cm3_psoc5.h</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\cy_boot\core_cmFunc.h</v>
+<v>LauncherController-000\LauncherController\Generated_Source\PSoC5\cy_boot\core_cmInstr.h</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -409,43 +409,6 @@
 <VisibleNodeIds>
 <v>LauncherController-000</v>
 <v>LauncherController-000\CapSense_CSD_Design02</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files\CapSense_CSD.lst</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files\CapSense_CSD_AMuxCH0.lst</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files\CapSense_CSD_CompCH0.lst</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files\CapSense_CSD_CompCH0_PM.lst</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files\CapSense_CSD_CSHL.lst</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files\CapSense_CSD_IdacCH0.lst</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files\CapSense_CSD_IdacCH0_PM.lst</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files\CapSense_CSD_INT.lst</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files\CapSense_CSD_IntClock.lst</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files\CapSense_CSD_Pins.lst</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files\CapSense_CSD_PM.lst</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files\CapSense_CSD_SMS_Wrapper.lst</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files\CapSense_CSD_TunerHelper.lst</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files\Cm3Start.lst</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files\CyDmac.lst</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files\CyFlash.lst</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files\CyLib.lst</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files\cymetadata.lst</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files\cyPm.lst</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files\CySpc.lst</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files\cyutils.lst</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files\LCD.lst</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files\LCD_BarGraph.lst</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files\LCD_LCDPort.lst</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files\LCD_PM.lst</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files\LED1.lst</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files\LED2.lst</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\Listing Files\main.lst</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\CapSense_CSD_Design02.elf</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\CapSense_CSD_Design02.hex</v>
-<v>LauncherController-000\CapSense_CSD_Design02\CortexM3\ARM_GCC_473\Debug\CapSense_CSD_Design02.map</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>

@@ -1,0 +1,18 @@
+Last Modified Date & Time: 04/29/2014 14:07:17
+
+Project : RS232
+		Schematic : TopDesign
+
+		LCD	v 1.70tv 1.90
+		UART	v 2.20tv 2.30
+		RX	v 1.70tv 1.90
+		TX	v 1.70tv 1.90
+		rx_int	v 1.60tv 1.70
+		tx_int	v 1.60tv 1.70
+
+Project : RS232
+		Design Wide APIs
+
+		cy_boot	v 3.20	v 4.0
+
+
